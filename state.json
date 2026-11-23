@@ -6,7 +6,7 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-24T01:15:00Z",
-      "game_total": 55.0,
+      "game_total": 54.0,
       "team_totals": {
         "Cincinnati Bengals": 29.5,
         "Washington Commanders": 23.5
@@ -489,7 +489,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T17:00:00Z",
-      "game_total": 47.5,
+      "game_total": null,
       "team_totals": {
         "UConn Huskies": 26.5,
         "Wyoming Cowboys": 22.5
@@ -1146,7 +1146,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 222.5,
+      "game_total": 224.5,
       "team_totals": {
         "Indiana Pacers": 108.5,
         "Oklahoma City Thunder": 113.5
@@ -1325,7 +1325,7 @@
       "sport": "basketball_ncaab",
       "label": "NCAAB Men",
       "group": "big",
-      "commence_time": "2026-11-23T20:00:00Z",
+      "commence_time": "2026-11-23T20:15:00Z",
       "game_total": 149.5,
       "team_totals": {
         "Middle Tennessee Blue Raiders": 73.5,
@@ -1518,7 +1518,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": 181.5,
+      "game_total": 182.5,
       "team_totals": {
         "Illinois Fighting Illini": 113.5,
         "Winthrop Eagles": 67.5
@@ -1554,7 +1554,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T02:00:00Z",
-      "game_total": 153.0,
+      "game_total": 154.5,
       "team_totals": {
         "Providence Friars": 77.5,
         "VCU Rams": 76.5
@@ -1566,7 +1566,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T02:30:00Z",
-      "game_total": 156.0,
+      "game_total": 154.5,
       "team_totals": {
         "Pepperdine Waves": 82.5,
         "UNC Greensboro Spartans": 72.5
@@ -1878,7 +1878,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T19:30:00Z",
-      "game_total": 174.5,
+      "game_total": 176.0,
       "team_totals": {}
     },
     "1707b8c728b9116472624aa8178ebfce": {
@@ -2300,6 +2300,41 @@
           "Long Beach St 49ers": 75.5
         },
         "at": "2026-11-23T18:51:21.940711+00:00"
+      }
+    },
+    "7672e3ae078a7b505b50f15e46208e4f": {
+      "h1": {
+        "elapsed_min": 55,
+        "game_total": 147.5,
+        "team_totals": {
+          "Oregon St Beavers": 80.5,
+          "Tulsa Golden Hurricane": 74.5
+        },
+        "at": "2026-11-23T19:57:00.603679+00:00"
+      }
+    },
+    "ee7517427fd108585ccddfb59157032a": {
+      "h1": {
+        "elapsed_min": 87,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T19:57:00.603679+00:00"
+      }
+    },
+    "ec3a462b47b984b2c23bf3d6a148a689": {
+      "q1": {
+        "elapsed_min": 27,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T19:57:00.603679+00:00"
+      }
+    },
+    "44b995c2760fd0343f13dec05e3b903e": {
+      "q1": {
+        "elapsed_min": 27,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T19:57:00.603679+00:00"
       }
     }
   }
