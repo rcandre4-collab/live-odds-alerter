@@ -1,4 +1,4 @@
-# Live Odds Total Monitor v4.1 — expanded + Q1 / halftime checkpoints
+# Live Odds Total Monitor v4.2 — expanded + Q1 / halftime checkpoints
 
 ## What it watches
 
@@ -12,6 +12,14 @@
 "Nearly" means: big sports alert at **18+ pts** (game) / **13+ pts** (team), then again at the full 20 / 15. Hockey alerts at **1.5+ goals**, then again at the full 2. All thresholds are at the top of `monitor.py` — change `BIG` / `HOCKEY` to tune them.
 
 Pregame lines are snapshotted before tipoff/kickoff/puck drop and saved in `state.json`. Live games are compared against that snapshot, and each move alerts once per level (NEAR, then HIT). Alerts go to your email via Gmail SMTP.
+
+## Test email (v4.2)
+
+Normal emails only fire when a total moves NEAR/HIT or a Q1/halftime checkpoint is hit — so on a quiet day you get nothing, and that doesn't mean email is broken. To test the email path itself:
+
+1. Update `.github/workflows/poll_odds.yml` in the repo to the version in this folder (GitHub won't let the app create workflow files, so replace it by hand, like the first time).
+2. Actions → Live Odds Total Monitor → Run workflow → tick **send_test_email** → Run workflow.
+3. You should get an email titled "Live Odds Monitor — Test Email" listing the games currently snapshotted. If it doesn't arrive, check spam, then check that `EMAIL_RECEIVER` is the right address and `EMAIL_PASSWORD` is a 16-character Gmail App Password (not your normal Gmail password).
 
 ## Q1 / halftime checkpoints (basketball only, v4)
 
@@ -62,5 +70,5 @@ Live totals naturally drift down as the clock runs down — a hockey total dropp
 
 ## Files
 
-- `monitor.py` — the monitor (v4.1, this file's logic)
+- `monitor.py` — the monitor (v4.2, this file's logic)
 - `.github/workflows/poll_odds.yml` — runs it every 20 minutes, commits `state.json`
