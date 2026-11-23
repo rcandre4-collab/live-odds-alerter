@@ -1,5 +1,5 @@
 """
-Live Odds Total Monitor v4.1 — expanded coverage + Q1 / halftime checkpoints
+Live Odds Total Monitor v4.2 — expanded coverage + Q1 / halftime checkpoints
 
 Football + Basketball (NFL, NCAAF, CFL, NBA, NCAAB, WNCAAB, WNBA,
 EuroLeague, NBL Australia):
@@ -36,6 +36,15 @@ dropped — at 5 credits per game, once, they burned credits far too fast
 on big slates (NCAAB alone is 30-50 games a night). The checkpoints
 stay: they cost $0 extra, reusing the live totals already fetched.
 Pregame team totals are back to 1 credit per event, once.
+
+v4.2 TEST EMAIL: normal emails only fire when a total actually moves
+(NEAR/HIT) or a Q1/halftime checkpoint is hit — so on a quiet day you
+get nothing, and you can't tell if email itself is broken. Set the
+TEST_EMAIL env var to "1" (workflow: Run workflow -> send_test_email)
+and the run sends one test email listing the games currently snapshotted,
+then carries on with the normal run. If the test email doesn't arrive,
+check spam, then check that EMAIL_RECEIVER is the right address and that
+EMAIL_PASSWORD is a Gmail App Password (not your normal password).
 
 WHY v3: The Odds API's sport-level /odds endpoint only supports
 featured markets (h2h, spreads, totals). Asking it for team_totals
@@ -311,6 +320,29 @@ def run():
     now = datetime.now(timezone.utc)
     alerts = []
     checkpoint_lines = []
+
+    if os.environ.get("TEST_EMAIL") in ("1", "true", "True"):
+        # Test mode: prove the email path works, even with no alerts.
+        # Sent first, so a bad SMTP login shows up in the log right away.
+        n_pregame = len(state.get("pregame", {}))
+        sample = sorted(state.get("pregame", {}).values(),
+                        key=lambda v: v.get("commence_time", ""))[:5]
+        sample_lines = "\n".join(
+            f"- {v.get('label')}: {v.get('matchup')} "
+            f"(total {v.get('game_total')}, starts {v.get('commence_time')})"
+            for v in sample) or "- (no games snapshotted yet)"
+        send_email(
+            "Live Odds Monitor — Test Email",
+            "This is a test email from your Live Odds Total Monitor.\n"
+            "If you can read this, the Gmail login and the receiver address work.\n\n"
+            f"Games currently snapshotted in state.json: {n_pregame}\n"
+            f"Alerts sent so far: {len(state.get('alerted', []))}\n"
+            f"Checkpoints recorded: {sum(len(v) for v in state.get('checkpoints', {}).values())}\n\n"
+            "Next few games:\n" + sample_lines + "\n\n"
+            "Normal emails only fire when a total moves NEAR/HIT or a Q1/halftime\n"
+            "checkpoint is hit — a quiet day means no email, which is normal."
+        )
+        print("Sent test email.")
 
     active = get_active_sports()
     leagues = LEAGUES
