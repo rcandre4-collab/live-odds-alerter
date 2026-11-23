@@ -1,5 +1,5 @@
 """
-Live Odds Total Monitor v2 — expanded coverage
+Live Odds Total Monitor v3 — expanded coverage
 
 Football + Basketball (NFL, NCAAF, CFL, NBA, NCAAB, WNCAAB, WNBA,
 EuroLeague, NBL Australia):
@@ -16,6 +16,13 @@ Hockey (NHL, AHL, Liiga, SHL, HockeyAllsvenskan):
 You get a NEAR alert first, then a second HIT alert if it reaches the
 full 20 / 15 / 2. Change the *_NEAR values to make it stricter/looser.
 
+WHY v3: The Odds API's sport-level /odds endpoint only supports
+featured markets (h2h, spreads, totals). Asking it for team_totals
+returns 422 INVALID_MARKET for every league and no data at all.
+team_totals is an "additional market" that must be fetched one event
+at a time via /sports/{sport}/events/{eventId}/odds — so v3 fetches
+game totals at sport level, and team totals per event (see below).
+
 COVERAGE LIMITS — checked against The Odds API's official sports list
 (https://the-odds-api.com/sports-odds-data/sports-apis.html):
   * Overseas basketball on this API is ONLY EuroLeague + NBL Australia.
@@ -26,14 +33,17 @@ COVERAGE LIMITS — checked against The Odds API's official sports list
   * Other hockey on this API is ONLY Liiga (Finland), SHL + Allsvenskan
     (Sweden). There is NO DEL, Swiss NL, Czech Extraliga, or KHL key.
   * team_totals is an "additional market" per The Odds API docs, mainly
-    for US sports / selected bookmakers. It often does NOT come back at
-    sport level for hockey or overseas leagues. The script still asks for
-    it and uses it when present, and logs when it's missing — it will not
-    crash. Game totals (featured market) work for all leagues below.
+    for US sports / selected bookmakers. It often does NOT come back
+    for hockey or overseas leagues, even per event. The script uses it
+    when present, logs when it's missing, and does not crash.
+    Game totals (featured market) work for all leagues below.
 
-COST — 1 credit per region per market per sport per run.
-  Default here: regions=eu, markets=totals,team_totals = 2 credits/sport/run
-  15 sports = 30 credits/run, 90/hour at 20-min polling = 2,160/day.
+COST — 1 credit per region per market per sport/event per run.
+  Game totals: markets=totals, regions=eu = 1 credit/sport/run.
+  Team totals: 1 credit per event fetched, regions=eu, markets=team_totals.
+    Pregame team totals are fetched ONCE per event (cached in state.json),
+    so upcoming games cost ~1 credit each, once. Live games cost
+    1 credit per live event per run, only while they are live.
   The script first calls /v4/sports (FREE) and only polls leagues that are
   currently active/in-season, so offseason leagues cost nothing.
   Still, running this 24/7 will burn through paid tiers fast. See README.
@@ -52,7 +62,8 @@ EMAIL_RECEIVER = os.environ["EMAIL_RECEIVER"]
 
 BOOKMAKER = "pinnacle"  # sharpest benchmark; fallback to first available
 REGIONS = "eu"  # Pinnacle is EU. Use "us,eu" only if team totals are missing for US leagues — doubles cost.
-MARKETS = "totals,team_totals"
+MARKETS = "totals"  # sport-level endpoint: featured markets ONLY (h2h, spreads, totals)
+TEAM_MARKETS = "team_totals"  # additional market: per-event endpoint ONLY, see fetch_team_totals()
 STATE_FILE = "state.json"
 
 # --- thresholds: (near, target) ---
@@ -144,6 +155,39 @@ def extract_lines(event):
     return game_total, team_totals
 
 
+def fetch_team_totals(sport, event_id, failed_sports):
+    """Fetch team_totals for ONE event via the per-event endpoint.
+
+    The sport-level /odds endpoint rejects team_totals with 422, so this
+    is the only way to get them. Costs 1 credit per call (1 region x
+    1 market). Returns {} on any failure — the caller keeps game totals.
+    failed_sports is a set used to log a sport's failure only once per run.
+    """
+    url = f"https://api.the-odds-api.com/v4/sports/{sport}/events/{event_id}/odds/"
+    params = {
+        "apiKey": API_KEY,
+        "regions": REGIONS,
+        "markets": TEAM_MARKETS,
+        "oddsFormat": "american",
+        "bookmakers": BOOKMAKER,
+    }
+    try:
+        resp = requests.get(url, params=params, timeout=15)
+    except Exception as e:
+        if sport not in failed_sports:
+            print(f"  team_totals request failed for {sport} ({e})")
+            failed_sports.add(sport)
+        return {}
+    if resp.status_code != 200:
+        if sport not in failed_sports:
+            print(f"  team_totals not available for {sport}: "
+                  f"{resp.status_code} {resp.text[:200]}")
+            failed_sports.add(sport)
+        return {}
+    _, team_totals = extract_lines(resp.json())
+    return team_totals
+
+
 def check_move(event_id, label, matchup, kind, pre_val, live_val, thresholds, state, alerts, team=None):
     """kind = 'game_total' or 'team_total'. Alerts once at NEAR, once at HIT.
     If it jumps straight to HIT, send only HIT (and mark NEAR as seen)."""
@@ -191,6 +235,7 @@ def run():
         if skipped:
             print(f"Skipped (offseason, $0 cost): {skipped}")
 
+    failed_sports = set()  # sports whose team_totals failed, logged once per run
     for league in leagues:
         sport = league["key"]
         label = league["label"]
@@ -218,11 +263,17 @@ def run():
                 event["commence_time"].replace("Z", "+00:00")
             )
             matchup = f"{event['away_team']} @ {event['home_team']}"
-            game_total, team_totals = extract_lines(event)
-            if team_totals:
-                n_with_tt += 1
+            game_total, _ = extract_lines(event)
 
             if now < commence_time:
+                # Pregame: fetch team totals ONCE per event and cache them.
+                # On later runs the cached copy is reused — no repeat cost.
+                existing = state["pregame"].get(event_id, {})
+                team_totals = existing.get("team_totals") or {}
+                if not team_totals:
+                    team_totals = fetch_team_totals(sport, event_id, failed_sports)
+                if team_totals:
+                    n_with_tt += 1
                 state["pregame"][event_id] = {
                     "matchup": matchup,
                     "sport": sport,
@@ -238,6 +289,10 @@ def run():
                 pre = state["pregame"][event_id]
                 check_move(event_id, label, matchup, "game_total",
                            pre.get("game_total"), game_total, thresholds, state, alerts)
+                # Live: team totals need a fresh per-event fetch (1 credit).
+                team_totals = fetch_team_totals(sport, event_id, failed_sports)
+                if team_totals:
+                    n_with_tt += 1
                 for team, live_tt in team_totals.items():
                     pre_tt = pre.get("team_totals", {}).get(team)
                     check_move(event_id, label, matchup, "team_total",
