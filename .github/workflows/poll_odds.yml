@@ -1,8 +1,9 @@
 name: Live Odds Total Monitor
 on:
   schedule:
-    # Runs every 20 minutes
-    - cron: '*/20 * * * *'
+    # Runs every 30 minutes, during game hours only (monitor.py also
+    # exits outside 11:00-01:30 EST, so overnight runs cost $0)
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Allows you to click "Run workflow" manually to test
     inputs:
       send_test_email:
