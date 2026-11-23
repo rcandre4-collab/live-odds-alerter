@@ -1122,7 +1122,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 231.0,
+      "game_total": 232.0,
       "team_totals": {
         "Philadelphia 76ers": 117.5,
         "Portland Trail Blazers": 114.5
@@ -1409,8 +1409,8 @@
       "sport": "basketball_ncaab",
       "label": "NCAAB Men",
       "group": "big",
-      "commence_time": "2026-11-23T22:30:00Z",
-      "game_total": 142.0,
+      "commence_time": "2026-11-23T22:45:00Z",
+      "game_total": 140.5,
       "team_totals": {
         "Temple Owls": 71.5,
         "Tenn-Martin Skyhawks": 70.5
@@ -1542,7 +1542,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": 145.0,
+      "game_total": 146.0,
       "team_totals": {
         "Stephen F. Austin Lumberjacks": 69.5,
         "Utah Valley Wolverines": 73.5
@@ -2558,6 +2558,8 @@
     }
   },
   "alerted": [
+    "b1abd9ff77f5dc5c376c08041fae20ea_game_total_near",
+    "b1abd9ff77f5dc5c376c08041fae20ea_game_total_hit",
     "b1abd9ff77f5dc5c376c08041fae20ea_game_total_near"
   ],
   "checkpoints": {
@@ -2704,6 +2706,36 @@
         "game_total": null,
         "team_totals": {},
         "at": "2026-11-23T21:44:38.620496+00:00"
+      }
+    },
+    "8705fa29b81b3f96d689da909e406bff": {
+      "h1": {
+        "elapsed_min": 67,
+        "game_total": 142.5,
+        "team_totals": {
+          "Nevada Wolf Pack": 74.5,
+          "San Francisco Dons": 67.5
+        },
+        "at": "2026-11-23T22:44:23.307932+00:00"
+      }
+    },
+    "fc86a54f6abd13932c62fa66b82a3e28": {
+      "h1": {
+        "elapsed_min": 42,
+        "game_total": 168.0,
+        "team_totals": {
+          "BYU Cougars": 86.5,
+          "Washington Huskies": 76.5
+        },
+        "at": "2026-11-23T22:44:23.307932+00:00"
+      }
+    },
+    "33bdfb711e4edfd26eaaba0e3713da7b": {
+      "q1": {
+        "elapsed_min": 40,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T22:44:23.307932+00:00"
       }
     }
   }
