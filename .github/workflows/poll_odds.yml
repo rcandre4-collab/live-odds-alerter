@@ -4,6 +4,12 @@ on:
     # Runs every 20 minutes
     - cron: '*/20 * * * *'
   workflow_dispatch: # Allows you to click "Run workflow" manually to test
+    inputs:
+      send_test_email:
+        description: "Send a test email (proves the Gmail login + receiver work, even with no alerts)"
+        required: false
+        default: false
+        type: boolean
 permissions:
   contents: write
 jobs:
@@ -24,6 +30,7 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          TEST_EMAIL: ${{ inputs.send_test_email }}
         run: python monitor.py
       - name: Save pregame & alert state
         run: |
