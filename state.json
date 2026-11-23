@@ -54,7 +54,7 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-27T01:20:00Z",
-      "game_total": 50.0,
+      "game_total": 48.5,
       "team_totals": {
         "Buffalo Bills": 26.5,
         "Kansas City Chiefs": 23.5
@@ -537,7 +537,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T18:00:00Z",
-      "game_total": 54.5,
+      "game_total": 53.0,
       "team_totals": {
         "Kennesaw State Owls": 28.5,
         "Western Kentucky Hilltoppers": 26.5
@@ -1122,7 +1122,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 232.0,
+      "game_total": 230.5,
       "team_totals": {
         "Philadelphia 76ers": 117.5,
         "Portland Trail Blazers": 114.5
@@ -1146,7 +1146,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 224.5,
+      "game_total": 226.0,
       "team_totals": {
         "Indiana Pacers": 108.5,
         "Oklahoma City Thunder": 113.5
@@ -1158,7 +1158,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 223.0,
+      "game_total": 222.0,
       "team_totals": {
         "Milwaukee Bucks": 106.5,
         "Toronto Raptors": 117.5
@@ -1182,7 +1182,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 233.0,
+      "game_total": 232.0,
       "team_totals": {
         "New Orleans Pelicans": 115.5,
         "Phoenix Suns": 117.5
@@ -1686,7 +1686,7 @@
       "label": "NHL",
       "group": "hockey",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 6.0,
+      "game_total": 6.5,
       "team_totals": {
         "Columbus Blue Jackets": 2.5,
         "New Jersey Devils": 3.5
@@ -2736,6 +2736,14 @@
         "game_total": null,
         "team_totals": {},
         "at": "2026-11-23T22:44:23.307932+00:00"
+      }
+    },
+    "cc517255abb7d21d93e616b9c420135f": {
+      "q1": {
+        "elapsed_min": 41,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T23:43:26.394580+00:00"
       }
     }
   }
