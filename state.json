@@ -1098,7 +1098,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 216.5,
+      "game_total": 215.0,
       "team_totals": {
         "Charlotte Hornets": 106.5,
         "Memphis Grizzlies": 109.5
@@ -1194,7 +1194,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 228.5,
+      "game_total": 227.0,
       "team_totals": {
         "Los Angeles Lakers": 121.5,
         "Utah Jazz": 106.5
