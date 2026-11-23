@@ -1,5 +1,5 @@
 """
-Live Odds Total Monitor v4 — expanded coverage + Q1 / halftime checkpoints
+Live Odds Total Monitor v4.1 — expanded coverage + Q1 / halftime checkpoints
 
 Football + Basketball (NFL, NCAAF, CFL, NBA, NCAAB, WNCAAB, WNBA,
 EuroLeague, NBL Australia):
@@ -20,8 +20,6 @@ Q1 / HALFTIME CHECKPOINTS (basketball only, v4):
   In addition to the NEAR/HIT alerts, the script emails you the live
   lines once at the end of the 1st quarter and once at halftime, per game:
     Pregame full-game total + team totals (already snapshotted)
-    Pregame Q1 total / H1 total and Q1/H1 team totals (period markets,
-      fetched once per event, pregame only)
     Live full-game total + team totals at the checkpoint
   The Odds API gives no game clock, so checkpoints are timed by elapsed
   real time since tipoff, caught on the next 20-minute poll:
@@ -32,6 +30,12 @@ Q1 / HALFTIME CHECKPOINTS (basketball only, v4):
   Each checkpoint is emailed once per game and saved in state.json under
   "checkpoints". The 20-minute polling stays on — it is how the script
   notices that a checkpoint window has been reached.
+
+v4.1: the pregame Q1/H1 period totals (totals_q1, totals_h1, etc.) were
+dropped — at 5 credits per game, once, they burned credits far too fast
+on big slates (NCAAB alone is 30-50 games a night). The checkpoints
+stay: they cost $0 extra, reusing the live totals already fetched.
+Pregame team totals are back to 1 credit per event, once.
 
 WHY v3: The Odds API's sport-level /odds endpoint only supports
 featured markets (h2h, spreads, totals). Asking it for team_totals
@@ -61,11 +65,10 @@ COST — 1 credit per region per market per sport/event per run.
     Pregame team totals are fetched ONCE per event (cached in state.json),
     so upcoming games cost ~1 credit each, once. Live games cost
     1 credit per live event per run, only while they are live.
-  Period totals (v4): pregame Q1/H1 totals + team Q1/H1 totals are fetched
-    ONCE per basketball event with the pregame team-totals call:
-    markets=team_totals,totals_q1,totals_h1,team_totals_q1,team_totals_h1
-    = 5 credits per basketball event, once. Checkpoint snapshots themselves
-    cost $0 extra — they reuse the live totals already fetched that run.
+  Period totals (v4, dropped in v4.1): pregame Q1/H1 totals cost
+    5 credits per basketball event, once — too fast on big slates.
+    Checkpoints themselves cost $0 extra — they reuse the live totals
+    already fetched that run.
   The script first calls /v4/sports (FREE) and only polls leagues that are
   currently active/in-season, so offseason leagues cost nothing.
   Still, running this 24/7 will burn through paid tiers fast. See README.
@@ -86,8 +89,6 @@ BOOKMAKER = "pinnacle"  # sharpest benchmark; fallback to first available
 REGIONS = "eu"  # Pinnacle is EU. Use "us,eu" only if team totals are missing for US leagues — doubles cost.
 MARKETS = "totals"  # sport-level endpoint: featured markets ONLY (h2h, spreads, totals)
 TEAM_MARKETS = "team_totals"  # additional market: per-event endpoint ONLY, see fetch_team_totals()
-# Pregame period markets (basketball only, per-event, fetched once per event):
-PERIOD_MARKETS = "team_totals,totals_q1,totals_h1,team_totals_q1,team_totals_h1"
 # Checkpoint windows, minutes of real time since tipoff (no game clock in the API).
 # Quarters: Q1 ~25-55 min, halftime ~55-95 min. Halves (NCAAB Men): halftime ~40-75 min.
 CHECKPOINTS_QUARTERS = {"q1": (25, 55), "h1": (55, 95)}
@@ -239,40 +240,6 @@ def fetch_team_totals(sport, event_id, failed_sports):
     return team_totals
 
 
-def fetch_event_markets(sport, event_id, failed_sports):
-    """Pregame-only: fetch team totals + Q1/H1 period totals for ONE event.
-
-    One call, markets=team_totals,totals_q1,totals_h1,team_totals_q1,
-    team_totals_h1 = 5 credits, once per event (caller caches the result).
-    Returns (team_totals, period_totals); both {} / empty on failure.
-    """
-    url = f"https://api.the-odds-api.com/v4/sports/{sport}/events/{event_id}/odds/"
-    params = {
-        "apiKey": API_KEY,
-        "regions": REGIONS,
-        "markets": PERIOD_MARKETS,
-        "oddsFormat": "american",
-        "bookmakers": BOOKMAKER,
-    }
-    try:
-        resp = requests.get(url, params=params, timeout=15)
-    except Exception as e:
-        if sport not in failed_sports:
-            print(f"  period markets request failed for {sport} ({e})")
-            failed_sports.add(sport)
-        return {}, {"totals_q1": None, "totals_h1": None,
-                    "team_totals_q1": {}, "team_totals_h1": {}}
-    if resp.status_code != 200:
-        if sport not in failed_sports:
-            print(f"  period markets not available for {sport}: "
-                  f"{resp.status_code} {resp.text[:200]}")
-            failed_sports.add(sport)
-        return {}, {"totals_q1": None, "totals_h1": None,
-                    "team_totals_q1": {}, "team_totals_h1": {}}
-    _, team_totals, period = extract_lines(resp.json())
-    return team_totals, period
-
-
 def checkpoint_name(periods, elapsed_min):
     """Which checkpoint window are we in, if any? 'q1' / 'h1' / None.
     The API has no game clock, so this is elapsed real time since tipoff.
@@ -287,11 +254,8 @@ def checkpoint_name(periods, elapsed_min):
 
 def format_checkpoint(label, matchup, cp, pre, game_total, team_totals):
     """One checkpoint email block: live lines at Q1 end / halftime,
-    vs pregame, plus the pregame period total for that period."""
+    vs the pregame full-game / team totals."""
     title = "End of 1st Quarter" if cp == "q1" else "Halftime"
-    period_key = "totals_q1" if cp == "q1" else "totals_h1"
-    team_key = "team_totals_q1" if cp == "q1" else "team_totals_h1"
-    period = pre.get("period_totals", {}) or {}
     lines = [f"[{label}] {matchup}\n{title}"]
     pre_game = pre.get("game_total")
     if pre_game is not None and game_total is not None:
@@ -299,8 +263,6 @@ def format_checkpoint(label, matchup, cp, pre, game_total, team_totals):
                      f"({game_total - pre_game:+.1f} pts)")
     elif game_total is not None:
         lines.append(f"Game total at {title}: {game_total}")
-    if period.get(period_key) is not None:
-        lines.append(f"Pregame {title} total line: {period[period_key]}")
     for team, live_tt in (team_totals or {}).items():
         pre_tt = (pre.get("team_totals", {}) or {}).get(team)
         if pre_tt is not None:
@@ -308,9 +270,6 @@ def format_checkpoint(label, matchup, cp, pre, game_total, team_totals):
                          f"({live_tt - pre_tt:+.1f} pts)")
         else:
             lines.append(f"Team total {team} at {title}: {live_tt}")
-        pre_period_tt = (period.get(team_key, {}) or {}).get(team)
-        if pre_period_tt is not None:
-            lines.append(f"  Pregame {title} team total line for {team}: {pre_period_tt}")
     return "\n".join(lines)
 
 
@@ -393,15 +352,14 @@ def run():
             game_total, _, _ = extract_lines(event)
 
             if now < commence_time:
-                # Pregame: fetch team totals + Q1/H1 period totals ONCE per
-                # event and cache them. On later runs the cached copy is
-                # reused — no repeat cost.
+                # Pregame: fetch team totals ONCE per event and cache them.
+                # On later runs the cached copy is reused — no repeat cost.
+                # v4.1: period totals (Q1/H1) are NOT fetched — 5 credits
+                # per game was too fast on big slates.
                 existing = state["pregame"].get(event_id, {})
                 team_totals = existing.get("team_totals") or {}
-                period_totals = existing.get("period_totals") or {}
-                if not team_totals or not period_totals:
-                    team_totals, period_totals = fetch_event_markets(
-                        sport, event_id, failed_sports)
+                if not team_totals:
+                    team_totals = fetch_team_totals(sport, event_id, failed_sports)
                 if team_totals:
                     n_with_tt += 1
                 state["pregame"][event_id] = {
@@ -412,7 +370,6 @@ def run():
                     "commence_time": event["commence_time"],
                     "game_total": game_total,
                     "team_totals": team_totals,
-                    "period_totals": period_totals,
                 }
                 continue
 
