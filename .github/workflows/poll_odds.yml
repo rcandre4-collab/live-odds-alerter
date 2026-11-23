@@ -11,6 +11,11 @@ on:
         required: false
         default: false
         type: boolean
+      feed_test:
+        description: "Run the one-off WNCAAB feed test (v4.5: which bookmaker lists WNCAAB totals, ~5-7 credits, emails the result)"
+        required: false
+        default: false
+        type: boolean
 permissions:
   contents: write
 jobs:
@@ -32,6 +37,7 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
           TEST_EMAIL: ${{ inputs.send_test_email }}
+          FEED_TEST: ${{ inputs.feed_test }}
         run: python monitor.py
       - name: Save pregame & alert state
         run: |
