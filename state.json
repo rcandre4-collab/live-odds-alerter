@@ -465,7 +465,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T17:00:00Z",
-      "game_total": 55.0,
+      "game_total": 54.5,
       "team_totals": {
         "NC State Wolfpack": 24.5,
         "North Carolina Tar Heels": 30.5
@@ -621,7 +621,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T19:00:00Z",
-      "game_total": 56.5,
+      "game_total": 56.0,
       "team_totals": {
         "Georgia State Panthers": 25.5,
         "Louisiana Ragin Cajuns": 30.5
@@ -1314,7 +1314,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T19:30:00Z",
-      "game_total": 149.0,
+      "game_total": 147.5,
       "team_totals": {
         "Clemson Tigers": 71.5,
         "Ole Miss Rebels": 76.5
@@ -1338,7 +1338,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T20:30:00Z",
-      "game_total": 164.0,
+      "game_total": 162.5,
       "team_totals": {
         "Arkansas St Red Wolves": 84.5,
         "Southern Utah Thunderbirds": 79.5
@@ -1447,7 +1447,10 @@
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
       "game_total": 137.0,
-      "team_totals": {}
+      "team_totals": {
+        "Fairleigh Dickinson Knights": 63.5,
+        "Iona Gaels": 72.5
+      }
     },
     "120e2421c480efcf51c1aa27d4973187": {
       "matchup": "Georgia Southern Eagles @ Northern Kentucky Norse",
@@ -1480,7 +1483,10 @@
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
       "game_total": 148.0,
-      "team_totals": {}
+      "team_totals": {
+        "North Carolina A&T Aggies": 74.5,
+        "South Carolina St Bulldogs": 72.5
+      }
     },
     "9fd23b7824675dff70bd989ae6fe4967": {
       "matchup": "Texas A&M-CC Islanders @ Wichita St Shockers",
@@ -1489,7 +1495,10 @@
       "group": "big",
       "commence_time": "2026-11-24T00:30:00Z",
       "game_total": 143.5,
-      "team_totals": {}
+      "team_totals": {
+        "Texas A&M-CC Islanders": 61.5,
+        "Wichita St Shockers": 81.5
+      }
     },
     "11782e330b7215a8e2f0e3e4e9a27404": {
       "matchup": "Denver Pioneers @ Kansas Jayhawks",
@@ -2225,6 +2234,22 @@
           "Northern Iowa Panthers": 69.5
         },
         "at": "2026-11-23T16:55:54.560914+00:00"
+      }
+    },
+    "2e5836722778ca286bd0f738b36f4173": {
+      "q1": {
+        "elapsed_min": 53,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T17:53:15.209908+00:00"
+      }
+    },
+    "aeaffe1a8d784f8038b665c6b08f5547": {
+      "q1": {
+        "elapsed_min": 53,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-23T17:53:15.209908+00:00"
       }
     }
   }
