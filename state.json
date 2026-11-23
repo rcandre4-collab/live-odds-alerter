@@ -10,12 +10,6 @@
       "team_totals": {
         "Cincinnati Bengals": 29.5,
         "Washington Commanders": 23.5
-      },
-      "period_totals": {
-        "totals_q1": 10.0,
-        "totals_h1": 27.0,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "5b612899d6dcdf998107f2c6c6e49a58": {
@@ -28,12 +22,6 @@
       "team_totals": {
         "Green Bay Packers": 21.5,
         "Los Angeles Rams": 24.5
-      },
-      "period_totals": {
-        "totals_q1": 9.5,
-        "totals_h1": 23.0,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "9b825e6518156008da499be041975fdd": {
@@ -46,12 +34,6 @@
       "team_totals": {
         "Chicago Bears": 28.5,
         "Detroit Lions": 27.5
-      },
-      "period_totals": {
-        "totals_q1": 10.5,
-        "totals_h1": 27.5,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "ffaa06af56a7137d4b078c5c46c0b730": {
@@ -64,12 +46,6 @@
       "team_totals": {
         "Dallas Cowboys": 28.5,
         "Philadelphia Eagles": 19.5
-      },
-      "period_totals": {
-        "totals_q1": 9.5,
-        "totals_h1": 24.0,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f36f518585aec40e8cb40e071c0844aa": {
@@ -82,12 +58,6 @@
       "team_totals": {
         "Buffalo Bills": 26.5,
         "Kansas City Chiefs": 23.5
-      },
-      "period_totals": {
-        "totals_q1": 9.5,
-        "totals_h1": 24.5,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "44a3bcf5bd002583ddef2207a92dd977": {
@@ -100,12 +70,6 @@
       "team_totals": {
         "Denver Broncos": 20.5,
         "Pittsburgh Steelers": 18.5
-      },
-      "period_totals": {
-        "totals_q1": 7.0,
-        "totals_h1": 19.5,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "6a05021bdb6bab24b9bb381ffff10f0c": {
@@ -115,13 +79,7 @@
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "60d0c074801985c1062795362a24200e": {
       "matchup": "Baltimore Ravens @ Houston Texans",
@@ -133,12 +91,6 @@
       "team_totals": {
         "Baltimore Ravens": 19.5,
         "Houston Texans": 27.5
-      },
-      "period_totals": {
-        "totals_q1": 9.5,
-        "totals_h1": 23.5,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f7d3ae7a8fe2438cef7d7d7bc67e31db": {
@@ -148,13 +100,7 @@
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "e9da808e36e1b7475698a57465ad4519": {
       "matchup": "New York Giants @ Indianapolis Colts",
@@ -166,12 +112,6 @@
       "team_totals": {
         "Indianapolis Colts": 16.5,
         "New York Giants": 24.5
-      },
-      "period_totals": {
-        "totals_q1": 7.5,
-        "totals_h1": 20.5,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "81a8fee5b649a3ad5ad59e9528f2f376": {
@@ -181,13 +121,7 @@
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "5ea0e3ea5944b0ad5169f21c0787b331": {
       "matchup": "New York Jets @ Miami Dolphins",
@@ -196,13 +130,7 @@
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "c64ceba13ede564e8658693e3171e7f9": {
       "matchup": "New England Patriots @ Los Angeles Chargers",
@@ -211,13 +139,7 @@
       "group": "big",
       "commence_time": "2026-11-29T21:05:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "69a1dbe9de3d3212c3a7a55be5d204ab": {
       "matchup": "Washington Commanders @ Arizona Cardinals",
@@ -226,13 +148,7 @@
       "group": "big",
       "commence_time": "2026-11-29T21:25:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "d68dced0b26726890b9c79bd19a5ffe5": {
       "matchup": "Seattle Seahawks @ San Francisco 49ers",
@@ -241,13 +157,7 @@
       "group": "big",
       "commence_time": "2026-11-29T21:25:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "eaa993c3d62d6b5aeb6142cdd7862fd5": {
       "matchup": "Las Vegas Raiders @ Cleveland Browns",
@@ -259,12 +169,6 @@
       "team_totals": {
         "Cleveland Browns": 23.5,
         "Las Vegas Raiders": 17.5
-      },
-      "period_totals": {
-        "totals_q1": 7.5,
-        "totals_h1": 20.5,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "2cdaecba7c0bff9b58a48a82e6ee17a7": {
@@ -274,12 +178,9 @@
       "group": "big",
       "commence_time": "2026-12-01T01:15:00Z",
       "game_total": 43.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Carolina Panthers": 20.5,
+        "Tampa Bay Buccaneers": 23.5
       }
     },
     "4814277a6e26955eb1df064fed7a3bcb": {
@@ -292,12 +193,6 @@
       "team_totals": {
         "Eastern Michigan Eagles": 25.5,
         "Kent State Golden Flashes": 20.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a82769fe54a0f8c714667b8720b67449": {
@@ -310,12 +205,6 @@
       "team_totals": {
         "Miami (OH) RedHawks": 19.5,
         "Western Michigan Broncos": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "b39108d2cfcd62d29954aee80bbf7b51": {
@@ -328,12 +217,6 @@
       "team_totals": {
         "TCU Horned Frogs": 17.5,
         "Texas Tech Red Raiders": 28.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "e0b30f1dada22d4a2565ce663bc0741a": {
@@ -346,12 +229,6 @@
       "team_totals": {
         "Akron Zips": 20.5,
         "Buffalo Bulls": 29.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "8fc8552ec633bb09ca2bcb9b15cb6896": {
@@ -364,12 +241,6 @@
       "team_totals": {
         "Iowa Hawkeyes": 22.5,
         "Nebraska Cornhuskers": 17.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "5b00e6b226dce4274d819d5d1818e703": {
@@ -382,12 +253,6 @@
       "team_totals": {
         "Mississippi State Bulldogs": 18.5,
         "Ole Miss Rebels": 37.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "58cd1284193cd30679325c8494f546e6": {
@@ -400,12 +265,6 @@
       "team_totals": {
         "Ohio Bobcats": 23.5,
         "Toledo Rockets": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "1f0a9e7f76830b196133518ae01bb113": {
@@ -418,12 +277,6 @@
       "team_totals": {
         "Tulsa Golden Hurricane": 28.5,
         "UTSA Roadrunners": 29.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a72c11afb95ca2c2eb057c7f2a8e376b": {
@@ -436,12 +289,6 @@
       "team_totals": {
         "Appalachian State Mountaineers": 27.5,
         "South Alabama Jaguars": 29.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "6a08fbc3f2fce16533f36dccc4dce347": {
@@ -454,12 +301,6 @@
       "team_totals": {
         "Florida Gators": 28.5,
         "Florida State Seminoles": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a750f21dccb9df459196adc8dcf5ffe4": {
@@ -472,12 +313,6 @@
       "team_totals": {
         "Memphis Tigers": 41.5,
         "Temple Owls": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "5fc40a6a68f1652a38d2844a90358df2": {
@@ -490,12 +325,6 @@
       "team_totals": {
         "North Dakota State Bison": 24.5,
         "San Jose State Spartans": 14.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "45d4d87e236a38e2feb11f57820ff03f": {
@@ -508,12 +337,6 @@
       "team_totals": {
         "Air Force Falcons": 16.5,
         "New Mexico Lobos": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "e6a3c909a8cfc7b2c666252e246418c7": {
@@ -526,12 +349,6 @@
       "team_totals": {
         "Minnesota Golden Gophers": 14.5,
         "Wisconsin Badgers": 22.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "4c69ecf41bb2d36dfeedeae23acc5b86": {
@@ -541,12 +358,9 @@
       "group": "big",
       "commence_time": "2026-11-28T00:30:00Z",
       "game_total": 40.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Texas A&M Aggies": 14.5,
+        "Texas Longhorns": 26.5
       }
     },
     "bee4ea7a231be77b1ee52ddf3755592f": {
@@ -559,12 +373,6 @@
       "team_totals": {
         "Utah Utes": 44.5,
         "West Virginia Mountaineers": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "c074c1d28d172e0eb521dbb9d530462f": {
@@ -577,12 +385,6 @@
       "team_totals": {
         "Ball State Cardinals": 21.5,
         "Central Michigan Chippewas": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f670302d6ba6369545091e20bac24107": {
@@ -592,12 +394,9 @@
       "group": "big",
       "commence_time": "2026-11-28T17:00:00Z",
       "game_total": 53.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Boston College Eagles": 13.5,
+        "Miami Hurricanes": 39.5
       }
     },
     "bdf272babe96ca5f2c4ad03eea790eb2": {
@@ -610,12 +409,6 @@
       "team_totals": {
         "Charlotte 49ers": 19.5,
         "Navy Midshipmen": 35.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "2c9b4d03409441b9f41fed25a4801d2b": {
@@ -628,12 +421,6 @@
       "team_totals": {
         "Georgia Southern Eagles": 27.5,
         "Louisiana Tech Bulldogs": 25.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "735be3d0a18e8d57cc515971a6735c7d": {
@@ -643,12 +430,9 @@
       "group": "big",
       "commence_time": "2026-11-28T17:00:00Z",
       "game_total": 54.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Kentucky Wildcats": 26.5,
+        "Louisville Cardinals": 28.5
       }
     },
     "426658869d8f93e891cad97029725975": {
@@ -661,12 +445,6 @@
       "team_totals": {
         "Michigan Wolverines": 13.5,
         "Ohio State Buckeyes": 24.5
-      },
-      "period_totals": {
-        "totals_q1": 7.5,
-        "totals_h1": 20.0,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a35f041e96e693eba5737ef05a57c4db": {
@@ -679,12 +457,6 @@
       "team_totals": {
         "NC State Wolfpack": 24.5,
         "North Carolina Tar Heels": 30.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "c58a68d46da0d0748169156702f9b4d5": {
@@ -697,12 +469,6 @@
       "team_totals": {
         "Notre Dame Fighting Irish": 38.5,
         "Syracuse Orange": 13.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "57d6254e2054bb1e269219b1ef8b6ab7": {
@@ -715,12 +481,6 @@
       "team_totals": {
         "UConn Huskies": 26.5,
         "Wyoming Cowboys": 22.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "591a88cc16d9c5830bef16d7f522bc8a": {
@@ -733,12 +493,6 @@
       "team_totals": {
         "Illinois Fighting Illini": 23.5,
         "Northwestern Wildcats": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "c8b7cbe64e2914e579ab55c34db57da2": {
@@ -748,12 +502,9 @@
       "group": "big",
       "commence_time": "2026-11-28T17:45:00Z",
       "game_total": 48.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Arkansas Razorbacks": 16.5,
+        "LSU Tigers": 30.5
       }
     },
     "2981442fcc9375220d0f7959bcd9c084": {
@@ -766,12 +517,6 @@
       "team_totals": {
         "East Carolina Pirates": 28.5,
         "Florida Atlantic Owls": 27.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "1dc37c1023af4b0f098c76640445ae2e": {
@@ -784,12 +529,6 @@
       "team_totals": {
         "Kennesaw State Owls": 28.5,
         "Western Kentucky Hilltoppers": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "b59311f602e67a25e81604f9b895a8b1": {
@@ -802,12 +541,6 @@
       "team_totals": {
         "Marshall Thundering Herd": 27.5,
         "UL Monroe Warhawks": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a89bafbbfbc300c0005e20bfb7acfb90": {
@@ -820,12 +553,6 @@
       "team_totals": {
         "Old Dominion Monarchs": 27.5,
         "Southern Mississippi Golden Eagles": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "559227d3ba70769111dd09490258af44": {
@@ -838,12 +565,6 @@
       "team_totals": {
         "Army Black Knights": 27.5,
         "Rice Owls": 20.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "7ce20f289047e13b13c4a6517b10a4c2": {
@@ -856,12 +577,6 @@
       "team_totals": {
         "Coastal Carolina Chanticleers": 20.5,
         "James Madison Dukes": 35.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "e82b8ac931ff74f03744aa4ae6072a51": {
@@ -871,12 +586,9 @@
       "group": "big",
       "commence_time": "2026-11-28T19:00:00Z",
       "game_total": 51.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Colorado Buffaloes": 26.5,
+        "UCF Knights": 24.5
       }
     },
     "6530923d9380b559b3c0b49b4f770e5f": {
@@ -889,12 +601,6 @@
       "team_totals": {
         "Florida International Panthers": 26.5,
         "Sam Houston State Bearkats": 14.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "c424e58ad3ce3e391a33c0495aa52690": {
@@ -907,12 +613,6 @@
       "team_totals": {
         "Georgia State Panthers": 25.5,
         "Louisiana Ragin Cajuns": 30.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "61a2b3c7f905b33b86e1ea178a885325": {
@@ -922,12 +622,9 @@
       "group": "big",
       "commence_time": "2026-11-28T19:00:00Z",
       "game_total": 55.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Iowa State Cyclones": 29.5,
+        "Kansas State Wildcats": 24.5
       }
     },
     "a0fe49c990d1497e1cb34eb9c2b73ef1": {
@@ -940,12 +637,6 @@
       "team_totals": {
         "Liberty Flames": 33.5,
         "Missouri State Bears": 17.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "200466f41d944b2706e404635298ebf6": {
@@ -958,12 +649,6 @@
       "team_totals": {
         "Middle Tennessee Blue Raiders": 27.5,
         "New Mexico State Aggies": 24.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "5f57756fa0d07d889a7a6727b6f5da2d": {
@@ -973,12 +658,9 @@
       "group": "big",
       "commence_time": "2026-11-28T20:00:00Z",
       "game_total": 46.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Arkansas State Red Wolves": 24.5,
+        "Troy Trojans": 21.5
       }
     },
     "7da02c5fd7efe20c2f61f665def9cbef": {
@@ -991,12 +673,6 @@
       "team_totals": {
         "Clemson Tigers": 17.5,
         "South Carolina Gamecocks": 22.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f6a2121d820ed6135db2f9ea131c3115": {
@@ -1009,12 +685,6 @@
       "team_totals": {
         "Virginia Cavaliers": 24.5,
         "Virginia Tech Hokies": 27.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "7677bcc8f40717d8275f5fe3b5f5fb0e": {
@@ -1024,12 +694,9 @@
       "group": "big",
       "commence_time": "2026-11-28T20:30:00Z",
       "game_total": 56.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "BYU Cougars": 35.5,
+        "Cincinnati Bearcats": 20.5
       }
     },
     "b34efc2b710eb260f25df93e02c86a0e": {
@@ -1042,12 +709,6 @@
       "team_totals": {
         "Bowling Green Falcons": 23.5,
         "UMass Minutemen": 20.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "be399d75e553dc20697cf8f734b0f233": {
@@ -1060,12 +721,6 @@
       "team_totals": {
         "Delaware Blue Hens": 30.5,
         "Jacksonville State Gamecocks": 27.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "4a15b4432ef52d1717887e5badfdc0e3": {
@@ -1078,12 +733,6 @@
       "team_totals": {
         "Duke Blue Devils": 20.5,
         "Wake Forest Demon Deacons": 34.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "483beae9e865229fff02f961536b181e": {
@@ -1093,12 +742,9 @@
       "group": "big",
       "commence_time": "2026-11-28T20:30:00Z",
       "game_total": 56.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Georgia Bulldogs": 45.5,
+        "Georgia Tech Yellow Jackets": 9.5
       }
     },
     "a57feac04a5d9404de66cd40c004fa51": {
@@ -1111,12 +757,6 @@
       "team_totals": {
         "Maryland Terrapins": 21.5,
         "Penn State Nittany Lions": 28.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "eb0172d64d648f5f0697ee382c039564": {
@@ -1126,12 +766,9 @@
       "group": "big",
       "commence_time": "2026-11-28T20:30:00Z",
       "game_total": 48.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Northern Illinois Huskies": 27.5,
+        "UTEP Miners": 21.5
       }
     },
     "e55fde0bfbebc4cfd4ccc010b0e858b4": {
@@ -1144,12 +781,6 @@
       "team_totals": {
         "SMU Mustangs": 34.5,
         "Stanford Cardinal": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "20a5e90b65e1fec4a7be4a08260234a4": {
@@ -1162,12 +793,6 @@
       "team_totals": {
         "South Florida Bulls": 24.5,
         "Tulane Green Wave": 17.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "ab91c66dfce2e452eb546cde1cf61879": {
@@ -1180,12 +805,6 @@
       "team_totals": {
         "UCLA Bruins": 19.5,
         "USC Trojans": 26.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "7e42ee2b96752d8e1bc6fab8c0ad998f": {
@@ -1198,12 +817,6 @@
       "team_totals": {
         "North Texas Mean Green": 25.5,
         "UAB Blazers": 22.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "0ebe196ce469f86aba61ded8de5fe9a8": {
@@ -1216,12 +829,6 @@
       "team_totals": {
         "Michigan State Spartans": 25.5,
         "Rutgers Scarlet Knights": 21.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f77049eaeb5b3c0945c4bc2790dda6e6": {
@@ -1231,12 +838,9 @@
       "group": "big",
       "commence_time": "2026-11-28T21:15:00Z",
       "game_total": 41.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Missouri Tigers": 20.5,
+        "Oklahoma Sooners": 20.5
       }
     },
     "fc256824e407a09580ec73661749dc2e": {
@@ -1249,12 +853,6 @@
       "team_totals": {
         "Boise State Broncos": 49.5,
         "Colorado State Rams": 27.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "2e180a350fe1c67db1b12cf36a1c1324": {
@@ -1264,12 +862,9 @@
       "group": "big",
       "commence_time": "2026-11-28T23:15:00Z",
       "game_total": 67.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Kansas Jayhawks": 29.5,
+        "Oklahoma State Cowboys": 37.5
       }
     },
     "6f8b860fa7f8ce3ef4dd841450840e5f": {
@@ -1282,12 +877,6 @@
       "team_totals": {
         "San Diego State Aztecs": 23.5,
         "Washington State Cougars": 21.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "7f3768e75aa0ea31e6a30cff6cf631be": {
@@ -1300,12 +889,6 @@
       "team_totals": {
         "Indiana Hoosiers": 37.5,
         "Purdue Boilermakers": 14.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "0a1027a4edb364b492a3fee67086e8bc": {
@@ -1318,12 +901,6 @@
       "team_totals": {
         "Tennessee Volunteers": 27.5,
         "Vanderbilt Commodores": 15.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "5f74ef6944e660a91381ecf388633c69": {
@@ -1333,12 +910,9 @@
       "group": "big",
       "commence_time": "2026-11-29T00:30:00Z",
       "game_total": 48.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Alabama Crimson Tide": 32.5,
+        "Auburn Tigers": 15.5
       }
     },
     "a61934112cd5b5c35c2887f1365af5ec": {
@@ -1351,12 +925,6 @@
       "team_totals": {
         "California Golden Bears": 19.5,
         "Pittsburgh Panthers": 28.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "6474599b7377102869153e25af140533": {
@@ -1369,12 +937,6 @@
       "team_totals": {
         "Oregon Ducks": 31.5,
         "Washington Huskies": 17.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f825e4c4d512e1c0a6db6ac7d8bc0326": {
@@ -1384,12 +946,9 @@
       "group": "big",
       "commence_time": "2026-11-29T02:00:00Z",
       "game_total": 54.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Arizona State Sun Devils": 22.5,
+        "Arizona Wildcats": 30.5
       }
     },
     "a2ecd43208cb856c8d882906463fdbec": {
@@ -1402,12 +961,6 @@
       "team_totals": {
         "Nevada Wolf Pack": 19.5,
         "UNLV Rebels": 23.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "3ed1c65f3b2b8392d0ca7c806c559898": {
@@ -1420,12 +973,6 @@
       "team_totals": {
         "Baylor Bears": 24.5,
         "Houston Cougars": 30.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "8e7c8bc1e0c6b7514f811010faaec76d": {
@@ -1438,12 +985,6 @@
       "team_totals": {
         "Texas State Bobcats": 29.5,
         "Utah State Aggies": 22.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "59c0c40d83de9865c9f8da6344349353": {
@@ -1453,12 +994,9 @@
       "group": "big",
       "commence_time": "2026-11-29T03:00:00Z",
       "game_total": 57.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Fresno State Bulldogs": 29.5,
+        "Oregon State Beavers": 27.5
       }
     },
     "bf095bfbd7595f50c6a6062add4655f6": {
@@ -1471,12 +1009,6 @@
       "team_totals": {
         "Hawaii Rainbow Warriors": 26.5,
         "Sacramento State Hornets": 13.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a91ec7ebf1a48ebc073c185bcc4feff5": {
@@ -1486,13 +1018,7 @@
       "group": "big",
       "commence_time": "2026-12-05T01:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "7343d0c535f8836e761813fdfa88c9f1": {
       "matchup": "Wake Forest Demon Deacons @ Miami Hurricanes",
@@ -1501,13 +1027,7 @@
       "group": "big",
       "commence_time": "2026-12-05T17:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "1f6512829a11001843fb2aa5530a27c3": {
       "matchup": "Albany @ Lehigh Mountain Hawks",
@@ -1516,13 +1036,7 @@
       "group": "big",
       "commence_time": "2026-11-28T17:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "79d154dc2abbad4e1c65bf920efba621": {
       "matchup": "Idaho State Bengals @ North Dakota Fighting Hawks",
@@ -1531,13 +1045,7 @@
       "group": "big",
       "commence_time": "2026-11-28T18:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "be50754434a73067345e9ab98fad4972": {
       "matchup": "Dayton Flyers @ Tennessee Tech Golden Eagles",
@@ -1546,13 +1054,7 @@
       "group": "big",
       "commence_time": "2026-11-28T19:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "5a0be3dccdc1d67121da33bb4eae4be8": {
       "matchup": "Grambling State Tigers @ Southern University Jaguars",
@@ -1561,13 +1063,7 @@
       "group": "big",
       "commence_time": "2026-11-28T19:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "d9ee2d8c47415764946937737ca1637d": {
       "matchup": "Western Illinois Leathernecks @ Weber State Wildcats",
@@ -1576,13 +1072,7 @@
       "group": "big",
       "commence_time": "2026-11-28T20:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "0ec17339099086ffb11555b508e8dcd8": {
       "matchup": "Austin Peay Governors @ Illinois State Redbirds",
@@ -1591,13 +1081,7 @@
       "group": "big",
       "commence_time": "2026-11-28T21:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "ce637e4a9adbe5310db2440a8c3f1547": {
       "matchup": "LIU Sharks @ Northern Arizona Lumberjacks",
@@ -1606,13 +1090,7 @@
       "group": "big",
       "commence_time": "2026-11-28T21:01:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "35ca45d3e548dc7207fd7f1696ab16f5": {
       "matchup": "Memphis Grizzlies @ Charlotte Hornets",
@@ -1621,12 +1099,9 @@
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
       "game_total": 216.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Charlotte Hornets": 106.5,
+        "Memphis Grizzlies": 109.5
       }
     },
     "ac6fb079d66ef35a2a77e22b5e94ef8d": {
@@ -1639,12 +1114,6 @@
       "team_totals": {
         "Philadelphia 76ers": 117.5,
         "Portland Trail Blazers": 114.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a72a1703f7a92b80768255d1d977a761": {
@@ -1657,12 +1126,6 @@
       "team_totals": {
         "Brooklyn Nets": 105.5,
         "Minnesota Timberwolves": 117.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "c9b6c9f77fd3628308dd34f50854a9c0": {
@@ -1675,12 +1138,6 @@
       "team_totals": {
         "Indiana Pacers": 108.5,
         "Oklahoma City Thunder": 113.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "a5184238c27b9c3bfca29220f9d5d14a": {
@@ -1690,12 +1147,9 @@
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
       "game_total": 224.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Milwaukee Bucks": 106.5,
+        "Toronto Raptors": 117.5
       }
     },
     "b8dfee1fca57ec870528a14c792ad73a": {
@@ -1708,12 +1162,6 @@
       "team_totals": {
         "Chicago Bulls": 116.5,
         "Cleveland Cavaliers": 124.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "6caeb7cce7c8340fed588f3badd83fe0": {
@@ -1726,12 +1174,6 @@
       "team_totals": {
         "New Orleans Pelicans": 115.5,
         "Phoenix Suns": 117.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "db2311c331296d3328d71b842167dea4": {
@@ -1741,12 +1183,9 @@
       "group": "big",
       "commence_time": "2026-11-24T01:40:00Z",
       "game_total": 224.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Houston Rockets": 119.5,
+        "Los Angeles Clippers": 106.5
       }
     },
     "3e9dc52cb055c0154839c4aec417955b": {
@@ -1759,12 +1198,6 @@
       "team_totals": {
         "Los Angeles Lakers": 121.5,
         "Utah Jazz": 106.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "17f31499f145cd9d3232819395d29448": {
@@ -1774,12 +1207,9 @@
       "group": "big",
       "commence_time": "2026-11-24T03:10:00Z",
       "game_total": 223.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Sacramento Kings": 106.5,
+        "San Antonio Spurs": 117.5
       }
     },
     "435ce8aaf2de67393a436fc9bf8c956e": {
@@ -1792,12 +1222,6 @@
       "team_totals": {
         "Appalachian St Mountaineers": 64.5,
         "St. Bonaventure Bonnies": 68.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "98a0b4549739cc028ffa9665d77d7ffd": {
@@ -1810,12 +1234,6 @@
       "team_totals": {
         "Davidson Wildcats": 72.5,
         "Northern Iowa Panthers": 68.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "e4496b83963ca2f24052c8779d91cbeb": {
@@ -1825,12 +1243,9 @@
       "group": "big",
       "commence_time": "2026-11-23T17:30:00Z",
       "game_total": 146.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "East Carolina Pirates": 73.5,
+        "Indiana St Sycamores": 71.5
       }
     },
     "037aac2cff7aea7fec09fbb5a3dcf04b": {
@@ -1843,12 +1258,6 @@
       "team_totals": {
         "Florida Int'l Golden Panthers": 84.5,
         "Long Beach St 49ers": 75.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "03914af0d22bba6c22c326407049444a": {
@@ -1861,12 +1270,6 @@
       "team_totals": {
         "Akron Zips": 73.5,
         "Wright St Raiders": 74.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "276deab7d659366b50ff0608d1501b6e": {
@@ -1876,13 +1279,7 @@
       "group": "big",
       "commence_time": "2026-11-23T18:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "7672e3ae078a7b505b50f15e46208e4f": {
       "matchup": "Tulsa Golden Hurricane @ Oregon St Beavers",
@@ -1891,12 +1288,9 @@
       "group": "big",
       "commence_time": "2026-11-23T19:00:00Z",
       "game_total": 154.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Oregon St Beavers": 79.5,
+        "Tulsa Golden Hurricane": 73.5
       }
     },
     "f6407650f13adaa2fc13d17570ef3327": {
@@ -1909,12 +1303,6 @@
       "team_totals": {
         "Clemson Tigers": 71.5,
         "Ole Miss Rebels": 76.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f1dad846a15c864b10f3cf4914c7cbd5": {
@@ -1924,13 +1312,7 @@
       "group": "big",
       "commence_time": "2026-11-23T20:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "b1abd9ff77f5dc5c376c08041fae20ea": {
       "matchup": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",
@@ -1939,13 +1321,7 @@
       "group": "big",
       "commence_time": "2026-11-23T20:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "aee64daab1ceefa09aaf0260ed750d53": {
       "matchup": "William & Mary Tribe @ IUPUI Jaguars",
@@ -1954,13 +1330,7 @@
       "group": "big",
       "commence_time": "2026-11-23T20:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "c26aa1b5cbdc588ee415a259da2c6bf4": {
       "matchup": "Yale Bulldogs @ Belmont Bruins",
@@ -1972,12 +1342,6 @@
       "team_totals": {
         "Belmont Bruins": 72.5,
         "Yale Bulldogs": 70.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "dd58df55a7af85441c65eee7310a71f5": {
@@ -1990,12 +1354,6 @@
       "team_totals": {
         "Georgia St Panthers": 74.5,
         "Tulane Green Wave": 73.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "8705fa29b81b3f96d689da909e406bff": {
@@ -2008,12 +1366,6 @@
       "team_totals": {
         "Nevada Wolf Pack": 73.5,
         "San Francisco Dons": 66.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "fc86a54f6abd13932c62fa66b82a3e28": {
@@ -2026,12 +1378,6 @@
       "team_totals": {
         "BYU Cougars": 88.5,
         "Washington Huskies": 76.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "c247dff2509498dedc2b2408ad1d5dd4": {
@@ -2041,13 +1387,7 @@
       "group": "big",
       "commence_time": "2026-11-23T22:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "8234af74a35d1a31b73854d4fd191c64": {
       "matchup": "Maryland-Eastern Shore Hawks @ Youngstown St Penguins",
@@ -2056,13 +1396,7 @@
       "group": "big",
       "commence_time": "2026-11-23T23:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "1af3a5acedbb908ecc006767d288d16b": {
       "matchup": "Central Arkansas Bears @ North Florida Ospreys",
@@ -2071,13 +1405,7 @@
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "c6b930f2b10901f7c145736cde09fd95": {
       "matchup": "Fairleigh Dickinson Knights @ Iona Gaels",
@@ -2086,13 +1414,7 @@
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "120e2421c480efcf51c1aa27d4973187": {
       "matchup": "Georgia Southern Eagles @ Northern Kentucky Norse",
@@ -2101,12 +1423,9 @@
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
       "game_total": 166.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Georgia Southern Eagles": 81.5,
+        "Northern Kentucky Norse": 84.5
       }
     },
     "a711d8899fd6dad91337247433157f87": {
@@ -2119,12 +1438,6 @@
       "team_totals": {
         "Illinois St Redbirds": 73.5,
         "Santa Clara Broncos": 77.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "f35ec8dcc1ab5e6f04bdb796a46b1524": {
@@ -2134,13 +1447,7 @@
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "9fd23b7824675dff70bd989ae6fe4967": {
       "matchup": "Texas A&M-CC Islanders @ Wichita St Shockers",
@@ -2149,13 +1456,7 @@
       "group": "big",
       "commence_time": "2026-11-24T00:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "11782e330b7215a8e2f0e3e4e9a27404": {
       "matchup": "Denver Pioneers @ Kansas Jayhawks",
@@ -2164,12 +1465,9 @@
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
       "game_total": 158.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Denver Pioneers": 60.5,
+        "Kansas Jayhawks": 97.5
       }
     },
     "8dac68fbecc816a6de76442cf1e28270": {
@@ -2179,13 +1477,7 @@
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "5a237fcf6422f6a245d462ba2a6835dc": {
       "matchup": "Monmouth Hawks @ North Carolina Tar Heels",
@@ -2197,12 +1489,6 @@
       "team_totals": {
         "Monmouth Hawks": 66.5,
         "North Carolina Tar Heels": 86.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "aed6a97f577438479f8716801fd3d3f9": {
@@ -2212,13 +1498,7 @@
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "bd51dcc9b4ceb556e17992c7f5fe7f75": {
       "matchup": "VCU Rams @ Providence Friars",
@@ -2227,13 +1507,7 @@
       "group": "big",
       "commence_time": "2026-11-24T02:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "69e165166aa1f48345e5bdd45029fb18": {
       "matchup": "UNC Greensboro Spartans @ Pepperdine Waves",
@@ -2245,12 +1519,6 @@
       "team_totals": {
         "Pepperdine Waves": 82.5,
         "UNC Greensboro Spartans": 72.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "b7a4f6e90eb128b0d569dacbfe487e80": {
@@ -2260,13 +1528,7 @@
       "group": "big",
       "commence_time": "2026-11-24T03:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "8236efa27962bd6d4b110bb43e861b07": {
       "matchup": "Eastern Washington Eagles @ UNLV Rebels",
@@ -2278,12 +1540,6 @@
       "team_totals": {
         "Eastern Washington Eagles": 76.5,
         "UNLV Rebels": 83.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "b45e9d96ab3298d614e74c19902f3998": {
@@ -2293,12 +1549,9 @@
       "group": "big",
       "commence_time": "2026-11-24T04:30:00Z",
       "game_total": 158.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Arizona Wildcats": 87.5,
+        "Colorado St Rams": 70.5
       }
     },
     "38c575bb916b4b6634ccbc1d442b53a2": {
@@ -2308,13 +1561,7 @@
       "group": "big",
       "commence_time": "2026-11-24T20:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "4168db6bc271ba612901506cd74e1c9b": {
       "matchup": "Miami Hurricanes @ TCU Horned Frogs",
@@ -2323,13 +1570,7 @@
       "group": "big",
       "commence_time": "2026-11-24T20:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "0dbbfc6c0ffe4c7d2c9b65eb8ab96cb3": {
       "matchup": "San Diego St Aztecs @ Iowa State Cyclones",
@@ -2338,13 +1579,7 @@
       "group": "big",
       "commence_time": "2026-11-24T22:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "7e24a7f74f41134d9a72a537af4cc663": {
       "matchup": "Creighton Bluejays @ Michigan Wolverines",
@@ -2353,13 +1588,7 @@
       "group": "big",
       "commence_time": "2026-11-24T22:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "712c581bb2dc9c3072e5280bd6ccecc4": {
       "matchup": "Texas Tech Red Raiders @ Louisville Cardinals",
@@ -2368,13 +1597,7 @@
       "group": "big",
       "commence_time": "2026-11-25T01:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "23775e1487fe2f2a91b9572fafb704a0": {
       "matchup": "Baylor Bears @ Alabama Crimson Tide",
@@ -2383,13 +1606,7 @@
       "group": "big",
       "commence_time": "2026-11-25T03:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "4b220aa94adc3b0fd23d9d892a130646": {
       "matchup": "Oregon Ducks @ St. John's Red Storm",
@@ -2398,13 +1615,7 @@
       "group": "big",
       "commence_time": "2026-11-25T03:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "62f11de81607e09d5edea5c4e1b26feb": {
       "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
@@ -2413,13 +1624,7 @@
       "group": "big",
       "commence_time": "2026-11-25T05:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "e9429c68a48753de9779d88e6cf393ad": {
       "matchup": "Columbus Blue Jackets @ New Jersey Devils",
@@ -2428,12 +1633,9 @@
       "group": "hockey",
       "commence_time": "2026-11-24T00:10:00Z",
       "game_total": 6.0,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "Columbus Blue Jackets": 2.5,
+        "New Jersey Devils": 3.5
       }
     },
     "d127e1e72a1b9087aca692f3b5812532": {
@@ -2446,12 +1648,6 @@
       "team_totals": {
         "Calgary Flames": 2.5,
         "Ottawa Senators": 3.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "806787e1b3ac73d09e3ae05f6d595865": {
@@ -2464,12 +1660,6 @@
       "team_totals": {
         "Los Angeles Kings": 2.5,
         "Montr\u00e9al Canadiens": 3.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "2d095386ab1321c89df24896d98495ee": {
@@ -2479,12 +1669,9 @@
       "group": "hockey",
       "commence_time": "2026-11-24T00:40:00Z",
       "game_total": 6.5,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
+      "team_totals": {
+        "New York Islanders": 3.5,
+        "Toronto Maple Leafs": 2.5
       }
     },
     "e2efcb24b2d9689232946057b7e43d23": {
@@ -2497,12 +1684,6 @@
       "team_totals": {
         "Utah Mammoth": 3.5,
         "Winnipeg Jets": 3.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "5074be0d13d60cc7fd82b06c4d8ddd31": {
@@ -2515,12 +1696,6 @@
       "team_totals": {
         "Anaheim Ducks": 3.5,
         "Seattle Kraken": 3.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "43376208ec2111794696249fe50f5e84": {
@@ -2533,12 +1708,6 @@
       "team_totals": {
         "Minnesota Wild": 3.5,
         "San Jose Sharks": 2.5
-      },
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
       }
     },
     "4558c8e2f0be90bc67add7ecb2e22905": {
@@ -2548,13 +1717,7 @@
       "group": "hockey",
       "commence_time": "2026-11-24T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "bcfc1967e7d452453d28c2029f370c3c": {
       "matchup": "Kiekko-Espoo @ Sport",
@@ -2563,13 +1726,7 @@
       "group": "hockey",
       "commence_time": "2026-11-24T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "7e0cd20ec906df6c512378673621c8dc": {
       "matchup": "Lukko @ SaiPa",
@@ -2578,13 +1735,7 @@
       "group": "hockey",
       "commence_time": "2026-11-24T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "ed88c790ce4d9123c6d0b02e2bfd0f9d": {
       "matchup": "TPS @ HIFK",
@@ -2593,13 +1744,7 @@
       "group": "hockey",
       "commence_time": "2026-11-25T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "2946924b3ecf4b762332fb72674a5278": {
       "matchup": "KooKoo @ Jokerit",
@@ -2608,13 +1753,7 @@
       "group": "hockey",
       "commence_time": "2026-11-25T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "393ccfc3f52cae0d03bc73ac065c6fae": {
       "matchup": "Jukurit @ Tappara",
@@ -2623,13 +1762,7 @@
       "group": "hockey",
       "commence_time": "2026-11-25T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "f6bb2632227406e9820ff9b21de9a468": {
       "matchup": "Pelicans @ K\u00e4rp\u00e4t",
@@ -2638,13 +1771,7 @@
       "group": "hockey",
       "commence_time": "2026-11-25T16:30:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "9801ef955619891976b6cc9b7d1bf780": {
       "matchup": "Fr\u00f6lunda HC @ \u00d6rebro HK",
@@ -2653,13 +1780,7 @@
       "group": "hockey",
       "commence_time": "2026-11-24T18:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
     },
     "bff483955e4b791b12183d4ea15aed10": {
       "matchup": "Malm\u00f6 Redhawks @ Lule\u00e5 HF",
@@ -2668,13 +1789,196 @@
       "group": "hockey",
       "commence_time": "2026-11-24T18:00:00Z",
       "game_total": null,
-      "team_totals": {},
-      "period_totals": {
-        "totals_q1": null,
-        "totals_h1": null,
-        "team_totals_q1": {},
-        "team_totals_h1": {}
-      }
+      "team_totals": {}
+    },
+    "3e065ed32915a4afefae3a851f6df12a": {
+      "matchup": "Paris Basketball @ Be\u015fikta\u015f J.K.",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-24T17:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "d563569f19780b306d14d3c29b67f3bf": {
+      "matchup": "Virtus Segafredo Bologna @ KK Crvena zvezda",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-24T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "6bcef0e5f7b2a021b7e07514cdfa6493": {
+      "matchup": "Maccabi Tel Aviv @ FC Bayern M\u00fcnchen",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-24T19:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "767cda572a9aefe0c057a4fe3199dfa4": {
+      "matchup": "Panathinaikos @ Valencia Basket",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-24T19:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "1707b8c728b9116472624aa8178ebfce": {
+      "matchup": "Pallacanestro Olimpia Milano @ ASVEL Lyon Villeurbanne",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-24T19:45:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "0f9b0defd0a6c9603d7c70e7962bb628": {
+      "matchup": "Fenerbahce SK @ FC Barcelona B\u00e0squet",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "40589eed5e6894d5b8598ee721b9d57b": {
+      "matchup": "KK Partizan NIS @ Dubai Basketball",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-25T16:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "a1ee21718811e522957cf904fb3ec31f": {
+      "matchup": "Hapoel Tel Aviv @ Olympiacos",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-25T19:15:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "c9a675960fa0ad6070fe3e6b378809a0": {
+      "matchup": "Anadolu Efes @ Saski Baskonia",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-25T19:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "b9ad9b132e4fd83592ee6cb62ea5cd46": {
+      "matchup": "\u017dalgiris @ Real Madrid",
+      "sport": "basketball_euroleague",
+      "label": "EuroLeague",
+      "group": "big",
+      "commence_time": "2026-11-25T19:45:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "0a59c4174da7ddb060e9f57384846f77": {
+      "matchup": "Grand Rapids Griffins @ Manitoba Moose",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T15:30:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "d05b7c35518a18f30182cbd0fb36e521": {
+      "matchup": "Tucson Roadrunners @ Texas Stars",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "e1e46e548d72dd4d5fb2f2d65bfb58da": {
+      "matchup": "Ontario Reign @ San Diego Gulls",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-25T03:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "28276fb1617a6962a5623f38864957f0": {
+      "matchup": "Toronto Marlies @ Belleville Senators",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-25T15:30:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "5901cb03e047afb7c22309d0f09a5693": {
+      "matchup": "Syracuse Crunch @ Hamilton Hammers",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-25T16:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "28df5655239f161e1b0173992812a8a5": {
+      "matchup": "Hartford Wolf Pack @ Utica Comets",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-26T00:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "d2e4962fbde3fe14b9d2c0990042905e": {
+      "matchup": "W-B/Scranton Penguins @ Hershey Bears",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-26T00:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "c319f100272bdc39d872feb742359923": {
+      "matchup": "Providence Bruins @ Lehigh Valley Phantoms",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-26T00:05:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "f49f26742d3edc40bb8a2fc2d06809d4": {
+      "matchup": "Milwaukee Admirals @ Rockford IceHogs",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-26T01:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "7a7517fa76f3146123102b75095a98f7": {
+      "matchup": "Abbotsford Canucks @ Henderson Silver Knights",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-26T03:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
+    },
+    "a64abb730bd3c498b8181e020c4d41b8": {
+      "matchup": "Coachella Valley Firebirds @ San Jose Barracuda",
+      "sport": "icehockey_ahl",
+      "label": "AHL",
+      "group": "hockey",
+      "commence_time": "2026-11-26T03:00:00Z",
+      "game_total": 5.5,
+      "team_totals": {}
     }
   },
   "alerted": [],
