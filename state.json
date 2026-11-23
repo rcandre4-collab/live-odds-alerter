@@ -78,8 +78,11 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 41.5,
+      "team_totals": {
+        "Atlanta Falcons": 16.5,
+        "Minnesota Vikings": 24.5
+      }
     },
     "60d0c074801985c1062795362a24200e": {
       "matchup": "Baltimore Ravens @ Houston Texans",
@@ -120,8 +123,11 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 47.5,
+      "team_totals": {
+        "Jacksonville Jaguars": 31.5,
+        "Tennessee Titans": 15.5
+      }
     },
     "5ea0e3ea5944b0ad5169f21c0787b331": {
       "matchup": "New York Jets @ Miami Dolphins",
@@ -129,8 +135,11 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-29T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 41.0,
+      "team_totals": {
+        "Miami Dolphins": 17.5,
+        "New York Jets": 23.5
+      }
     },
     "c64ceba13ede564e8658693e3171e7f9": {
       "matchup": "New England Patriots @ Los Angeles Chargers",
@@ -156,8 +165,11 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-29T21:25:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 46.5,
+      "team_totals": {
+        "San Francisco 49ers": 24.5,
+        "Seattle Seahawks": 21.5
+      }
     },
     "eaa993c3d62d6b5aeb6142cdd7862fd5": {
       "matchup": "Las Vegas Raiders @ Cleveland Browns",
@@ -273,7 +285,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-27T17:00:00Z",
-      "game_total": 58.5,
+      "game_total": 59.5,
       "team_totals": {
         "Tulsa Golden Hurricane": 28.5,
         "UTSA Roadrunners": 29.5
@@ -477,7 +489,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T17:00:00Z",
-      "game_total": 49.0,
+      "game_total": 47.5,
       "team_totals": {
         "UConn Huskies": 26.5,
         "Wyoming Cowboys": 22.5
@@ -1110,7 +1122,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 229.5,
+      "game_total": 231.0,
       "team_totals": {
         "Philadelphia 76ers": 117.5,
         "Portland Trail Blazers": 114.5
@@ -1134,7 +1146,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 223.0,
+      "game_total": 221.5,
       "team_totals": {
         "Indiana Pacers": 108.5,
         "Oklahoma City Thunder": 113.5
@@ -1146,7 +1158,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 222.0,
+      "game_total": 223.0,
       "team_totals": {
         "Milwaukee Bucks": 106.5,
         "Toronto Raptors": 117.5
@@ -1158,7 +1170,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 239.0,
+      "game_total": 240.5,
       "team_totals": {
         "Chicago Bulls": 116.5,
         "Cleveland Cavaliers": 124.5
@@ -1194,7 +1206,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 227.0,
+      "game_total": 224.5,
       "team_totals": {
         "Los Angeles Lakers": 121.5,
         "Utah Jazz": 106.5
@@ -1242,7 +1254,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T17:30:00Z",
-      "game_total": 146.0,
+      "game_total": 150.0,
       "team_totals": {
         "East Carolina Pirates": 73.5,
         "Indiana St Sycamores": 71.5
@@ -1254,7 +1266,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T18:00:00Z",
-      "game_total": 159.5,
+      "game_total": 160.5,
       "team_totals": {
         "Florida Int'l Golden Panthers": 84.5,
         "Long Beach St 49ers": 75.5
@@ -1278,8 +1290,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T18:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 142.5,
+      "team_totals": {
+        "Charlotte 49ers": 74.5,
+        "Florida Gulf Coast Eagles": 68.5
+      }
     },
     "7672e3ae078a7b505b50f15e46208e4f": {
       "matchup": "Tulsa Golden Hurricane @ Oregon St Beavers",
@@ -1287,7 +1302,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T19:00:00Z",
-      "game_total": 154.0,
+      "game_total": 155.5,
       "team_totals": {
         "Oregon St Beavers": 79.5,
         "Tulsa Golden Hurricane": 73.5
@@ -1311,8 +1326,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T20:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 149.5,
+      "team_totals": {
+        "Middle Tennessee Blue Raiders": 73.5,
+        "Southern Illinois Salukis": 75.5
+      }
     },
     "b1abd9ff77f5dc5c376c08041fae20ea": {
       "matchup": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",
@@ -1320,8 +1338,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T20:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 164.0,
+      "team_totals": {
+        "Arkansas St Red Wolves": 84.5,
+        "Southern Utah Thunderbirds": 79.5
+      }
     },
     "aee64daab1ceefa09aaf0260ed750d53": {
       "matchup": "William & Mary Tribe @ IUPUI Jaguars",
@@ -1329,8 +1350,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T20:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 167.5,
+      "team_totals": {
+        "IUPUI Jaguars": 80.5,
+        "William & Mary Tribe": 86.5
+      }
     },
     "c26aa1b5cbdc588ee415a259da2c6bf4": {
       "matchup": "Yale Bulldogs @ Belmont Bruins",
@@ -1338,7 +1362,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T21:00:00Z",
-      "game_total": 144.0,
+      "game_total": 146.0,
       "team_totals": {
         "Belmont Bruins": 72.5,
         "Yale Bulldogs": 70.5
@@ -1362,7 +1386,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T21:30:00Z",
-      "game_total": 140.5,
+      "game_total": 141.5,
       "team_totals": {
         "Nevada Wolf Pack": 73.5,
         "San Francisco Dons": 66.5
@@ -1374,7 +1398,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T22:00:00Z",
-      "game_total": 166.0,
+      "game_total": 165.0,
       "team_totals": {
         "BYU Cougars": 88.5,
         "Washington Huskies": 76.5
@@ -1386,8 +1410,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T22:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 143.0,
+      "team_totals": {
+        "Temple Owls": 71.5,
+        "Tenn-Martin Skyhawks": 70.5
+      }
     },
     "8234af74a35d1a31b73854d4fd191c64": {
       "matchup": "Maryland-Eastern Shore Hawks @ Youngstown St Penguins",
@@ -1395,8 +1422,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-23T23:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 133.0,
+      "team_totals": {
+        "Maryland-Eastern Shore Hawks": 59.5,
+        "Youngstown St Penguins": 73.5
+      }
     },
     "1af3a5acedbb908ecc006767d288d16b": {
       "matchup": "Central Arkansas Bears @ North Florida Ospreys",
@@ -1404,8 +1434,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 166.5,
+      "team_totals": {
+        "Central Arkansas Bears": 87.5,
+        "North Florida Ospreys": 78.5
+      }
     },
     "c6b930f2b10901f7c145736cde09fd95": {
       "matchup": "Fairleigh Dickinson Knights @ Iona Gaels",
@@ -1413,7 +1446,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
-      "game_total": null,
+      "game_total": 137.0,
       "team_totals": {}
     },
     "120e2421c480efcf51c1aa27d4973187": {
@@ -1422,7 +1455,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
-      "game_total": 166.5,
+      "game_total": 165.5,
       "team_totals": {
         "Georgia Southern Eagles": 81.5,
         "Northern Kentucky Norse": 84.5
@@ -1434,7 +1467,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
-      "game_total": 152.0,
+      "game_total": 150.5,
       "team_totals": {
         "Illinois St Redbirds": 73.5,
         "Santa Clara Broncos": 77.5
@@ -1446,7 +1479,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
-      "game_total": null,
+      "game_total": 148.0,
       "team_totals": {}
     },
     "9fd23b7824675dff70bd989ae6fe4967": {
@@ -1455,7 +1488,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:30:00Z",
-      "game_total": null,
+      "game_total": 143.5,
       "team_totals": {}
     },
     "11782e330b7215a8e2f0e3e4e9a27404": {
@@ -1476,8 +1509,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 181.5,
+      "team_totals": {
+        "Illinois Fighting Illini": 113.5,
+        "Winthrop Eagles": 67.5
+      }
     },
     "5a237fcf6422f6a245d462ba2a6835dc": {
       "matchup": "Monmouth Hawks @ North Carolina Tar Heels",
@@ -1497,8 +1533,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 145.0,
+      "team_totals": {
+        "Stephen F. Austin Lumberjacks": 69.5,
+        "Utah Valley Wolverines": 73.5
+      }
     },
     "bd51dcc9b4ceb556e17992c7f5fe7f75": {
       "matchup": "VCU Rams @ Providence Friars",
@@ -1506,8 +1545,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T02:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 153.0,
+      "team_totals": {
+        "Providence Friars": 77.5,
+        "VCU Rams": 76.5
+      }
     },
     "69e165166aa1f48345e5bdd45029fb18": {
       "matchup": "UNC Greensboro Spartans @ Pepperdine Waves",
@@ -1515,7 +1557,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T02:30:00Z",
-      "game_total": 155.5,
+      "game_total": 156.0,
       "team_totals": {
         "Pepperdine Waves": 82.5,
         "UNC Greensboro Spartans": 72.5
@@ -1527,8 +1569,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T03:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 143.5,
+      "team_totals": {
+        "Alabama St Hornets": 61.5,
+        "California Golden Bears": 80.5
+      }
     },
     "8236efa27962bd6d4b110bb43e861b07": {
       "matchup": "Eastern Washington Eagles @ UNLV Rebels",
@@ -1644,7 +1689,7 @@
       "label": "NHL",
       "group": "hockey",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 6.0,
+      "game_total": 5.5,
       "team_totals": {
         "Calgary Flames": 2.5,
         "Ottawa Senators": 3.5
@@ -1704,7 +1749,7 @@
       "label": "NHL",
       "group": "hockey",
       "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 6.0,
+      "game_total": 6.5,
       "team_totals": {
         "Minnesota Wild": 3.5,
         "San Jose Sharks": 2.5
@@ -1797,7 +1842,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T17:00:00Z",
-      "game_total": null,
+      "game_total": 183.5,
       "team_totals": {}
     },
     "d563569f19780b306d14d3c29b67f3bf": {
@@ -1806,7 +1851,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T18:00:00Z",
-      "game_total": null,
+      "game_total": 172.5,
       "team_totals": {}
     },
     "6bcef0e5f7b2a021b7e07514cdfa6493": {
@@ -1815,7 +1860,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T19:00:00Z",
-      "game_total": null,
+      "game_total": 180.5,
       "team_totals": {}
     },
     "767cda572a9aefe0c057a4fe3199dfa4": {
@@ -1824,7 +1869,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T19:30:00Z",
-      "game_total": null,
+      "game_total": 174.5,
       "team_totals": {}
     },
     "1707b8c728b9116472624aa8178ebfce": {
@@ -1833,7 +1878,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T19:45:00Z",
-      "game_total": null,
+      "game_total": 175.5,
       "team_totals": {}
     },
     "0f9b0defd0a6c9603d7c70e7962bb628": {
@@ -1842,7 +1887,7 @@
       "label": "EuroLeague",
       "group": "big",
       "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": null,
+      "game_total": 171.0,
       "team_totals": {}
     },
     "40589eed5e6894d5b8598ee721b9d57b": {
@@ -2033,8 +2078,154 @@
       "commence_time": "2026-11-25T18:00:00Z",
       "game_total": null,
       "team_totals": {}
+    },
+    "cac32b9a0db74c5e4ff90ebbbbcaab93": {
+      "matchup": "Loyola (Chi) Ramblers @ Seattle Redhawks",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T02:30:00Z",
+      "game_total": 141.0,
+      "team_totals": {
+        "Loyola (Chi) Ramblers": 69.5,
+        "Seattle Redhawks": 70.5
+      }
+    },
+    "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
+      "matchup": "San Jos\u00e9 St Spartans @ UC San Diego Tritons",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T04:59:00Z",
+      "game_total": 157.0,
+      "team_totals": {
+        "San Jos\u00e9 St Spartans": 77.5,
+        "UC San Diego Tritons": 79.5
+      }
+    },
+    "2e5836722778ca286bd0f738b36f4173": {
+      "matchup": "Alcorn St Braves @ Michigan St Spartans",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T17:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "aeaffe1a8d784f8038b665c6b08f5547": {
+      "matchup": "Middle Tennessee Blue Raiders @ Oregon St Beavers",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T17:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "ee7517427fd108585ccddfb59157032a": {
+      "matchup": "Utah Utes @ Iowa Hawkeyes",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T18:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "ec3a462b47b984b2c23bf3d6a148a689": {
+      "matchup": "Virginia Cavaliers @ Oklahoma Sooners",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T19:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "44b995c2760fd0343f13dec05e3b903e": {
+      "matchup": "Virginia Tech Hokies @ Tenn-Martin Skyhawks",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T19:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "247e3cf7312de50688ae42ae038ce15f": {
+      "matchup": "Michigan Wolverines @ Miami Hurricanes",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T21:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "33bdfb711e4edfd26eaaba0e3713da7b": {
+      "matchup": "Vanderbilt Commodores @ Arizona Wildcats",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T22:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "cc517255abb7d21d93e616b9c420135f": {
+      "matchup": "Wofford Terriers @ Wake Forest Demon Deacons",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-23T23:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "d6ef1c00481fb8a852aa61a9430fc6b1": {
+      "matchup": "Belmont Bruins @ LSU Tigers",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-24T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "44a504d58b9668e80ca7afd25e294171": {
+      "matchup": "Northern Arizona Lumberjacks @ USC Trojans",
+      "sport": "basketball_wncaab",
+      "label": "WNCAAB Women",
+      "group": "big",
+      "commence_time": "2026-11-24T03:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "155fbdda10b6474a41649023baadfdf3": {
+      "matchup": "Vegas Golden Knights @ Edmonton Oilers",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
     }
   },
   "alerted": [],
-  "checkpoints": {}
+  "checkpoints": {
+    "435ce8aaf2de67393a436fc9bf8c956e": {
+      "h1": {
+        "elapsed_min": 56,
+        "game_total": 123.5,
+        "team_totals": {
+          "Appalachian St Mountaineers": 68.5,
+          "St. Bonaventure Bonnies": 71.5
+        },
+        "at": "2026-11-23T16:55:54.560914+00:00"
+      }
+    },
+    "98a0b4549739cc028ffa9665d77d7ffd": {
+      "h1": {
+        "elapsed_min": 56,
+        "game_total": 133.5,
+        "team_totals": {
+          "Davidson Wildcats": 76.5,
+          "Northern Iowa Panthers": 69.5
+        },
+        "at": "2026-11-23T16:55:54.560914+00:00"
+      }
+    }
+  }
 }
