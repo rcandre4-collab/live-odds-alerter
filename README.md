@@ -1,4 +1,4 @@
-# Live Odds Total Monitor v4.3 — expanded + Q1 / halftime checkpoints
+# Live Odds Total Monitor v4.4 — expanded + Q1 / halftime checkpoints
 
 ## What it watches
 
@@ -47,9 +47,10 @@ If you need ACB / DEL / KHL, you'd need a second provider — The Odds API can't
 
 1 credit per region per market. Game totals: `eu` × `totals` = 1 credit per sport per run.
 
-- 15 sports = **15 credits/run** for game totals
-- Every 20 min = 45/hour, **1,080/day** if all 15 are in season
-- Team totals cost extra: 1 credit per event fetched. Pregame team totals are fetched once per event and cached in `state.json`, so upcoming games cost ~1 credit each, once. Live games cost 1 credit per live event per run, only while they are live.
+**The alert checks cost $0 extra.** A NEAR/HIT check — game total near 20 pts, team total near 15 pts (football/basketball), hockey game/team total near 2 goals, up or down — is just a comparison of the totals already fetched in that run. No extra API call is made for it. So the burn below *is* the cost of checking those moves.
+
+- v4.4 (30-minute polls, game hours 11:00–01:30 EST only): game totals ~11 leagues × ~29 runs/day = ~320/day; pregame team totals ~50/day; live team totals ~150/day; **total ~500/day, so 20,000 credits last ~38 days**.
+- Before v4.4 (20-minute polls, 24/7): 15 sports = **15 credits/run** for game totals, 45/hour, **1,080/day** if all 15 are in season, plus team totals — roughly 1,000/day total, so 20,000 credits lasted ~20 days.
 - Period totals (v4, dropped in v4.1): 5 credits per event, once, for the pregame Q1/H1 + team Q1/H1 lines — too fast on big slates. Checkpoints themselves cost $0 extra.
 - The script first calls `/v4/sports` (free) and only polls in-season leagues, so offseason leagues cost $0. That helps a lot in summer/winter, but in-season you'll still burn a paid tier fast.
 
@@ -72,5 +73,5 @@ Live totals naturally drift down as the clock runs down — a hockey total dropp
 
 ## Files
 
-- `monitor.py` — the monitor (v4.3, this file's logic)
-- `.github/workflows/poll_odds.yml` — runs it every 20 minutes, commits `state.json`
+- `monitor.py` — the monitor (v4.4, this file's logic)
+- `.github/workflows/poll_odds.yml` — runs it every 30 minutes, game hours only (the script also exits outside 11:00–01:30 EST), commits `state.json`
