@@ -1,4 +1,4 @@
-# Live Odds Total Monitor v2 — expanded
+# Live Odds Total Monitor v3 — expanded
 
 ## What it watches
 
@@ -19,16 +19,17 @@ Checked against The Odds API's official sports list:
 
 - **Overseas basketball:** the API only has **EuroLeague and NBL (Australia)**. There is no Spain ACB, Italy, Germany BBL, Turkey, China CBA, EuroCup, or women's EuroLeague key. The only women's basketball keys are WNBA and WNCAAB.
 - **Other hockey:** the API only has **Liiga, SHL, and HockeyAllsvenskan** (plus thin Mestis, commented out in the script). There is no DEL, Swiss NL, Czech Extraliga, or KHL key.
-- **Team totals:** The Odds API lists `team_totals` as an additional market, mainly for US sports / selected bookmakers. It often won't come back for hockey or overseas leagues at sport level. The script asks for it anyway, uses it when present, and logs when a league returns events but no team totals. Game totals work for all leagues listed.
+- **Team totals:** The Odds API lists `team_totals` as an additional market, mainly for US sports / selected bookmakers. It is **not** available at sport level — asking the sport-level `/odds` endpoint for it returns 422 INVALID_MARKET for every league. v3 fetches game totals at sport level and team totals one event at a time via `/events/{eventId}/odds`. It often still won't come back for hockey or overseas leagues, even per event. The script uses it when present, and logs when a league returns events but no team totals. Game totals work for all leagues listed.
 
 If you need ACB / DEL / KHL, you'd need a second provider — The Odds API can't supply them.
 
 ## Credit math — this is the big problem with 15 leagues
 
-1 credit per region per market. Default: `eu` × `totals,team_totals` = 2 credits per sport per run.
+1 credit per region per market. Game totals: `eu` × `totals` = 1 credit per sport per run.
 
-- 15 sports = **30 credits/run**
-- Every 20 min = 90/hour, **2,160/day** if all 15 are in season (4x cheaper than 5-min polling)
+- 15 sports = **15 credits/run** for game totals
+- Every 20 min = 45/hour, **1,080/day** if all 15 are in season
+- Team totals cost extra: 1 credit per event fetched. Pregame team totals are fetched once per event and cached in `state.json`, so upcoming games cost ~1 credit each, once. Live games cost 1 credit per live event per run, only while they are live.
 - The script first calls `/v4/sports` (free) and only polls in-season leagues, so offseason leagues cost $0. That helps a lot in summer/winter, but in-season you'll still burn a paid tier fast.
 
 To fit a budget, in `monitor.py`:
@@ -50,5 +51,5 @@ Live totals naturally drift down as the clock runs down — a hockey total dropp
 
 ## Files
 
-- `monitor.py` — the monitor (v2, this file's logic)
+- `monitor.py` — the monitor (v3, this file's logic)
 - `.github/workflows/poll_odds.yml` — runs it every 20 minutes, commits `state.json`
