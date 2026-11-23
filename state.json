@@ -1,4 +1,2682 @@
 {
-  "pregame": {},
-  "alerted": []
+  "pregame": {
+    "3a60ed1d20004aa4d4772b2c1a2272e7": {
+      "matchup": "Cincinnati Bengals @ Washington Commanders",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-24T01:15:00Z",
+      "game_total": 55.0,
+      "team_totals": {
+        "Cincinnati Bengals": 29.5,
+        "Washington Commanders": 23.5
+      },
+      "period_totals": {
+        "totals_q1": 10.0,
+        "totals_h1": 27.0,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5b612899d6dcdf998107f2c6c6e49a58": {
+      "matchup": "Green Bay Packers @ Los Angeles Rams",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-26T01:00:00Z",
+      "game_total": 44.5,
+      "team_totals": {
+        "Green Bay Packers": 21.5,
+        "Los Angeles Rams": 24.5
+      },
+      "period_totals": {
+        "totals_q1": 9.5,
+        "totals_h1": 23.0,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "9b825e6518156008da499be041975fdd": {
+      "matchup": "Chicago Bears @ Detroit Lions",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "game_total": 55.5,
+      "team_totals": {
+        "Chicago Bears": 28.5,
+        "Detroit Lions": 27.5
+      },
+      "period_totals": {
+        "totals_q1": 10.5,
+        "totals_h1": 27.5,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "ffaa06af56a7137d4b078c5c46c0b730": {
+      "matchup": "Philadelphia Eagles @ Dallas Cowboys",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-26T21:30:00Z",
+      "game_total": 47.5,
+      "team_totals": {
+        "Dallas Cowboys": 28.5,
+        "Philadelphia Eagles": 19.5
+      },
+      "period_totals": {
+        "totals_q1": 9.5,
+        "totals_h1": 24.0,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f36f518585aec40e8cb40e071c0844aa": {
+      "matchup": "Kansas City Chiefs @ Buffalo Bills",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-27T01:20:00Z",
+      "game_total": 50.0,
+      "team_totals": {
+        "Buffalo Bills": 26.5,
+        "Kansas City Chiefs": 23.5
+      },
+      "period_totals": {
+        "totals_q1": 9.5,
+        "totals_h1": 24.5,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "44a3bcf5bd002583ddef2207a92dd977": {
+      "matchup": "Denver Broncos @ Pittsburgh Steelers",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "game_total": 38.0,
+      "team_totals": {
+        "Denver Broncos": 20.5,
+        "Pittsburgh Steelers": 18.5
+      },
+      "period_totals": {
+        "totals_q1": 7.0,
+        "totals_h1": 19.5,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "6a05021bdb6bab24b9bb381ffff10f0c": {
+      "matchup": "Atlanta Falcons @ Minnesota Vikings",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "60d0c074801985c1062795362a24200e": {
+      "matchup": "Baltimore Ravens @ Houston Texans",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "game_total": 46.5,
+      "team_totals": {
+        "Baltimore Ravens": 19.5,
+        "Houston Texans": 27.5
+      },
+      "period_totals": {
+        "totals_q1": 9.5,
+        "totals_h1": 23.5,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f7d3ae7a8fe2438cef7d7d7bc67e31db": {
+      "matchup": "New Orleans Saints @ Cincinnati Bengals",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e9da808e36e1b7475698a57465ad4519": {
+      "matchup": "New York Giants @ Indianapolis Colts",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "game_total": 42.0,
+      "team_totals": {
+        "Indianapolis Colts": 16.5,
+        "New York Giants": 24.5
+      },
+      "period_totals": {
+        "totals_q1": 7.5,
+        "totals_h1": 20.5,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "81a8fee5b649a3ad5ad59e9528f2f376": {
+      "matchup": "Tennessee Titans @ Jacksonville Jaguars",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5ea0e3ea5944b0ad5169f21c0787b331": {
+      "matchup": "New York Jets @ Miami Dolphins",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T18:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c64ceba13ede564e8658693e3171e7f9": {
+      "matchup": "New England Patriots @ Los Angeles Chargers",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T21:05:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "69a1dbe9de3d3212c3a7a55be5d204ab": {
+      "matchup": "Washington Commanders @ Arizona Cardinals",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T21:25:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "d68dced0b26726890b9c79bd19a5ffe5": {
+      "matchup": "Seattle Seahawks @ San Francisco 49ers",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-29T21:25:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "eaa993c3d62d6b5aeb6142cdd7862fd5": {
+      "matchup": "Las Vegas Raiders @ Cleveland Browns",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-11-30T01:20:00Z",
+      "game_total": 40.5,
+      "team_totals": {
+        "Cleveland Browns": 23.5,
+        "Las Vegas Raiders": 17.5
+      },
+      "period_totals": {
+        "totals_q1": 7.5,
+        "totals_h1": 20.5,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "2cdaecba7c0bff9b58a48a82e6ee17a7": {
+      "matchup": "Carolina Panthers @ Tampa Bay Buccaneers",
+      "sport": "americanfootball_nfl",
+      "label": "NFL",
+      "group": "big",
+      "commence_time": "2026-12-01T01:15:00Z",
+      "game_total": 43.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "4814277a6e26955eb1df064fed7a3bcb": {
+      "matchup": "Kent State Golden Flashes @ Eastern Michigan Eagles",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": 45.5,
+      "team_totals": {
+        "Eastern Michigan Eagles": 25.5,
+        "Kent State Golden Flashes": 20.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a82769fe54a0f8c714667b8720b67449": {
+      "matchup": "Miami (OH) RedHawks @ Western Michigan Broncos",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": 45.5,
+      "team_totals": {
+        "Miami (OH) RedHawks": 19.5,
+        "Western Michigan Broncos": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b39108d2cfcd62d29954aee80bbf7b51": {
+      "matchup": "TCU Horned Frogs @ Texas Tech Red Raiders",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T01:00:00Z",
+      "game_total": 46.5,
+      "team_totals": {
+        "TCU Horned Frogs": 17.5,
+        "Texas Tech Red Raiders": 28.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e0b30f1dada22d4a2565ce663bc0741a": {
+      "matchup": "Buffalo Bulls @ Akron Zips",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "game_total": 50.5,
+      "team_totals": {
+        "Akron Zips": 20.5,
+        "Buffalo Bulls": 29.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "8fc8552ec633bb09ca2bcb9b15cb6896": {
+      "matchup": "Nebraska Cornhuskers @ Iowa Hawkeyes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "game_total": 40.0,
+      "team_totals": {
+        "Iowa Hawkeyes": 22.5,
+        "Nebraska Cornhuskers": 17.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5b00e6b226dce4274d819d5d1818e703": {
+      "matchup": "Mississippi State Bulldogs @ Ole Miss Rebels",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "game_total": 56.5,
+      "team_totals": {
+        "Mississippi State Bulldogs": 18.5,
+        "Ole Miss Rebels": 37.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "58cd1284193cd30679325c8494f546e6": {
+      "matchup": "Toledo Rockets @ Ohio Bobcats",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "game_total": 49.5,
+      "team_totals": {
+        "Ohio Bobcats": 23.5,
+        "Toledo Rockets": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "1f0a9e7f76830b196133518ae01bb113": {
+      "matchup": "Tulsa Golden Hurricane @ UTSA Roadrunners",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "game_total": 58.5,
+      "team_totals": {
+        "Tulsa Golden Hurricane": 28.5,
+        "UTSA Roadrunners": 29.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a72c11afb95ca2c2eb057c7f2a8e376b": {
+      "matchup": "Appalachian State Mountaineers @ South Alabama Jaguars",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "game_total": 56.5,
+      "team_totals": {
+        "Appalachian State Mountaineers": 27.5,
+        "South Alabama Jaguars": 29.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "6a08fbc3f2fce16533f36dccc4dce347": {
+      "matchup": "Florida Gators @ Florida State Seminoles",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T20:30:00Z",
+      "game_total": 52.5,
+      "team_totals": {
+        "Florida Gators": 28.5,
+        "Florida State Seminoles": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a750f21dccb9df459196adc8dcf5ffe4": {
+      "matchup": "Temple Owls @ Memphis Tigers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T20:30:00Z",
+      "game_total": 64.5,
+      "team_totals": {
+        "Memphis Tigers": 41.5,
+        "Temple Owls": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5fc40a6a68f1652a38d2844a90358df2": {
+      "matchup": "North Dakota State Bison @ San Jose State Spartans",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T20:30:00Z",
+      "game_total": 40.0,
+      "team_totals": {
+        "North Dakota State Bison": 24.5,
+        "San Jose State Spartans": 14.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "45d4d87e236a38e2feb11f57820ff03f": {
+      "matchup": "Air Force Falcons @ New Mexico Lobos",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-27T21:30:00Z",
+      "game_total": 41.5,
+      "team_totals": {
+        "Air Force Falcons": 16.5,
+        "New Mexico Lobos": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e6a3c909a8cfc7b2c666252e246418c7": {
+      "matchup": "Minnesota Golden Gophers @ Wisconsin Badgers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T00:30:00Z",
+      "game_total": 37.5,
+      "team_totals": {
+        "Minnesota Golden Gophers": 14.5,
+        "Wisconsin Badgers": 22.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "4c69ecf41bb2d36dfeedeae23acc5b86": {
+      "matchup": "Texas Longhorns @ Texas A&M Aggies",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T00:30:00Z",
+      "game_total": 40.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "bee4ea7a231be77b1ee52ddf3755592f": {
+      "matchup": "West Virginia Mountaineers @ Utah Utes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T02:00:00Z",
+      "game_total": 68.5,
+      "team_totals": {
+        "Utah Utes": 44.5,
+        "West Virginia Mountaineers": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c074c1d28d172e0eb521dbb9d530462f": {
+      "matchup": "Central Michigan Chippewas @ Ball State Cardinals",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 47.5,
+      "team_totals": {
+        "Ball State Cardinals": 21.5,
+        "Central Michigan Chippewas": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f670302d6ba6369545091e20bac24107": {
+      "matchup": "Boston College Eagles @ Miami Hurricanes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 53.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "bdf272babe96ca5f2c4ad03eea790eb2": {
+      "matchup": "Navy Midshipmen @ Charlotte 49ers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 55.5,
+      "team_totals": {
+        "Charlotte 49ers": 19.5,
+        "Navy Midshipmen": 35.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "2c9b4d03409441b9f41fed25a4801d2b": {
+      "matchup": "Louisiana Tech Bulldogs @ Georgia Southern Eagles",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 52.5,
+      "team_totals": {
+        "Georgia Southern Eagles": 27.5,
+        "Louisiana Tech Bulldogs": 25.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "735be3d0a18e8d57cc515971a6735c7d": {
+      "matchup": "Louisville Cardinals @ Kentucky Wildcats",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 54.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "426658869d8f93e891cad97029725975": {
+      "matchup": "Michigan Wolverines @ Ohio State Buckeyes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 38.5,
+      "team_totals": {
+        "Michigan Wolverines": 13.5,
+        "Ohio State Buckeyes": 24.5
+      },
+      "period_totals": {
+        "totals_q1": 7.5,
+        "totals_h1": 20.0,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a35f041e96e693eba5737ef05a57c4db": {
+      "matchup": "NC State Wolfpack @ North Carolina Tar Heels",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 55.0,
+      "team_totals": {
+        "NC State Wolfpack": 24.5,
+        "North Carolina Tar Heels": 30.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c58a68d46da0d0748169156702f9b4d5": {
+      "matchup": "Notre Dame Fighting Irish @ Syracuse Orange",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 53.0,
+      "team_totals": {
+        "Notre Dame Fighting Irish": 38.5,
+        "Syracuse Orange": 13.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "57d6254e2054bb1e269219b1ef8b6ab7": {
+      "matchup": "UConn Huskies @ Wyoming Cowboys",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:00:00Z",
+      "game_total": 49.0,
+      "team_totals": {
+        "UConn Huskies": 26.5,
+        "Wyoming Cowboys": 22.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "591a88cc16d9c5830bef16d7f522bc8a": {
+      "matchup": "Illinois Fighting Illini @ Northwestern Wildcats",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:30:00Z",
+      "game_total": 49.5,
+      "team_totals": {
+        "Illinois Fighting Illini": 23.5,
+        "Northwestern Wildcats": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c8b7cbe64e2914e579ab55c34db57da2": {
+      "matchup": "LSU Tigers @ Arkansas Razorbacks",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T17:45:00Z",
+      "game_total": 48.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "2981442fcc9375220d0f7959bcd9c084": {
+      "matchup": "Florida Atlantic Owls @ East Carolina Pirates",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T18:00:00Z",
+      "game_total": 55.5,
+      "team_totals": {
+        "East Carolina Pirates": 28.5,
+        "Florida Atlantic Owls": 27.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "1dc37c1023af4b0f098c76640445ae2e": {
+      "matchup": "Kennesaw State Owls @ Western Kentucky Hilltoppers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T18:00:00Z",
+      "game_total": 54.5,
+      "team_totals": {
+        "Kennesaw State Owls": 28.5,
+        "Western Kentucky Hilltoppers": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b59311f602e67a25e81604f9b895a8b1": {
+      "matchup": "Marshall Thundering Herd @ UL Monroe Warhawks",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T18:00:00Z",
+      "game_total": 50.5,
+      "team_totals": {
+        "Marshall Thundering Herd": 27.5,
+        "UL Monroe Warhawks": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a89bafbbfbc300c0005e20bfb7acfb90": {
+      "matchup": "Southern Mississippi Golden Eagles @ Old Dominion Monarchs",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T18:00:00Z",
+      "game_total": 51.0,
+      "team_totals": {
+        "Old Dominion Monarchs": 27.5,
+        "Southern Mississippi Golden Eagles": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "559227d3ba70769111dd09490258af44": {
+      "matchup": "Army Black Knights @ Rice Owls",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 48.5,
+      "team_totals": {
+        "Army Black Knights": 27.5,
+        "Rice Owls": 20.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7ce20f289047e13b13c4a6517b10a4c2": {
+      "matchup": "Coastal Carolina Chanticleers @ James Madison Dukes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 56.0,
+      "team_totals": {
+        "Coastal Carolina Chanticleers": 20.5,
+        "James Madison Dukes": 35.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e82b8ac931ff74f03744aa4ae6072a51": {
+      "matchup": "UCF Knights @ Colorado Buffaloes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 51.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "6530923d9380b559b3c0b49b4f770e5f": {
+      "matchup": "Sam Houston State Bearkats @ Florida International Panthers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 41.5,
+      "team_totals": {
+        "Florida International Panthers": 26.5,
+        "Sam Houston State Bearkats": 14.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c424e58ad3ce3e391a33c0495aa52690": {
+      "matchup": "Louisiana Ragin Cajuns @ Georgia State Panthers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 56.5,
+      "team_totals": {
+        "Georgia State Panthers": 25.5,
+        "Louisiana Ragin Cajuns": 30.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "61a2b3c7f905b33b86e1ea178a885325": {
+      "matchup": "Kansas State Wildcats @ Iowa State Cyclones",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 55.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a0fe49c990d1497e1cb34eb9c2b73ef1": {
+      "matchup": "Liberty Flames @ Missouri State Bears",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 52.0,
+      "team_totals": {
+        "Liberty Flames": 33.5,
+        "Missouri State Bears": 17.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "200466f41d944b2706e404635298ebf6": {
+      "matchup": "New Mexico State Aggies @ Middle Tennessee Blue Raiders",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T19:00:00Z",
+      "game_total": 52.5,
+      "team_totals": {
+        "Middle Tennessee Blue Raiders": 27.5,
+        "New Mexico State Aggies": 24.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5f57756fa0d07d889a7a6727b6f5da2d": {
+      "matchup": "Troy Trojans @ Arkansas State Red Wolves",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:00:00Z",
+      "game_total": 46.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7da02c5fd7efe20c2f61f665def9cbef": {
+      "matchup": "South Carolina Gamecocks @ Clemson Tigers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:00:00Z",
+      "game_total": 41.0,
+      "team_totals": {
+        "Clemson Tigers": 17.5,
+        "South Carolina Gamecocks": 22.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f6a2121d820ed6135db2f9ea131c3115": {
+      "matchup": "Virginia Cavaliers @ Virginia Tech Hokies",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:00:00Z",
+      "game_total": 52.0,
+      "team_totals": {
+        "Virginia Cavaliers": 24.5,
+        "Virginia Tech Hokies": 27.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7677bcc8f40717d8275f5fe3b5f5fb0e": {
+      "matchup": "Cincinnati Bearcats @ BYU Cougars",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 56.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b34efc2b710eb260f25df93e02c86a0e": {
+      "matchup": "UMass Minutemen @ Bowling Green Falcons",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 44.0,
+      "team_totals": {
+        "Bowling Green Falcons": 23.5,
+        "UMass Minutemen": 20.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "be399d75e553dc20697cf8f734b0f233": {
+      "matchup": "Jacksonville State Gamecocks @ Delaware Blue Hens",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 58.0,
+      "team_totals": {
+        "Delaware Blue Hens": 30.5,
+        "Jacksonville State Gamecocks": 27.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "4a15b4432ef52d1717887e5badfdc0e3": {
+      "matchup": "Duke Blue Devils @ Wake Forest Demon Deacons",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 55.5,
+      "team_totals": {
+        "Duke Blue Devils": 20.5,
+        "Wake Forest Demon Deacons": 34.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "483beae9e865229fff02f961536b181e": {
+      "matchup": "Georgia Tech Yellow Jackets @ Georgia Bulldogs",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 56.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a57feac04a5d9404de66cd40c004fa51": {
+      "matchup": "Penn State Nittany Lions @ Maryland Terrapins",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 50.5,
+      "team_totals": {
+        "Maryland Terrapins": 21.5,
+        "Penn State Nittany Lions": 28.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "eb0172d64d648f5f0697ee382c039564": {
+      "matchup": "UTEP Miners @ Northern Illinois Huskies",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 48.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e55fde0bfbebc4cfd4ccc010b0e858b4": {
+      "matchup": "SMU Mustangs @ Stanford Cardinal",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 61.0,
+      "team_totals": {
+        "SMU Mustangs": 34.5,
+        "Stanford Cardinal": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "20a5e90b65e1fec4a7be4a08260234a4": {
+      "matchup": "Tulane Green Wave @ South Florida Bulls",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 43.0,
+      "team_totals": {
+        "South Florida Bulls": 24.5,
+        "Tulane Green Wave": 17.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "ab91c66dfce2e452eb546cde1cf61879": {
+      "matchup": "USC Trojans @ UCLA Bruins",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T20:30:00Z",
+      "game_total": 46.0,
+      "team_totals": {
+        "UCLA Bruins": 19.5,
+        "USC Trojans": 26.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7e42ee2b96752d8e1bc6fab8c0ad998f": {
+      "matchup": "UAB Blazers @ North Texas Mean Green",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T21:00:00Z",
+      "game_total": 48.0,
+      "team_totals": {
+        "North Texas Mean Green": 25.5,
+        "UAB Blazers": 22.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "0ebe196ce469f86aba61ded8de5fe9a8": {
+      "matchup": "Michigan State Spartans @ Rutgers Scarlet Knights",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T21:15:00Z",
+      "game_total": 48.0,
+      "team_totals": {
+        "Michigan State Spartans": 25.5,
+        "Rutgers Scarlet Knights": 21.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f77049eaeb5b3c0945c4bc2790dda6e6": {
+      "matchup": "Oklahoma Sooners @ Missouri Tigers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T21:15:00Z",
+      "game_total": 41.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "fc256824e407a09580ec73661749dc2e": {
+      "matchup": "Boise State Broncos @ Colorado State Rams",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T23:00:00Z",
+      "game_total": 77.0,
+      "team_totals": {
+        "Boise State Broncos": 49.5,
+        "Colorado State Rams": 27.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "2e180a350fe1c67db1b12cf36a1c1324": {
+      "matchup": "Kansas Jayhawks @ Oklahoma State Cowboys",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T23:15:00Z",
+      "game_total": 67.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "6f8b860fa7f8ce3ef4dd841450840e5f": {
+      "matchup": "San Diego State Aztecs @ Washington State Cougars",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-28T23:30:00Z",
+      "game_total": 45.5,
+      "team_totals": {
+        "San Diego State Aztecs": 23.5,
+        "Washington State Cougars": 21.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7f3768e75aa0ea31e6a30cff6cf631be": {
+      "matchup": "Purdue Boilermakers @ Indiana Hoosiers",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T00:00:00Z",
+      "game_total": 52.0,
+      "team_totals": {
+        "Indiana Hoosiers": 37.5,
+        "Purdue Boilermakers": 14.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "0a1027a4edb364b492a3fee67086e8bc": {
+      "matchup": "Tennessee Volunteers @ Vanderbilt Commodores",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T00:00:00Z",
+      "game_total": 43.0,
+      "team_totals": {
+        "Tennessee Volunteers": 27.5,
+        "Vanderbilt Commodores": 15.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5f74ef6944e660a91381ecf388633c69": {
+      "matchup": "Auburn Tigers @ Alabama Crimson Tide",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T00:30:00Z",
+      "game_total": 48.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a61934112cd5b5c35c2887f1365af5ec": {
+      "matchup": "Pittsburgh Panthers @ California Golden Bears",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T00:30:00Z",
+      "game_total": 47.5,
+      "team_totals": {
+        "California Golden Bears": 19.5,
+        "Pittsburgh Panthers": 28.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "6474599b7377102869153e25af140533": {
+      "matchup": "Washington Huskies @ Oregon Ducks",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T00:30:00Z",
+      "game_total": 49.5,
+      "team_totals": {
+        "Oregon Ducks": 31.5,
+        "Washington Huskies": 17.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f825e4c4d512e1c0a6db6ac7d8bc0326": {
+      "matchup": "Arizona State Sun Devils @ Arizona Wildcats",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T02:00:00Z",
+      "game_total": 54.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a2ecd43208cb856c8d882906463fdbec": {
+      "matchup": "Nevada Wolf Pack @ UNLV Rebels",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T02:00:00Z",
+      "game_total": 43.5,
+      "team_totals": {
+        "Nevada Wolf Pack": 19.5,
+        "UNLV Rebels": 23.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "3ed1c65f3b2b8392d0ca7c806c559898": {
+      "matchup": "Baylor Bears @ Houston Cougars",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T02:30:00Z",
+      "game_total": 55.5,
+      "team_totals": {
+        "Baylor Bears": 24.5,
+        "Houston Cougars": 30.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "8e7c8bc1e0c6b7514f811010faaec76d": {
+      "matchup": "Texas State Bobcats @ Utah State Aggies",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T02:30:00Z",
+      "game_total": 52.5,
+      "team_totals": {
+        "Texas State Bobcats": 29.5,
+        "Utah State Aggies": 22.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "59c0c40d83de9865c9f8da6344349353": {
+      "matchup": "Oregon State Beavers @ Fresno State Bulldogs",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T03:00:00Z",
+      "game_total": 57.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "bf095bfbd7595f50c6a6062add4655f6": {
+      "matchup": "Sacramento State Hornets @ Hawaii Rainbow Warriors",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-11-29T04:00:00Z",
+      "game_total": 39.0,
+      "team_totals": {
+        "Hawaii Rainbow Warriors": 26.5,
+        "Sacramento State Hornets": 13.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a91ec7ebf1a48ebc073c185bcc4feff5": {
+      "matchup": "San Diego State Aztecs @ Boise State Broncos",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-12-05T01:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7343d0c535f8836e761813fdfa88c9f1": {
+      "matchup": "Wake Forest Demon Deacons @ Miami Hurricanes",
+      "sport": "americanfootball_ncaaf",
+      "label": "NCAAF",
+      "group": "big",
+      "commence_time": "2026-12-05T17:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "1f6512829a11001843fb2aa5530a27c3": {
+      "matchup": "Albany @ Lehigh Mountain Hawks",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T17:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "79d154dc2abbad4e1c65bf920efba621": {
+      "matchup": "Idaho State Bengals @ North Dakota Fighting Hawks",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T18:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "be50754434a73067345e9ab98fad4972": {
+      "matchup": "Dayton Flyers @ Tennessee Tech Golden Eagles",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T19:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5a0be3dccdc1d67121da33bb4eae4be8": {
+      "matchup": "Grambling State Tigers @ Southern University Jaguars",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T19:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "d9ee2d8c47415764946937737ca1637d": {
+      "matchup": "Western Illinois Leathernecks @ Weber State Wildcats",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T20:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "0ec17339099086ffb11555b508e8dcd8": {
+      "matchup": "Austin Peay Governors @ Illinois State Redbirds",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T21:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "ce637e4a9adbe5310db2440a8c3f1547": {
+      "matchup": "LIU Sharks @ Northern Arizona Lumberjacks",
+      "sport": "americanfootball_ncaaf_fcs",
+      "label": "NCAAF FCS",
+      "group": "big",
+      "commence_time": "2026-11-28T21:01:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "35ca45d3e548dc7207fd7f1696ab16f5": {
+      "matchup": "Memphis Grizzlies @ Charlotte Hornets",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T00:10:00Z",
+      "game_total": 216.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "ac6fb079d66ef35a2a77e22b5e94ef8d": {
+      "matchup": "Portland Trail Blazers @ Philadelphia 76ers",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T00:10:00Z",
+      "game_total": 232.0,
+      "team_totals": {
+        "Philadelphia 76ers": 117.5,
+        "Portland Trail Blazers": 114.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a72a1703f7a92b80768255d1d977a761": {
+      "matchup": "Brooklyn Nets @ Minnesota Timberwolves",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 222.5,
+      "team_totals": {
+        "Brooklyn Nets": 105.5,
+        "Minnesota Timberwolves": 117.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c9b6c9f77fd3628308dd34f50854a9c0": {
+      "matchup": "Oklahoma City Thunder @ Indiana Pacers",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 223.0,
+      "team_totals": {
+        "Indiana Pacers": 108.5,
+        "Oklahoma City Thunder": 113.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a5184238c27b9c3bfca29220f9d5d14a": {
+      "matchup": "Milwaukee Bucks @ Toronto Raptors",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 224.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b8dfee1fca57ec870528a14c792ad73a": {
+      "matchup": "Cleveland Cavaliers @ Chicago Bulls",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T01:10:00Z",
+      "game_total": 240.5,
+      "team_totals": {
+        "Chicago Bulls": 116.5,
+        "Cleveland Cavaliers": 124.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "6caeb7cce7c8340fed588f3badd83fe0": {
+      "matchup": "Phoenix Suns @ New Orleans Pelicans",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T01:10:00Z",
+      "game_total": 233.0,
+      "team_totals": {
+        "New Orleans Pelicans": 115.5,
+        "Phoenix Suns": 117.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "db2311c331296d3328d71b842167dea4": {
+      "matchup": "Los Angeles Clippers @ Houston Rockets",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T01:40:00Z",
+      "game_total": 224.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "3e9dc52cb055c0154839c4aec417955b": {
+      "matchup": "Utah Jazz @ Los Angeles Lakers",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T03:10:00Z",
+      "game_total": 227.5,
+      "team_totals": {
+        "Los Angeles Lakers": 121.5,
+        "Utah Jazz": 106.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "17f31499f145cd9d3232819395d29448": {
+      "matchup": "San Antonio Spurs @ Sacramento Kings",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-24T03:10:00Z",
+      "game_total": 223.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "435ce8aaf2de67393a436fc9bf8c956e": {
+      "matchup": "St. Bonaventure Bonnies @ Appalachian St Mountaineers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T16:00:00Z",
+      "game_total": 134.0,
+      "team_totals": {
+        "Appalachian St Mountaineers": 64.5,
+        "St. Bonaventure Bonnies": 68.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "98a0b4549739cc028ffa9665d77d7ffd": {
+      "matchup": "Northern Iowa Panthers @ Davidson Wildcats",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T16:00:00Z",
+      "game_total": 141.5,
+      "team_totals": {
+        "Davidson Wildcats": 72.5,
+        "Northern Iowa Panthers": 68.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e4496b83963ca2f24052c8779d91cbeb": {
+      "matchup": "Indiana St Sycamores @ East Carolina Pirates",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T17:30:00Z",
+      "game_total": 146.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "037aac2cff7aea7fec09fbb5a3dcf04b": {
+      "matchup": "Long Beach St 49ers @ Florida Int'l Golden Panthers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T18:00:00Z",
+      "game_total": 159.5,
+      "team_totals": {
+        "Florida Int'l Golden Panthers": 84.5,
+        "Long Beach St 49ers": 75.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "03914af0d22bba6c22c326407049444a": {
+      "matchup": "Akron Zips @ Wright St Raiders",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T18:30:00Z",
+      "game_total": 149.0,
+      "team_totals": {
+        "Akron Zips": 73.5,
+        "Wright St Raiders": 74.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "276deab7d659366b50ff0608d1501b6e": {
+      "matchup": "Charlotte 49ers @ Florida Gulf Coast Eagles",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T18:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7672e3ae078a7b505b50f15e46208e4f": {
+      "matchup": "Tulsa Golden Hurricane @ Oregon St Beavers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T19:00:00Z",
+      "game_total": 154.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f6407650f13adaa2fc13d17570ef3327": {
+      "matchup": "Ole Miss Rebels @ Clemson Tigers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T19:30:00Z",
+      "game_total": 149.0,
+      "team_totals": {
+        "Clemson Tigers": 71.5,
+        "Ole Miss Rebels": 76.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f1dad846a15c864b10f3cf4914c7cbd5": {
+      "matchup": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T20:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b1abd9ff77f5dc5c376c08041fae20ea": {
+      "matchup": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T20:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "aee64daab1ceefa09aaf0260ed750d53": {
+      "matchup": "William & Mary Tribe @ IUPUI Jaguars",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T20:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c26aa1b5cbdc588ee415a259da2c6bf4": {
+      "matchup": "Yale Bulldogs @ Belmont Bruins",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T21:00:00Z",
+      "game_total": 144.0,
+      "team_totals": {
+        "Belmont Bruins": 72.5,
+        "Yale Bulldogs": 70.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "dd58df55a7af85441c65eee7310a71f5": {
+      "matchup": "Tulane Green Wave @ Georgia St Panthers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T21:00:00Z",
+      "game_total": 148.0,
+      "team_totals": {
+        "Georgia St Panthers": 74.5,
+        "Tulane Green Wave": 73.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "8705fa29b81b3f96d689da909e406bff": {
+      "matchup": "Nevada Wolf Pack @ San Francisco Dons",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T21:30:00Z",
+      "game_total": 140.5,
+      "team_totals": {
+        "Nevada Wolf Pack": 73.5,
+        "San Francisco Dons": 66.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "fc86a54f6abd13932c62fa66b82a3e28": {
+      "matchup": "Washington Huskies @ BYU Cougars",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T22:00:00Z",
+      "game_total": 166.0,
+      "team_totals": {
+        "BYU Cougars": 88.5,
+        "Washington Huskies": 76.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c247dff2509498dedc2b2408ad1d5dd4": {
+      "matchup": "Temple Owls @ Tenn-Martin Skyhawks",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T22:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "8234af74a35d1a31b73854d4fd191c64": {
+      "matchup": "Maryland-Eastern Shore Hawks @ Youngstown St Penguins",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-23T23:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "1af3a5acedbb908ecc006767d288d16b": {
+      "matchup": "Central Arkansas Bears @ North Florida Ospreys",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T00:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "c6b930f2b10901f7c145736cde09fd95": {
+      "matchup": "Fairleigh Dickinson Knights @ Iona Gaels",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T00:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "120e2421c480efcf51c1aa27d4973187": {
+      "matchup": "Georgia Southern Eagles @ Northern Kentucky Norse",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T00:00:00Z",
+      "game_total": 166.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "a711d8899fd6dad91337247433157f87": {
+      "matchup": "Illinois St Redbirds @ Santa Clara Broncos",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T00:00:00Z",
+      "game_total": 152.0,
+      "team_totals": {
+        "Illinois St Redbirds": 73.5,
+        "Santa Clara Broncos": 77.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f35ec8dcc1ab5e6f04bdb796a46b1524": {
+      "matchup": "North Carolina A&T Aggies @ South Carolina St Bulldogs",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T00:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "9fd23b7824675dff70bd989ae6fe4967": {
+      "matchup": "Texas A&M-CC Islanders @ Wichita St Shockers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T00:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "11782e330b7215a8e2f0e3e4e9a27404": {
+      "matchup": "Denver Pioneers @ Kansas Jayhawks",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T01:00:00Z",
+      "game_total": 158.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "8dac68fbecc816a6de76442cf1e28270": {
+      "matchup": "Winthrop Eagles @ Illinois Fighting Illini",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T01:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5a237fcf6422f6a245d462ba2a6835dc": {
+      "matchup": "Monmouth Hawks @ North Carolina Tar Heels",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T01:00:00Z",
+      "game_total": 153.5,
+      "team_totals": {
+        "Monmouth Hawks": 66.5,
+        "North Carolina Tar Heels": 86.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "aed6a97f577438479f8716801fd3d3f9": {
+      "matchup": "Utah Valley Wolverines @ Stephen F. Austin Lumberjacks",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T01:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "bd51dcc9b4ceb556e17992c7f5fe7f75": {
+      "matchup": "VCU Rams @ Providence Friars",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T02:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "69e165166aa1f48345e5bdd45029fb18": {
+      "matchup": "UNC Greensboro Spartans @ Pepperdine Waves",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T02:30:00Z",
+      "game_total": 155.5,
+      "team_totals": {
+        "Pepperdine Waves": 82.5,
+        "UNC Greensboro Spartans": 72.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b7a4f6e90eb128b0d569dacbfe487e80": {
+      "matchup": "Alabama St Hornets @ California Golden Bears",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T03:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "8236efa27962bd6d4b110bb43e861b07": {
+      "matchup": "Eastern Washington Eagles @ UNLV Rebels",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T03:00:00Z",
+      "game_total": 160.0,
+      "team_totals": {
+        "Eastern Washington Eagles": 76.5,
+        "UNLV Rebels": 83.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "b45e9d96ab3298d614e74c19902f3998": {
+      "matchup": "Colorado St Rams @ Arizona Wildcats",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T04:30:00Z",
+      "game_total": 158.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "38c575bb916b4b6634ccbc1d442b53a2": {
+      "matchup": "Tennessee Volunteers @ Maryland Terrapins",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "4168db6bc271ba612901506cd74e1c9b": {
+      "matchup": "Miami Hurricanes @ TCU Horned Frogs",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "0dbbfc6c0ffe4c7d2c9b65eb8ab96cb3": {
+      "matchup": "San Diego St Aztecs @ Iowa State Cyclones",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T22:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7e24a7f74f41134d9a72a537af4cc663": {
+      "matchup": "Creighton Bluejays @ Michigan Wolverines",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T22:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "712c581bb2dc9c3072e5280bd6ccecc4": {
+      "matchup": "Texas Tech Red Raiders @ Louisville Cardinals",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "23775e1487fe2f2a91b9572fafb704a0": {
+      "matchup": "Baylor Bears @ Alabama Crimson Tide",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T03:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "4b220aa94adc3b0fd23d9d892a130646": {
+      "matchup": "Oregon Ducks @ St. John's Red Storm",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T03:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "62f11de81607e09d5edea5c4e1b26feb": {
+      "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T05:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e9429c68a48753de9779d88e6cf393ad": {
+      "matchup": "Columbus Blue Jackets @ New Jersey Devils",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T00:10:00Z",
+      "game_total": 6.0,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "d127e1e72a1b9087aca692f3b5812532": {
+      "matchup": "Calgary Flames @ Ottawa Senators",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 6.0,
+      "team_totals": {
+        "Calgary Flames": 2.5,
+        "Ottawa Senators": 3.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "806787e1b3ac73d09e3ae05f6d595865": {
+      "matchup": "Los Angeles Kings @ Montr\u00e9al Canadiens",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 6.0,
+      "team_totals": {
+        "Los Angeles Kings": 2.5,
+        "Montr\u00e9al Canadiens": 3.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "2d095386ab1321c89df24896d98495ee": {
+      "matchup": "Toronto Maple Leafs @ New York Islanders",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 6.5,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "e2efcb24b2d9689232946057b7e43d23": {
+      "matchup": "Utah Mammoth @ Winnipeg Jets",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T00:40:00Z",
+      "game_total": 6.5,
+      "team_totals": {
+        "Utah Mammoth": 3.5,
+        "Winnipeg Jets": 3.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "5074be0d13d60cc7fd82b06c4d8ddd31": {
+      "matchup": "Anaheim Ducks @ Seattle Kraken",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T02:50:00Z",
+      "game_total": 6.5,
+      "team_totals": {
+        "Anaheim Ducks": 3.5,
+        "Seattle Kraken": 3.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "43376208ec2111794696249fe50f5e84": {
+      "matchup": "Minnesota Wild @ San Jose Sharks",
+      "sport": "icehockey_nhl",
+      "label": "NHL",
+      "group": "hockey",
+      "commence_time": "2026-11-24T03:10:00Z",
+      "game_total": 6.0,
+      "team_totals": {
+        "Minnesota Wild": 3.5,
+        "San Jose Sharks": 2.5
+      },
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "4558c8e2f0be90bc67add7ecb2e22905": {
+      "matchup": "\u00c4ss\u00e4t @ Ilves",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-24T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "bcfc1967e7d452453d28c2029f370c3c": {
+      "matchup": "Kiekko-Espoo @ Sport",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-24T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "7e0cd20ec906df6c512378673621c8dc": {
+      "matchup": "Lukko @ SaiPa",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-24T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "ed88c790ce4d9123c6d0b02e2bfd0f9d": {
+      "matchup": "TPS @ HIFK",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-25T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "2946924b3ecf4b762332fb72674a5278": {
+      "matchup": "KooKoo @ Jokerit",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-25T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "393ccfc3f52cae0d03bc73ac065c6fae": {
+      "matchup": "Jukurit @ Tappara",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-25T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "f6bb2632227406e9820ff9b21de9a468": {
+      "matchup": "Pelicans @ K\u00e4rp\u00e4t",
+      "sport": "icehockey_liiga",
+      "label": "Liiga Finland",
+      "group": "hockey",
+      "commence_time": "2026-11-25T16:30:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "9801ef955619891976b6cc9b7d1bf780": {
+      "matchup": "Fr\u00f6lunda HC @ \u00d6rebro HK",
+      "sport": "icehockey_sweden_hockey_league",
+      "label": "SHL Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-24T18:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    },
+    "bff483955e4b791b12183d4ea15aed10": {
+      "matchup": "Malm\u00f6 Redhawks @ Lule\u00e5 HF",
+      "sport": "icehockey_sweden_hockey_league",
+      "label": "SHL Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-24T18:00:00Z",
+      "game_total": null,
+      "team_totals": {},
+      "period_totals": {
+        "totals_q1": null,
+        "totals_h1": null,
+        "team_totals_q1": {},
+        "team_totals_h1": {}
+      }
+    }
+  },
+  "alerted": [],
+  "checkpoints": {}
 }
