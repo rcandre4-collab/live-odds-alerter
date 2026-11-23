@@ -1,5 +1,5 @@
 """
-Live Odds Total Monitor v4.3 — expanded coverage + Q1 / halftime checkpoints
+Live Odds Total Monitor v4.4 — expanded coverage + Q1 / halftime checkpoints
 
 Football + Basketball (NFL, NCAAF, CFL, NBA, NCAAB, WNCAAB, WNBA,
 EuroLeague, NBL Australia):
@@ -44,6 +44,13 @@ all spaces / non-breaking spaces from the password (and trims the
 sender/receiver). A failed email also no longer kills the whole run —
 it is logged and the run carries on so state.json still updates.
 
+v4.4 CREDIT SAVING: polling is every 30 minutes (was 20) and the script
+only runs during game hours, 11:00–01:30 EST (16:00–06:30 UTC). Outside
+those hours it exits immediately, $0 cost. That cuts the burn from
+~1,000 credits/day to ~500/day, so 20,000 credits last ~38 days instead
+of ~20. The alert checks themselves cost $0 extra — see below.
+TEST_EMAIL bypasses the game-hours gate so you can test anytime.
+
 WHY v3: The Odds API's sport-level /odds endpoint only supports
 featured markets (h2h, spreads, totals). Asking it for team_totals
 returns 422 INVALID_MARKET for every league and no data at all.
@@ -72,10 +79,19 @@ COST — 1 credit per region per market per sport/event per run.
     Pregame team totals are fetched ONCE per event (cached in state.json),
     so upcoming games cost ~1 credit each, once. Live games cost
     1 credit per live event per run, only while they are live.
+  THE ALERT CHECKS COST $0 EXTRA: a NEAR/HIT check (game total near
+    20 pts, team total near 15 pts, hockey game/team near 2 goals,
+    up or down) is just a comparison of the totals already fetched
+    in that run — no extra API call is made for it. The ~500 credits/day
+    below IS the cost of checking those moves, every 30 minutes.
   Period totals (v4, dropped in v4.1): pregame Q1/H1 totals cost
     5 credits per basketball event, once — too fast on big slates.
     Checkpoints themselves cost $0 extra — they reuse the live totals
     already fetched that run.
+  v4.4 burn (30-min polls, game hours 11:00–01:30 EST only):
+    game totals ~11 leagues x ~29 runs/day = ~320/day;
+    pregame team totals ~50/day; live team totals ~150/day;
+    total ~500/day, so 20,000 credits last ~38 days.
   The script first calls /v4/sports (FREE) and only polls leagues that are
   currently active/in-season, so offseason leagues cost nothing.
   Still, running this 24/7 will burn through paid tiers fast. See README.
@@ -100,6 +116,11 @@ BOOKMAKER = "pinnacle"  # sharpest benchmark; fallback to first available
 REGIONS = "eu"  # Pinnacle is EU. Use "us,eu" only if team totals are missing for US leagues — doubles cost.
 MARKETS = "totals"  # sport-level endpoint: featured markets ONLY (h2h, spreads, totals)
 TEAM_MARKETS = "team_totals"  # additional market: per-event endpoint ONLY, see fetch_team_totals()
+# Game hours (v4.4 credit saving): only poll 11:00–01:30 EST,
+# i.e. 16:00–06:30 UTC. Outside that, run() exits immediately ($0).
+# TEST_EMAIL bypasses the gate so you can test anytime.
+GAME_HOURS_START_MIN = 16 * 60       # 16:00 UTC = 11:00 EST
+GAME_HOURS_END_MIN = 6 * 60 + 30     # 06:30 UTC = 01:30 EST (next day)
 # Checkpoint windows, minutes of real time since tipoff (no game clock in the API).
 # Quarters: Q1 ~25-55 min, halftime ~55-95 min. Halves (NCAAB Men): halftime ~40-75 min.
 CHECKPOINTS_QUARTERS = {"q1": (25, 55), "h1": (55, 95)}
@@ -317,11 +338,24 @@ def check_move(event_id, label, matchup, kind, pre_val, live_val, thresholds, st
         state["alerted"].append(near_key)
 
 
+def in_game_hours(now):
+    """True between 16:00 and 06:30 UTC (11:00–01:30 EST). Wraps midnight."""
+    m = now.hour * 60 + now.minute
+    if GAME_HOURS_START_MIN <= GAME_HOURS_END_MIN:
+        return GAME_HOURS_START_MIN <= m < GAME_HOURS_END_MIN
+    return m >= GAME_HOURS_START_MIN or m < GAME_HOURS_END_MIN
+
+
 def run():
     state = load_state()
     now = datetime.now(timezone.utc)
     alerts = []
     checkpoint_lines = []
+
+    if not in_game_hours(now) and os.environ.get("TEST_EMAIL") not in ("1", "true", "True"):
+        print(f"Outside game hours (11:00-01:30 EST), skipping — $0 cost. "
+              f"Now: {now.strftime('%H:%M UTC')}")
+        return
 
     if os.environ.get("TEST_EMAIL") in ("1", "true", "True"):
         # Test mode: prove the email path works, even with no alerts.
