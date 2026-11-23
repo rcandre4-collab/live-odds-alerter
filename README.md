@@ -1,4 +1,4 @@
-# Live Odds Total Monitor v4 — expanded + Q1 / halftime checkpoints
+# Live Odds Total Monitor v4.1 — expanded + Q1 / halftime checkpoints
 
 ## What it watches
 
@@ -17,10 +17,11 @@ Pregame lines are snapshotted before tipoff/kickoff/puck drop and saved in `stat
 
 For each basketball game you also get one email at the end of the 1st quarter and one at halftime, with:
 - Pregame full-game total and team totals
-- Pregame Q1 total / H1 total and Q1/H1 team totals (period markets, fetched once per event)
 - Live full-game total and team totals at that checkpoint, with the move vs pregame
 
-The Odds API gives no game clock, so checkpoints are timed by elapsed real time since tipoff, caught on the next 20-minute poll: quarter leagues (NBA, WNBA, WNCAAB, EuroLeague, NBL) — Q1 at 25–55 min, halftime at 55–95 min; NCAAB Men plays halves, so halftime only, at 40–75 min. Football and hockey get no checkpoints. Each checkpoint is emailed once per game and saved in `state.json` under `checkpoints`. The checkpoints cost $0 extra — they reuse the live totals already fetched that run. The pregame period totals cost 5 credits per basketball event, once (team totals + Q1/H1 totals + Q1/H1 team totals in one per-event call).
+The Odds API gives no game clock, so checkpoints are timed by elapsed real time since tipoff, caught on the next 20-minute poll: quarter leagues (NBA, WNBA, WNCAAB, EuroLeague, NBL) — Q1 at 25–55 min, halftime at 55–95 min; NCAAB Men plays halves, so halftime only, at 40–75 min. Football and hockey get no checkpoints. Each checkpoint is emailed once per game and saved in `state.json` under `checkpoints`. The checkpoints cost $0 extra — they reuse the live totals already fetched that run.
+
+v4.1: the pregame Q1/H1 period totals were dropped — at 5 credits per game, once, they burned credits far too fast on big slates (NCAAB alone is 30–50 games a night). Pregame team totals are back to 1 credit per event, once.
 
 ## Coverage limits — read this before you expect ACB, DEL, etc.
 
@@ -39,7 +40,7 @@ If you need ACB / DEL / KHL, you'd need a second provider — The Odds API can't
 - 15 sports = **15 credits/run** for game totals
 - Every 20 min = 45/hour, **1,080/day** if all 15 are in season
 - Team totals cost extra: 1 credit per event fetched. Pregame team totals are fetched once per event and cached in `state.json`, so upcoming games cost ~1 credit each, once. Live games cost 1 credit per live event per run, only while they are live.
-- Period totals (v4, basketball only): 5 credits per event, once, for the pregame Q1/H1 + team Q1/H1 lines. Checkpoints themselves cost $0 extra.
+- Period totals (v4, dropped in v4.1): 5 credits per event, once, for the pregame Q1/H1 + team Q1/H1 lines — too fast on big slates. Checkpoints themselves cost $0 extra.
 - The script first calls `/v4/sports` (free) and only polls in-season leagues, so offseason leagues cost $0. That helps a lot in summer/winter, but in-season you'll still burn a paid tier fast.
 
 To fit a budget, in `monitor.py`:
@@ -61,5 +62,5 @@ Live totals naturally drift down as the clock runs down — a hockey total dropp
 
 ## Files
 
-- `monitor.py` — the monitor (v4, this file's logic)
+- `monitor.py` — the monitor (v4.1, this file's logic)
 - `.github/workflows/poll_odds.yml` — runs it every 20 minutes, commits `state.json`
