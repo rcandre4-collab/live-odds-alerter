@@ -1110,7 +1110,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 232.0,
+      "game_total": 229.5,
       "team_totals": {
         "Philadelphia 76ers": 117.5,
         "Portland Trail Blazers": 114.5
@@ -1122,7 +1122,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 222.5,
+      "game_total": 224.5,
       "team_totals": {
         "Brooklyn Nets": 105.5,
         "Minnesota Timberwolves": 117.5
@@ -1146,7 +1146,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 224.0,
+      "game_total": 222.0,
       "team_totals": {
         "Milwaukee Bucks": 106.5,
         "Toronto Raptors": 117.5
@@ -1158,7 +1158,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 240.5,
+      "game_total": 239.0,
       "team_totals": {
         "Chicago Bulls": 116.5,
         "Cleveland Cavaliers": 124.5
@@ -1194,7 +1194,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 227.5,
+      "game_total": 228.5,
       "team_totals": {
         "Los Angeles Lakers": 121.5,
         "Utah Jazz": 106.5
@@ -1978,6 +1978,60 @@
       "group": "hockey",
       "commence_time": "2026-11-26T03:00:00Z",
       "game_total": 5.5,
+      "team_totals": {}
+    },
+    "f8f23b36dd9f10cdffbfec0a97552b1f": {
+      "matchup": "AIK @ Kalmar HC",
+      "sport": "icehockey_sweden_allsvenskan",
+      "label": "HockeyAllsvenskan Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-25T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "4f907b09871a34a0152c14f53050c8fa": {
+      "matchup": "Visby/Roma HK @ Almtuna IS",
+      "sport": "icehockey_sweden_allsvenskan",
+      "label": "HockeyAllsvenskan Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-25T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "babf43dacb71e16970a6ca0fc2f606b4": {
+      "matchup": "BIK Karlskoga @ Vimmerby HC",
+      "sport": "icehockey_sweden_allsvenskan",
+      "label": "HockeyAllsvenskan Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-25T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "6fe338df1b9b008626a93ad3484c4965": {
+      "matchup": "Modo Hockey @ S\u00f6dert\u00e4lje SK",
+      "sport": "icehockey_sweden_allsvenskan",
+      "label": "HockeyAllsvenskan Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-25T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "0443e487dda4084e9679b0c8ebbfed37": {
+      "matchup": "\u00d6stersunds IK @ Mora IK",
+      "sport": "icehockey_sweden_allsvenskan",
+      "label": "HockeyAllsvenskan Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-25T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "f6ca91aa5e299445d8342166dbf59f0c": {
+      "matchup": "V\u00e4ster\u00e5s IK @ Nybro Vikings IF",
+      "sport": "icehockey_sweden_allsvenskan",
+      "label": "HockeyAllsvenskan Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-25T18:00:00Z",
+      "game_total": null,
       "team_totals": {}
     }
   },
