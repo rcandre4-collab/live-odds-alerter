@@ -1,5 +1,5 @@
 """
-Live Odds Total Monitor v4.2 — expanded coverage + Q1 / halftime checkpoints
+Live Odds Total Monitor v4.3 — expanded coverage + Q1 / halftime checkpoints
 
 Football + Basketball (NFL, NCAAF, CFL, NBA, NCAAB, WNCAAB, WNBA,
 EuroLeague, NBL Australia):
@@ -37,14 +37,12 @@ on big slates (NCAAB alone is 30-50 games a night). The checkpoints
 stay: they cost $0 extra, reusing the live totals already fetched.
 Pregame team totals are back to 1 credit per event, once.
 
-v4.2 TEST EMAIL: normal emails only fire when a total actually moves
-(NEAR/HIT) or a Q1/halftime checkpoint is hit — so on a quiet day you
-get nothing, and you can't tell if email itself is broken. Set the
-TEST_EMAIL env var to "1" (workflow: Run workflow -> send_test_email)
-and the run sends one test email listing the games currently snapshotted,
-then carries on with the normal run. If the test email doesn't arrive,
-check spam, then check that EMAIL_RECEIVER is the right address and that
-EMAIL_PASSWORD is a Gmail App Password (not your normal password).
+v4.3: the test-email run failed with UnicodeEncodeError: the
+EMAIL_PASSWORD secret contained a non-breaking space (\\xa0), copied
+in with the App Password from Google's display. The script now strips
+all spaces / non-breaking spaces from the password (and trims the
+sender/receiver). A failed email also no longer kills the whole run —
+it is logged and the run carries on so state.json still updates.
 
 WHY v3: The Odds API's sport-level /odds endpoint only supports
 featured markets (h2h, spreads, totals). Asking it for team_totals
@@ -90,9 +88,13 @@ import smtplib
 import requests
 
 API_KEY = os.environ["ODDS_API_KEY"]
-EMAIL_SENDER = os.environ["EMAIL_SENDER"]
-EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
-EMAIL_RECEIVER = os.environ["EMAIL_RECEIVER"]
+# Gmail App Passwords are shown by Google in groups of 4 with spaces,
+# and copying them can also bring in a non-breaking space (\xa0).
+# Either one crashes smtp.login with UnicodeEncodeError, so strip them.
+# (The stored secret can stay as-is; this cleans it at runtime.)
+EMAIL_SENDER = os.environ["EMAIL_SENDER"].replace("\xa0", "").strip()
+EMAIL_PASSWORD = "".join(os.environ["EMAIL_PASSWORD"].split())
+EMAIL_RECEIVER = os.environ["EMAIL_RECEIVER"].replace("\xa0", "").strip()
 
 BOOKMAKER = "pinnacle"  # sharpest benchmark; fallback to first available
 REGIONS = "eu"  # Pinnacle is EU. Use "us,eu" only if team totals are missing for US leagues — doubles cost.
@@ -331,18 +333,21 @@ def run():
             f"- {v.get('label')}: {v.get('matchup')} "
             f"(total {v.get('game_total')}, starts {v.get('commence_time')})"
             for v in sample) or "- (no games snapshotted yet)"
-        send_email(
-            "Live Odds Monitor — Test Email",
-            "This is a test email from your Live Odds Total Monitor.\n"
-            "If you can read this, the Gmail login and the receiver address work.\n\n"
-            f"Games currently snapshotted in state.json: {n_pregame}\n"
-            f"Alerts sent so far: {len(state.get('alerted', []))}\n"
-            f"Checkpoints recorded: {sum(len(v) for v in state.get('checkpoints', {}).values())}\n\n"
-            "Next few games:\n" + sample_lines + "\n\n"
-            "Normal emails only fire when a total moves NEAR/HIT or a Q1/halftime\n"
-            "checkpoint is hit — a quiet day means no email, which is normal."
-        )
-        print("Sent test email.")
+        try:
+            send_email(
+                "Live Odds Monitor — Test Email",
+                "This is a test email from your Live Odds Total Monitor.\n"
+                "If you can read this, the Gmail login and the receiver address work.\n\n"
+                f"Games currently snapshotted in state.json: {n_pregame}\n"
+                f"Alerts sent so far: {len(state.get('alerted', []))}\n"
+                f"Checkpoints recorded: {sum(len(v) for v in state.get('checkpoints', {}).values())}\n\n"
+                "Next few games:\n" + sample_lines + "\n\n"
+                "Normal emails only fire when a total moves NEAR/HIT or a Q1/halftime\n"
+                "checkpoint is hit — a quiet day means no email, which is normal."
+            )
+            print("Sent test email.")
+        except Exception as e:
+            print(f"TEST EMAIL FAILED (run continues): {type(e).__name__}: {e}")
 
     active = get_active_sports()
     leagues = LEAGUES
@@ -452,14 +457,20 @@ def run():
     if alerts:
         subject = f"Live Total Alert ({len(alerts)} trigger{'s' if len(alerts) > 1 else ''})"
         body = "\n\n---\n\n".join(alerts)
-        send_email(subject, body)
-        print("Sent alerts:\n", body)
+        try:
+            send_email(subject, body)
+            print("Sent alerts:\n", body)
+        except Exception as e:
+            print(f"ALERT EMAIL FAILED (run continues): {type(e).__name__}: {e}")
     if checkpoint_lines:
         subject = (f"Q1 / Halftime Lines "
                    f"({len(checkpoint_lines)} checkpoint{'s' if len(checkpoint_lines) > 1 else ''})")
         body = "\n\n---\n\n".join(checkpoint_lines)
-        send_email(subject, body)
-        print("Sent checkpoints:\n", body)
+        try:
+            send_email(subject, body)
+            print("Sent checkpoints:\n", body)
+        except Exception as e:
+            print(f"CHECKPOINT EMAIL FAILED (run continues): {type(e).__name__}: {e}")
     save_state(state)
 
 
