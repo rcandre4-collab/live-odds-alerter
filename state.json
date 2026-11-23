@@ -321,7 +321,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-27T20:30:00Z",
-      "game_total": 64.5,
+      "game_total": 65.5,
       "team_totals": {
         "Memphis Tigers": 41.5,
         "Temple Owls": 23.5
@@ -633,7 +633,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T19:00:00Z",
-      "game_total": 55.0,
+      "game_total": 54.0,
       "team_totals": {
         "Iowa State Cyclones": 29.5,
         "Kansas State Wildcats": 24.5
@@ -1110,7 +1110,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:10:00Z",
-      "game_total": 215.0,
+      "game_total": 214.0,
       "team_totals": {
         "Charlotte Hornets": 106.5,
         "Memphis Grizzlies": 109.5
@@ -1134,7 +1134,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 224.5,
+      "game_total": 223.5,
       "team_totals": {
         "Brooklyn Nets": 105.5,
         "Minnesota Timberwolves": 117.5
@@ -1146,7 +1146,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T00:40:00Z",
-      "game_total": 221.5,
+      "game_total": 222.5,
       "team_totals": {
         "Indiana Pacers": 108.5,
         "Oklahoma City Thunder": 113.5
@@ -1170,7 +1170,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 240.5,
+      "game_total": 241.5,
       "team_totals": {
         "Chicago Bulls": 116.5,
         "Cleveland Cavaliers": 124.5
@@ -1446,7 +1446,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:00:00Z",
-      "game_total": 137.0,
+      "game_total": 136.0,
       "team_totals": {
         "Fairleigh Dickinson Knights": 63.5,
         "Iona Gaels": 72.5
@@ -1494,7 +1494,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T00:30:00Z",
-      "game_total": 143.5,
+      "game_total": 142.5,
       "team_totals": {
         "Texas A&M-CC Islanders": 61.5,
         "Wichita St Shockers": 81.5
@@ -2094,7 +2094,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T02:30:00Z",
-      "game_total": 141.0,
+      "game_total": 140.0,
       "team_totals": {
         "Loyola (Chi) Ramblers": 69.5,
         "Seattle Redhawks": 70.5
@@ -2208,6 +2208,45 @@
       "label": "NHL",
       "group": "hockey",
       "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": 6.5,
+      "team_totals": {
+        "Edmonton Oilers": 2.5,
+        "Vegas Golden Knights": 3.5
+      }
+    },
+    "6d0e57873e98584efe7f215a946a3819": {
+      "matchup": "Bryn\u00e4s IF @ Link\u00f6ping HC",
+      "sport": "icehockey_sweden_hockey_league",
+      "label": "SHL Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "25e65938cb69afb9805c88c22cf1724d": {
+      "matchup": "Djurg\u00e5rdens IF @ V\u00e4xj\u00f6 Lakers",
+      "sport": "icehockey_sweden_hockey_league",
+      "label": "SHL Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "b6c465f0c0de35a65be990e89bab1fa2": {
+      "matchup": "F\u00e4rjestad BK @ Timr\u00e5 IK",
+      "sport": "icehockey_sweden_hockey_league",
+      "label": "SHL Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-26T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "8f601ebef04a155fbf5cabc13b5e218d": {
+      "matchup": "R\u00f6gle BK @ Skellefte\u00e5 AIK",
+      "sport": "icehockey_sweden_hockey_league",
+      "label": "SHL Sweden",
+      "group": "hockey",
+      "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
     }
@@ -2250,6 +2289,17 @@
         "game_total": null,
         "team_totals": {},
         "at": "2026-11-23T17:53:15.209908+00:00"
+      }
+    },
+    "037aac2cff7aea7fec09fbb5a3dcf04b": {
+      "h1": {
+        "elapsed_min": 49,
+        "game_total": 175.0,
+        "team_totals": {
+          "Florida Int'l Golden Panthers": 83.5,
+          "Long Beach St 49ers": 75.5
+        },
+        "at": "2026-11-23T18:51:21.940711+00:00"
       }
     }
   }
