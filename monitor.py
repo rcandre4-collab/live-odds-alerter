@@ -346,11 +346,116 @@ def in_game_hours(now):
     return m >= GAME_HOURS_START_MIN or m < GAME_HOURS_END_MIN
 
 
+def feed_test():
+    """One-off WNCAAB coverage test (v4.5). Set FEED_TEST=1 via the
+    workflow's feed_test dispatch input. Queries basketball_wncaab totals
+    with several bookmaker/region combos and emails the event counts.
+    ~5-7 credits total, then exits: no normal polling, no state write.
+    Answers: does Pinnacle/EU list WNCAAB at all, and which bookmaker/
+    region does (US books price WNCAAB totals — The Odds API's own
+    WNCAAB docs page queries regions=us and shows FanDuel)."""
+    sport = "basketball_wncaab"
+    combos = [
+        ("current config: pinnacle / eu",
+         {"bookmakers": "pinnacle", "regions": "eu"}),
+        ("all bookmakers / us (no bookmaker filter)",
+         {"regions": "us"}),
+        ("all bookmakers / eu (no bookmaker filter)",
+         {"regions": "eu"}),
+        ("fanduel / us", {"bookmakers": "fanduel", "regions": "us"}),
+        ("draftkings / us", {"bookmakers": "draftkings", "regions": "us"}),
+    ]
+    lines = ["WNCAAB feed test — basketball_wncaab, markets=totals\n"]
+    first_us_event = None
+    for name, extra in combos:
+        params = {"apiKey": API_KEY, "regions": extra["regions"],
+                  "markets": "totals", "oddsFormat": "american"}
+        if "bookmakers" in extra:
+            params["bookmakers"] = extra["bookmakers"]
+        try:
+            resp = requests.get(
+                f"https://api.the-odds-api.com/v4/sports/{sport}/odds/",
+                params=params, timeout=15)
+        except Exception as e:
+            lines.append(f"{name}: request failed ({e})")
+            print(lines[-1])
+            continue
+        if resp.status_code != 200:
+            lines.append(f"{name}: HTTP {resp.status_code} {resp.text[:150]}")
+            print(lines[-1])
+            continue
+        events = resp.json()
+        books = sorted({b["key"] for ev in events
+                        for b in ev.get("bookmakers", [])})
+        with_totals = sum(
+            1 for ev in events
+            if any(m.get("key") == "totals"
+                   for b in ev.get("bookmakers", [])
+                   for m in b.get("markets", [])))
+        sample = "; ".join(
+            f"{ev['away_team']} @ {ev['home_team']}" for ev in events[:3])
+        lines.append(
+            f"{name}: {len(events)} events, {with_totals} with a totals "
+            f"market; bookmakers seen: {', '.join(books) or 'none'}")
+        if sample:
+            lines.append(f"  e.g. {sample}")
+        print(lines[-1])
+        if first_us_event is None and extra["regions"] == "us" and events:
+            first_us_event = events[0]["id"]
+    # team_totals on one event, if any US event was found
+    if first_us_event:
+        for name, extra in [
+                ("team_totals pinnacle / eu",
+                 {"bookmakers": "pinnacle", "regions": "eu"}),
+                ("team_totals fanduel / us",
+                 {"bookmakers": "fanduel", "regions": "us"})]:
+            params = {"apiKey": API_KEY, "regions": extra["regions"],
+                      "markets": TEAM_MARKETS, "oddsFormat": "american",
+                      "bookmakers": extra["bookmakers"]}
+            try:
+                resp = requests.get(
+                    f"https://api.the-odds-api.com/v4/sports/{sport}/"
+                    f"events/{first_us_event}/odds/",
+                    params=params, timeout=15)
+            except Exception as e:
+                lines.append(f"{name}: request failed ({e})")
+                print(lines[-1])
+                continue
+            if resp.status_code != 200:
+                lines.append(f"{name}: HTTP {resp.status_code} "
+                             f"{resp.text[:150]}")
+                print(lines[-1])
+                continue
+            _, team_totals, _ = extract_lines(resp.json())
+            lines.append(f"{name}: team_totals = {team_totals or 'none returned'}")
+            print(lines[-1])
+    else:
+        lines.append("No US event found, so no team_totals test was possible.")
+    lines.append("\nCost: ~5-7 credits for this one-off test.")
+    lines.append("Reading the result: if 'pinnacle / eu' shows 0 events but "
+                 "'all bookmakers / us' shows games, switch WNCAAB to a US "
+                 "bookmaker (fanduel/draftkings) — note regions=us doubles "
+                 "the per-run credit cost for that sport. If every combo "
+                 "shows 0, WNCAAB lines post later in the day and the "
+                 "morning freeze (game hours start 11:00 EST) is the cause.")
+    try:
+        send_email("WNCAAB Feed Test — which bookmaker lists WNCAAB totals",
+                   "\n".join(lines))
+        print("Sent feed test email.")
+    except Exception as e:
+        print(f"FEED TEST EMAIL FAILED: {type(e).__name__}: {e}")
+
+
 def run():
     state = load_state()
     now = datetime.now(timezone.utc)
     alerts = []
     checkpoint_lines = []
+
+    if os.environ.get("FEED_TEST") in ("1", "true", "True"):
+        # One-off coverage test; bypasses the game-hours gate, then exits.
+        feed_test()
+        return
 
     if not in_game_hours(now) and os.environ.get("TEST_EMAIL") not in ("1", "true", "True"):
         print(f"Outside game hours (11:00-01:30 EST), skipping — $0 cost. "

@@ -1,4 +1,4 @@
-# Live Odds Total Monitor v4.4 — expanded + Q1 / halftime checkpoints
+# Live Odds Total Monitor v4.5 — expanded + Q1 / halftime checkpoints + WNCAAB feed test
 
 ## What it watches
 
@@ -50,6 +50,7 @@ If you need ACB / DEL / KHL, you'd need a second provider — The Odds API can't
 **The alert checks cost $0 extra.** A NEAR/HIT check — game total near 20 pts, team total near 15 pts (football/basketball), hockey game/team total near 2 goals, up or down — is just a comparison of the totals already fetched in that run. No extra API call is made for it. So the burn below *is* the cost of checking those moves.
 
 - v4.4 (30-minute polls, game hours 11:00–01:30 EST only): game totals ~11 leagues × ~29 runs/day = ~320/day; pregame team totals ~50/day; live team totals ~150/day; **total ~500/day, so 20,000 credits last ~38 days**.
+- v4.5 (WNCAAB feed test only, no change to normal polling): `FEED_TEST=1` (workflow `feed_test` dispatch input) queries `basketball_wncaab` totals with several bookmaker/region combos — current config (pinnacle/eu), all books/us, all books/eu, fanduel/us, draftkings/us — plus a team_totals check on one event, and emails the event counts. ~5–7 credits, one-off. WNCAAB was found missing from state.json on 2026-11-23 (188 pregame games, 0 WNCAAB) even though it is configured; the test shows whether Pinnacle/EU lists WNCAAB at all or a US bookmaker is needed (regions=us doubles that sport's per-run cost).
 - Before v4.4 (20-minute polls, 24/7): 15 sports = **15 credits/run** for game totals, 45/hour, **1,080/day** if all 15 are in season, plus team totals — roughly 1,000/day total, so 20,000 credits lasted ~20 days.
 - Period totals (v4, dropped in v4.1): 5 credits per event, once, for the pregame Q1/H1 + team Q1/H1 lines — too fast on big slates. Checkpoints themselves cost $0 extra.
 - The script first calls `/v4/sports` (free) and only polls in-season leagues, so offseason leagues cost $0. That helps a lot in summer/winter, but in-season you'll still burn a paid tier fast.
