@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T15:41:49Z",
+  "updated_at": "2026-11-24T16:49:17Z",
   "verdicts": {
     "c431e5cece6a42f0acf8f2898b29e83e": {
       "matchup": "New Mexico St Aggies @ Ohio Bobcats",
@@ -27,6 +27,25 @@
             "ai": "over",
             "money": "not found",
             "experts": "over"
+          }
+        }
+      }
+    },
+    "3e065ed32915a4afefae3a851f6df12a": {
+      "matchup": "Paris Basketball @ Be\u015fikta\u015f J.K.",
+      "league": "EuroLeague",
+      "commence_time": "2026-11-24T17:00:00Z",
+      "generated_at": "2026-11-24T16:49:17Z",
+      "source": "pregame-hour-analysis 2026-11-24 11:49 EST",
+      "elements": {
+        "game_total": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "under",
+            "money": "not found",
+            "experts": "under"
           }
         }
       }
