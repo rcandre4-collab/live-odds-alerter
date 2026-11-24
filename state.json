@@ -237,7 +237,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-27T17:00:00Z",
-      "game_total": 50.5,
+      "game_total": 50.0,
       "team_totals": {
         "Akron Zips": 20.5,
         "Buffalo Bulls": 29.5
@@ -921,7 +921,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-29T00:30:00Z",
-      "game_total": 48.5,
+      "game_total": 49.5,
       "team_totals": {
         "Alabama Crimson Tide": 32.5,
         "Auburn Tigers": 15.5
@@ -945,7 +945,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-29T00:30:00Z",
-      "game_total": 49.5,
+      "game_total": 50.5,
       "team_totals": {
         "Oregon Ducks": 31.5,
         "Washington Huskies": 17.5
@@ -2280,7 +2280,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T17:30:00Z",
-      "game_total": 143.0,
+      "game_total": 142.0,
       "team_totals": {
         "Akron Zips": 71.5,
         "Belmont Bruins": 69.5
@@ -2325,7 +2325,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": 153.0,
+      "game_total": 150.5,
       "team_totals": {
         "Detroit Mercy Titans": 73.5,
         "North Dakota Fighting Hawks": 77.5
@@ -2434,7 +2434,10 @@
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
       "game_total": 149.0,
-      "team_totals": {}
+      "team_totals": {
+        "Campbell Fighting Camels": 73.5,
+        "Coastal Carolina Chanticleers": 74.5
+      }
     },
     "6a06c847f0e649f0dfa197206f62ae0a": {
       "matchup": "Milwaukee Panthers @ Florida Gators",
@@ -2478,7 +2481,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": 156.5,
+      "game_total": 158.0,
       "team_totals": {
         "Nevada Wolf Pack": 78.5,
         "Santa Clara Broncos": 77.5
@@ -2490,7 +2493,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": 156.0,
+      "game_total": 157.0,
       "team_totals": {
         "Ohio State Buckeyes": 77.5,
         "Vanderbilt Commodores": 78.5
@@ -2514,7 +2517,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:30:00Z",
-      "game_total": 150.5,
+      "game_total": 149.5,
       "team_totals": {
         "Fort Wayne Mastodons": 73.5,
         "SE Missouri St Redhawks": 76.5
@@ -2550,7 +2553,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 146.0,
+      "game_total": 143.5,
       "team_totals": {
         "Drexel Dragons": 69.5,
         "Pennsylvania Quakers": 75.5
@@ -2587,7 +2590,10 @@
       "group": "big",
       "commence_time": "2026-11-25T02:00:00Z",
       "game_total": 164.0,
-      "team_totals": {}
+      "team_totals": {
+        "Boise State Broncos": 92.5,
+        "Idaho State Bengals": 72.5
+      }
     },
     "4dc8cb6a7648e8a24132baf3563d8887": {
       "matchup": "Evansville Purple Aces @ Missouri Tigers",
@@ -2596,7 +2602,10 @@
       "group": "big",
       "commence_time": "2026-11-25T02:00:00Z",
       "game_total": 149.5,
-      "team_totals": {}
+      "team_totals": {
+        "Evansville Purple Aces": 58.5,
+        "Missouri Tigers": 90.5
+      }
     },
     "fd33c89fab911d3dd09da769140c7f5f": {
       "matchup": "Sam Houston St Bearkats @ Washington St Cougars",
@@ -2982,6 +2991,33 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "4f6d199bb67cf3a517a3880fd2f00b26": {
+      "matchup": "Miami Heat @ Philadelphia 76ers",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-25T22:10:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "f08629281f1510f47d91cc408f86a2a8": {
+      "matchup": "Cleveland Cavaliers @ New York Knicks",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-26T00:40:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "07421d1675d6bc51bb5fa91f84a09eb3": {
+      "matchup": "Minnesota Timberwolves @ Oklahoma City Thunder",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-26T00:40:00Z",
       "game_total": null,
       "team_totals": {}
     }
@@ -3370,6 +3406,25 @@
           "San Antonio Spurs": 114.5
         },
         "at": "2026-11-24T04:32:45.676080+00:00"
+      }
+    },
+    "b45e9d96ab3298d614e74c19902f3998": {
+      "h1": {
+        "elapsed_min": 58,
+        "game_total": 165.5,
+        "team_totals": {
+          "Arizona Wildcats": 87.5,
+          "Colorado St Rams": 70.5
+        },
+        "at": "2026-11-24T05:53:13.050845+00:00"
+      }
+    },
+    "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
+      "h1": {
+        "elapsed_min": 41,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T05:53:13.050845+00:00"
       }
     }
   },
