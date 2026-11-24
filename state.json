@@ -1233,42 +1233,6 @@
         "San Antonio Spurs": 117.5
       }
     },
-    "037aac2cff7aea7fec09fbb5a3dcf04b": {
-      "matchup": "Long Beach St 49ers @ Florida Int'l Golden Panthers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T18:00:00Z",
-      "game_total": 160.5,
-      "team_totals": {
-        "Florida Int'l Golden Panthers": 84.5,
-        "Long Beach St 49ers": 75.5
-      }
-    },
-    "03914af0d22bba6c22c326407049444a": {
-      "matchup": "Akron Zips @ Wright St Raiders",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T18:30:00Z",
-      "game_total": 149.0,
-      "team_totals": {
-        "Akron Zips": 73.5,
-        "Wright St Raiders": 74.5
-      }
-    },
-    "276deab7d659366b50ff0608d1501b6e": {
-      "matchup": "Charlotte 49ers @ Florida Gulf Coast Eagles",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T18:30:00Z",
-      "game_total": 142.5,
-      "team_totals": {
-        "Charlotte 49ers": 74.5,
-        "Florida Gulf Coast Eagles": 68.5
-      }
-    },
     "7672e3ae078a7b505b50f15e46208e4f": {
       "matchup": "Tulsa Golden Hurricane @ Oregon St Beavers",
       "sport": "basketball_ncaab",
@@ -2093,15 +2057,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "ee7517427fd108585ccddfb59157032a": {
-      "matchup": "Utah Utes @ Iowa Hawkeyes",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T18:30:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "ec3a462b47b984b2c23bf3d6a148a689": {
       "matchup": "Virginia Cavaliers @ Oklahoma Sooners",
@@ -3055,17 +3010,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "037aac2cff7aea7fec09fbb5a3dcf04b": {
-      "h1": {
-        "elapsed_min": 49,
-        "game_total": 175.0,
-        "team_totals": {
-          "Florida Int'l Golden Panthers": 83.5,
-          "Long Beach St 49ers": 75.5
-        },
-        "at": "2026-11-23T18:51:21.940711+00:00"
-      }
-    },
     "7672e3ae078a7b505b50f15e46208e4f": {
       "h1": {
         "elapsed_min": 55,
@@ -3074,14 +3018,6 @@
           "Oregon St Beavers": 80.5,
           "Tulsa Golden Hurricane": 74.5
         },
-        "at": "2026-11-23T19:57:00.603679+00:00"
-      }
-    },
-    "ee7517427fd108585ccddfb59157032a": {
-      "h1": {
-        "elapsed_min": 87,
-        "game_total": null,
-        "team_totals": {},
         "at": "2026-11-23T19:57:00.603679+00:00"
       }
     },
