@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T20:37:01Z",
+  "updated_at": "2026-11-24T21:37:00Z",
   "verdicts": {
     "c431e5cece6a42f0acf8f2898b29e83e": {
       "matchup": "New Mexico St Aggies @ Ohio Bobcats",
@@ -32,7 +32,7 @@
       }
     },
     "3e065ed32915a4afefae3a851f6df12a": {
-      "matchup": "Paris Basketball @ Beşiktaş J.K.",
+      "matchup": "Paris Basketball @ Be\u015fikta\u015f J.K.",
       "league": "EuroLeague",
       "commence_time": "2026-11-24T17:00:00Z",
       "generated_at": "2026-11-24T16:49:17Z",
@@ -65,6 +65,35 @@
             "ai": "over",
             "money": "over",
             "experts": "mixed"
+          }
+        }
+      }
+    },
+    "164c30fe9e3df9f785daa57c5053cf5d": {
+      "matchup": "Providence Friars @ Arizona Wildcats",
+      "league": "NCAAB Men",
+      "commence_time": "2026-11-24T22:00:00Z",
+      "generated_at": "2026-11-24T21:37:00Z",
+      "source": "pregame-hour-analysis 2026-11-24 16:29 EST",
+      "elements": {
+        "team_total:Providence Friars": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "under",
+            "money": "not found",
+            "experts": "under"
+          }
+        },
+        "team_total:Arizona Wildcats": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "under",
+            "money": "not found",
+            "experts": "under"
           }
         }
       }
