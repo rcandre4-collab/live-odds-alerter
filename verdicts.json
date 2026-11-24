@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-24T15:41:49Z",
+  "verdicts": {
+    "c431e5cece6a42f0acf8f2898b29e83e": {
+      "matchup": "New Mexico St Aggies @ Ohio Bobcats",
+      "league": "NCAAB Men",
+      "commence_time": "2026-11-24T16:00:00Z",
+      "generated_at": "2026-11-24T15:41:49Z",
+      "source": "pregame-hour-analysis 2026-11-24 10:41 EST",
+      "elements": {
+        "game_total": {
+          "direction": "over",
+          "strong": true,
+          "signals": {
+            "models": "over",
+            "ai": "over",
+            "money": "mixed",
+            "experts": "over"
+          }
+        },
+        "team_total:Ohio Bobcats": {
+          "direction": "over",
+          "strong": true,
+          "signals": {
+            "models": "over",
+            "ai": "over",
+            "money": "not found",
+            "experts": "over"
+          }
+        }
+      }
+    }
+  }
+}
