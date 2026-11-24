@@ -1233,18 +1233,6 @@
         "San Antonio Spurs": 117.5
       }
     },
-    "e4496b83963ca2f24052c8779d91cbeb": {
-      "matchup": "Indiana St Sycamores @ East Carolina Pirates",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T17:30:00Z",
-      "game_total": 150.0,
-      "team_totals": {
-        "East Carolina Pirates": 73.5,
-        "Indiana St Sycamores": 71.5
-      }
-    },
     "037aac2cff7aea7fec09fbb5a3dcf04b": {
       "matchup": "Long Beach St 49ers @ Florida Int'l Golden Panthers",
       "sport": "basketball_ncaab",
@@ -2105,24 +2093,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "2e5836722778ca286bd0f738b36f4173": {
-      "matchup": "Alcorn St Braves @ Michigan St Spartans",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T17:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "aeaffe1a8d784f8038b665c6b08f5547": {
-      "matchup": "Middle Tennessee Blue Raiders @ Oregon St Beavers",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T17:00:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "ee7517427fd108585ccddfb59157032a": {
       "matchup": "Utah Utes @ Iowa Hawkeyes",
@@ -3085,22 +3055,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "2e5836722778ca286bd0f738b36f4173": {
-      "q1": {
-        "elapsed_min": 53,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T17:53:15.209908+00:00"
-      }
-    },
-    "aeaffe1a8d784f8038b665c6b08f5547": {
-      "q1": {
-        "elapsed_min": 53,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T17:53:15.209908+00:00"
-      }
-    },
     "037aac2cff7aea7fec09fbb5a3dcf04b": {
       "h1": {
         "elapsed_min": 49,
