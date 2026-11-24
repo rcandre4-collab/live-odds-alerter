@@ -1233,42 +1233,6 @@
         "San Antonio Spurs": 117.5
       }
     },
-    "f1dad846a15c864b10f3cf4914c7cbd5": {
-      "matchup": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T20:15:00Z",
-      "game_total": 149.5,
-      "team_totals": {
-        "Middle Tennessee Blue Raiders": 73.5,
-        "Southern Illinois Salukis": 75.5
-      }
-    },
-    "b1abd9ff77f5dc5c376c08041fae20ea": {
-      "matchup": "Arkansas St Red Wolves @ Southern Utah Thunderbirds",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T20:30:00Z",
-      "game_total": 162.5,
-      "team_totals": {
-        "Arkansas St Red Wolves": 84.5,
-        "Southern Utah Thunderbirds": 79.5
-      }
-    },
-    "aee64daab1ceefa09aaf0260ed750d53": {
-      "matchup": "William & Mary Tribe @ IUPUI Jaguars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T20:30:00Z",
-      "game_total": 167.5,
-      "team_totals": {
-        "IUPUI Jaguars": 80.5,
-        "William & Mary Tribe": 86.5
-      }
-    },
     "c26aa1b5cbdc588ee415a259da2c6bf4": {
       "matchup": "Yale Bulldogs @ Belmont Bruins",
       "sport": "basketball_ncaab",
@@ -2968,25 +2932,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "aee64daab1ceefa09aaf0260ed750d53": {
-      "h1": {
-        "elapsed_min": 75,
-        "game_total": 179.5,
-        "team_totals": {},
-        "at": "2026-11-23T21:44:38.620496+00:00"
-      }
-    },
-    "b1abd9ff77f5dc5c376c08041fae20ea": {
-      "h1": {
-        "elapsed_min": 54,
-        "game_total": 180.5,
-        "team_totals": {
-          "Arkansas St Red Wolves": 84.5,
-          "Southern Utah Thunderbirds": 77.5
-        },
-        "at": "2026-11-23T21:44:38.620496+00:00"
-      }
-    },
     "dd58df55a7af85441c65eee7310a71f5": {
       "h1": {
         "elapsed_min": 44,
