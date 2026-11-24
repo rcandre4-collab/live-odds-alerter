@@ -1,5 +1,7 @@
 """
-Live Odds Total Monitor v4.4 — expanded coverage + Q1 / halftime checkpoints
+Live Odds Total Monitor v4.6 — expanded coverage + Q1 / halftime checkpoints
++ consensus-gated alerts (only alert when the move goes against the
+pregame sharp consensus)
 
 Football + Basketball (NFL, NCAAF, CFL, NBA, NCAAB, WNCAAB, WNBA,
 EuroLeague, NBL Australia):
@@ -50,6 +52,27 @@ those hours it exits immediately, $0 cost. That cuts the burn from
 ~1,000 credits/day to ~500/day, so 20,000 credits last ~38 days instead
 of ~20. The alert checks themselves cost $0 extra — see below.
 TEST_EMAIL bypasses the game-hours gate so you can test anytime.
+
+v4.6 CONSENSUS-GATED ALERTS: a NEAR/HIT alert is now emailed only when
+the live total move goes AGAINST the pregame sharp consensus — total
+moved UP and the consensus is UNDER, or total moved DOWN and the
+consensus is OVER — per element (game total and each team total).
+Thresholds are unchanged (big: game 18/20, team 13/15; hockey 1.5/2).
+The consensus lives in the pregame analyses (models, AI projections,
+money/bet splits, expert leans), not in The Odds API, so the pregame
+analysis job publishes it as verdicts.json in the repo root and this
+script reads it at run start. "Strong consensus" = at least 3 of the
+4 signals agree on a direction, with none pointing the opposite way.
+FAIL-OPEN: if verdicts.json is missing/corrupt, or a game has no
+verdict, or the verdict is mixed/not strong, the alert goes out exactly
+as before. A move that agrees with consensus is NOT emailed, but its
+key is recorded in state.json under "suppressed" (NOT "alerted"), so
+the matchup-analysis job — which reads "alerted" — skips it and you
+get no email about a no-value move. Checkpoints (Q1/halftime) are
+unchanged: they are routine lines, not alerts. Reading verdicts.json
+costs $0 in Odds API credits (it is a local file, not an API call).
+Hockey has no pregame verdicts published, so hockey alerts always
+fail open and behave exactly as before.
 
 WHY v3: The Odds API's sport-level /odds endpoint only supports
 featured markets (h2h, spreads, totals). Asking it for team_totals
@@ -126,6 +149,9 @@ GAME_HOURS_END_MIN = 6 * 60 + 30     # 06:30 UTC = 01:30 EST (next day)
 CHECKPOINTS_QUARTERS = {"q1": (25, 55), "h1": (55, 95)}
 CHECKPOINTS_HALVES = {"h1": (40, 75)}
 STATE_FILE = "state.json"
+VERDICTS_FILE = "verdicts.json"  # v4.6: pregame sharp-consensus verdicts, published by the pregame analysis job (repo root, read at run start; missing/corrupt = fail open)
+# The four consensus signals recorded per element in verdicts.json.
+SIGNALS = ("models", "ai", "money", "experts")
 
 # --- thresholds: (near, target) ---
 BIG = {"game_near": 18.0, "game_target": 20.0, "team_near": 13.0, "team_target": 15.0}
@@ -164,13 +190,64 @@ def load_state():
             state.setdefault("pregame", {})
             state.setdefault("alerted", [])
             state.setdefault("checkpoints", {})
+            state.setdefault("suppressed", [])
             return state
-    return {"pregame": {}, "alerted": [], "checkpoints": {}}
+    return {"pregame": {}, "alerted": [], "checkpoints": {}, "suppressed": []}
 
 
 def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+
+
+def load_verdicts():
+    """Load verdicts.json (v4.6): pregame sharp-consensus verdicts,
+    published by the pregame analysis job. Returns {event_id: verdict}.
+    Missing file, unreadable JSON, or wrong shape -> {} (fail open:
+    alerts send exactly as before). Never raises."""
+    try:
+        with open(VERDICTS_FILE, "r") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print("verdicts.json not found — consensus gate off (fail open).")
+        return {}
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"verdicts.json unreadable ({e}) — consensus gate off (fail open).")
+        return {}
+    if not isinstance(data, dict):
+        print("verdicts.json is not an object — consensus gate off (fail open).")
+        return {}
+    verdicts = data.get("verdicts", {})
+    if not isinstance(verdicts, dict):
+        print("verdicts.json: 'verdicts' is not an object — consensus gate off (fail open).")
+        return {}
+    print(f"Loaded {len(verdicts)} verdict(s) from verdicts.json.")
+    return verdicts
+
+
+def strong_consensus(element_verdict):
+    """Return 'under' or 'over' when an element verdict is a strong
+    consensus, else None (mixed / missing / not strong -> fail open).
+    Strong = at least 3 of the 4 signals agree on a direction, with
+    none of the signals pointing the opposite way. Signals that are
+    'mixed', 'not found', or missing do not count either way. If no
+    signals are recorded, fall back to the published direction/strong
+    fields; anything else is not strong."""
+    if not isinstance(element_verdict, dict):
+        return None
+    signals = element_verdict.get("signals") or {}
+    if isinstance(signals, dict) and signals:
+        under = sum(1 for s in SIGNALS if signals.get(s) == "under")
+        over = sum(1 for s in SIGNALS if signals.get(s) == "over")
+        if under >= 3 and over == 0:
+            return "under"
+        if over >= 3 and under == 0:
+            return "over"
+        return None
+    # No signals recorded: trust the publisher's direction/strong fields.
+    if element_verdict.get("strong") and element_verdict.get("direction") in ("under", "over"):
+        return element_verdict["direction"]
+    return None
 
 
 def send_email(subject, body):
@@ -305,9 +382,17 @@ def format_checkpoint(label, matchup, cp, pre, game_total, team_totals):
     return "\n".join(lines)
 
 
-def check_move(event_id, label, matchup, kind, pre_val, live_val, thresholds, state, alerts, team=None):
+def check_move(event_id, label, matchup, kind, pre_val, live_val, thresholds, state, alerts, team=None, verdicts=None):
     """kind = 'game_total' or 'team_total'. Alerts once at NEAR, once at HIT.
-    If it jumps straight to HIT, send only HIT (and mark NEAR as seen)."""
+    If it jumps straight to HIT, send only HIT (and mark NEAR as seen).
+
+    v4.6 consensus gate: an alert is emailed only when the move goes
+    AGAINST the pregame sharp consensus for that element (UP + consensus
+    UNDER, or DOWN + consensus OVER). If the move agrees with consensus,
+    no email is sent; the key is recorded in state["suppressed"] (NOT
+    state["alerted"]) so the matchup-analysis job skips it. No verdict,
+    a mixed/not-strong verdict, or a missing verdicts.json -> fail open:
+    the alert sends exactly as before."""
     if pre_val is None or live_val is None:
         return
     diff = live_val - pre_val
@@ -325,9 +410,30 @@ def check_move(event_id, label, matchup, kind, pre_val, live_val, thresholds, st
         near_key = None
     else:
         return
-    if key in state["alerted"]:
+    if key in state["alerted"] or key in state.get("suppressed", []):
         return
     direction = "UP" if diff > 0 else "DOWN"
+    # Consensus gate (v4.6). Element keys in verdicts.json: "game_total"
+    # or "team_total:<exact team name as in state.json team_totals>".
+    # Any malformed verdict entry is treated as "no verdict" (fail open).
+    element_key = kind if kind == "game_total" else f"team_total:{team}"
+    event_verdict = (verdicts or {}).get(event_id)
+    elements = event_verdict.get("elements", {}) if isinstance(event_verdict, dict) else {}
+    element_verdict = elements.get(element_key) if isinstance(elements, dict) else None
+    consensus = strong_consensus(element_verdict)
+    if consensus is not None:
+        against = ((direction == "UP" and consensus == "under")
+                   or (direction == "DOWN" and consensus == "over"))
+        if not against:
+            # Move agrees with consensus: no value in alerting.
+            state.setdefault("suppressed", [])
+            if key not in state["suppressed"]:
+                state["suppressed"].append(key)
+            if near_key and near_key not in state["suppressed"]:
+                state["suppressed"].append(near_key)
+            print(f"  SUPPRESSED (consensus {consensus}): [{label}] {matchup} "
+                  f"{what} {level} {direction} {adiff:.1f} {unit}")
+            return
     alerts.append(
         f"[{label}] {matchup}\n"
         f"{what} {level} {target:g} — {direction} {adiff:.1f} {unit} | "
@@ -336,6 +442,9 @@ def check_move(event_id, label, matchup, kind, pre_val, live_val, thresholds, st
     state["alerted"].append(key)
     if near_key:
         state["alerted"].append(near_key)
+        # A NEAR that was suppressed earlier is subsumed by this HIT email.
+        if near_key in state.get("suppressed", []):
+            state["suppressed"].remove(near_key)
 
 
 def in_game_hours(now):
@@ -448,6 +557,7 @@ def feed_test():
 
 def run():
     state = load_state()
+    verdicts = load_verdicts()  # v4.6: {} when missing/corrupt -> fail open
     now = datetime.now(timezone.utc)
     alerts = []
     checkpoint_lines = []
@@ -479,6 +589,7 @@ def run():
                 "If you can read this, the Gmail login and the receiver address work.\n\n"
                 f"Games currently snapshotted in state.json: {n_pregame}\n"
                 f"Alerts sent so far: {len(state.get('alerted', []))}\n"
+                f"Alerts suppressed by consensus gate: {len(state.get('suppressed', []))}\n"
                 f"Checkpoints recorded: {sum(len(v) for v in state.get('checkpoints', {}).values())}\n\n"
                 "Next few games:\n" + sample_lines + "\n\n"
                 "Normal emails only fire when a total moves NEAR/HIT or a Q1/halftime\n"
@@ -552,7 +663,8 @@ def run():
             if event_id in state["pregame"]:
                 pre = state["pregame"][event_id]
                 check_move(event_id, label, matchup, "game_total",
-                           pre.get("game_total"), game_total, thresholds, state, alerts)
+                           pre.get("game_total"), game_total, thresholds, state, alerts,
+                           verdicts=verdicts)
                 # Live: team totals need a fresh per-event fetch (1 credit).
                 team_totals = fetch_team_totals(sport, event_id, failed_sports)
                 if team_totals:
@@ -560,7 +672,8 @@ def run():
                 for team, live_tt in team_totals.items():
                     pre_tt = pre.get("team_totals", {}).get(team)
                     check_move(event_id, label, matchup, "team_total",
-                               pre_tt, live_tt, thresholds, state, alerts, team=team)
+                               pre_tt, live_tt, thresholds, state, alerts, team=team,
+                               verdicts=verdicts)
                 # Q1 / halftime checkpoint (basketball only): record the
                 # live lines once, in the first poll inside the window.
                 # Costs $0 extra — reuses the live totals fetched above.
@@ -592,6 +705,13 @@ def run():
         k: v for k, v in state.get("checkpoints", {}).items()
         if k in state["pregame"]
     }
+    # Drop suppressed keys for pruned games too. A suppressed key is
+    # "{event_id}_{kind}..." so it belongs to a game still in "pregame".
+    # "alerted" is intentionally never pruned (existing behaviour).
+    state["suppressed"] = [
+        k for k in state.get("suppressed", [])
+        if any(k.startswith(eid + "_") for eid in state["pregame"])
+    ]
 
     if alerts:
         subject = f"Live Total Alert ({len(alerts)} trigger{'s' if len(alerts) > 1 else ''})"

@@ -1,4 +1,4 @@
-# Live Odds Total Monitor v4.5 — expanded + Q1 / halftime checkpoints + WNCAAB feed test
+# Live Odds Total Monitor v4.6 — expanded + Q1 / halftime checkpoints + WNCAAB feed test + consensus-gated alerts
 
 ## What it watches
 
@@ -12,6 +12,51 @@
 "Nearly" means: big sports alert at **18+ pts** (game) / **13+ pts** (team), then again at the full 20 / 15. Hockey alerts at **1.5+ goals**, then again at the full 2. All thresholds are at the top of `monitor.py` — change `BIG` / `HOCKEY` to tune them.
 
 Pregame lines are snapshotted before tipoff/kickoff/puck drop and saved in `state.json`. Live games are compared against that snapshot, and each move alerts once per level (NEAR, then HIT). Alerts go to your email via Gmail SMTP.
+
+## Consensus-gated alerts (v4.6)
+
+An alert is now emailed **only when the live total move goes against the pregame sharp consensus** — the total moved UP and the consensus is UNDER, or it moved DOWN and the consensus is OVER — checked separately for the game total and for each team total. Thresholds are unchanged (big sports: game 18/20 pts, team 13/15 pts; hockey: 1.5/2 goals).
+
+Why: a move *with* the sharp side is the market agreeing with the models — no value in it. A move *against* the sharp side makes the consensus side cheaper — that is the alert worth getting.
+
+**Where the consensus comes from.** The Odds API only gives lines, so the alerter cannot know what the models think. The consensus lives in the pregame analyses (web research) and is published to the repo as `verdicts.json` by the pregame analysis job, one entry per game:
+
+```json
+{
+  "version": 1,
+  "updated_at": "2026-11-23T23:00:00Z",
+  "verdicts": {
+    "<event_id from state.json>": {
+      "matchup": "Temple Owls @ UT Martin Skyhawks",
+      "league": "NCAAB Men",
+      "commence_time": "2026-11-23T22:30:00Z",
+      "generated_at": "2026-11-23T21:29:00Z",
+      "source": "pregame-hour-analysis 2026-11-23 16:29 EST",
+      "elements": {
+        "game_total": {
+          "direction": "under",
+          "strong": true,
+          "signals": {"models": "under", "ai": "under", "money": "over", "experts": "under"}
+        },
+        "team_total:Temple Owls": {
+          "direction": "under",
+          "strong": true,
+          "signals": {"models": "under", "ai": "under", "money": "mixed", "experts": "under"}
+        }
+      }
+    }
+  }
+}
+```
+
+- Element keys are `"game_total"` and `"team_total:<exact team name as in state.json team_totals>"`.
+- Each signal is `"under"`, `"over"`, `"mixed"`, or `"not found"` (a signal that could not be determined from the analysis does not count either way).
+- **Strong consensus** = at least 3 of the 4 signals agree on a direction, with none pointing the opposite way. Otherwise the element verdict is mixed. Only games with a strong verdict need an entry — a missing entry is treated the same as mixed.
+- **Fail-open, always.** If `verdicts.json` is missing or corrupt, if a game has no entry, or if its verdict is mixed/not strong, the alert goes out exactly as before. A missing verdict never silently drops an alert.
+- **Suppressed moves are recorded, not lost.** A move that agrees with consensus is not emailed, but its key is saved in `state.json` under a new list, `"suppressed"` (same key format as `"alerted"`, e.g. `<event_id>_game_total_near`). It is never added to `"alerted"`, so the matchup-analysis job — which reads `"alerted"` — skips it and you get no email about a no-value move. You can still see what was suppressed in `state.json`.
+- **Checkpoints are unchanged.** Q1/halftime checkpoint emails are routine lines, not alerts, and are not gated.
+- **Hockey is unaffected.** No hockey verdicts are published (the consensus signals are too thin for hockey), so hockey alerts always fail open and behave exactly as before.
+- **Cost: $0 extra.** Reading `verdicts.json` is a local file read, not an API call. The filter changes no polling, no thresholds, and no credit burn.
 
 ## Test email (v4.2)
 
@@ -51,6 +96,7 @@ If you need ACB / DEL / KHL, you'd need a second provider — The Odds API can't
 
 - v4.4 (30-minute polls, game hours 11:00–01:30 EST only): game totals ~11 leagues × ~29 runs/day = ~320/day; pregame team totals ~50/day; live team totals ~150/day; **total ~500/day, so 20,000 credits last ~38 days**.
 - v4.5 (WNCAAB feed test only, no change to normal polling): `FEED_TEST=1` (workflow `feed_test` dispatch input) queries `basketball_wncaab` totals with several bookmaker/region combos — current config (pinnacle/eu), all books/us, all books/eu, fanduel/us, draftkings/us — plus a team_totals check on one event, and emails the event counts. ~5–7 credits, one-off. WNCAAB was found missing from state.json on 2026-11-23 (188 pregame games, 0 WNCAAB) even though it is configured; the test shows whether Pinnacle/EU lists WNCAAB at all or a US bookmaker is needed (regions=us doubles that sport's per-run cost).
+- v4.6 (consensus-gated alerts): the alerter reads `verdicts.json` (published by the pregame analysis job) and only emails a NEAR/HIT alert when the move goes against the pregame sharp consensus. Moves that agree with consensus are recorded in `state.json` under `"suppressed"` instead of `"alerted"`. Missing/corrupt verdicts file, missing verdict, or mixed verdict = fail open (alert sends as before). Checkpoints, thresholds, polling, game hours, and FEED_TEST are unchanged. $0 extra in Odds API credits.
 - Before v4.4 (20-minute polls, 24/7): 15 sports = **15 credits/run** for game totals, 45/hour, **1,080/day** if all 15 are in season, plus team totals — roughly 1,000/day total, so 20,000 credits lasted ~20 days.
 - Period totals (v4, dropped in v4.1): 5 credits per event, once, for the pregame Q1/H1 + team Q1/H1 lines — too fast on big slates. Checkpoints themselves cost $0 extra.
 - The script first calls `/v4/sports` (free) and only polls in-season leagues, so offseason leagues cost $0. That helps a lot in summer/winter, but in-season you'll still burn a paid tier fast.
@@ -74,5 +120,7 @@ Live totals naturally drift down as the clock runs down — a hockey total dropp
 
 ## Files
 
-- `monitor.py` — the monitor (v4.4, this file's logic)
+- `monitor.py` — the monitor (v4.6, this file's logic)
+- `verdicts.json` — pregame sharp-consensus verdicts, published by the pregame analysis job (not by the alerter); read at run start, missing file = fail open
+- `state.json` — snapshotted pregame lines, `alerted` keys, `suppressed` keys (v4.6), `checkpoints` (created by the workflow)
 - `.github/workflows/poll_odds.yml` — runs it every 30 minutes, game hours only (the script also exits outside 11:00–01:30 EST), commits `state.json`
