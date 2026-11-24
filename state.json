@@ -1233,30 +1233,6 @@
         "San Antonio Spurs": 117.5
       }
     },
-    "7672e3ae078a7b505b50f15e46208e4f": {
-      "matchup": "Tulsa Golden Hurricane @ Oregon St Beavers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T19:00:00Z",
-      "game_total": 155.5,
-      "team_totals": {
-        "Oregon St Beavers": 79.5,
-        "Tulsa Golden Hurricane": 73.5
-      }
-    },
-    "f6407650f13adaa2fc13d17570ef3327": {
-      "matchup": "Ole Miss Rebels @ Clemson Tigers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T19:30:00Z",
-      "game_total": 147.5,
-      "team_totals": {
-        "Clemson Tigers": 71.5,
-        "Ole Miss Rebels": 76.5
-      }
-    },
     "f1dad846a15c864b10f3cf4914c7cbd5": {
       "matchup": "Middle Tennessee Blue Raiders @ Southern Illinois Salukis",
       "sport": "basketball_ncaab",
@@ -2057,24 +2033,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "ec3a462b47b984b2c23bf3d6a148a689": {
-      "matchup": "Virginia Cavaliers @ Oklahoma Sooners",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T19:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "44b995c2760fd0343f13dec05e3b903e": {
-      "matchup": "Virginia Tech Hokies @ Tenn-Martin Skyhawks",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T19:30:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "247e3cf7312de50688ae42ae038ce15f": {
       "matchup": "Michigan Wolverines @ Miami Hurricanes",
@@ -3010,45 +2968,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "7672e3ae078a7b505b50f15e46208e4f": {
-      "h1": {
-        "elapsed_min": 55,
-        "game_total": 147.5,
-        "team_totals": {
-          "Oregon St Beavers": 80.5,
-          "Tulsa Golden Hurricane": 74.5
-        },
-        "at": "2026-11-23T19:57:00.603679+00:00"
-      }
-    },
-    "ec3a462b47b984b2c23bf3d6a148a689": {
-      "q1": {
-        "elapsed_min": 27,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T19:57:00.603679+00:00"
-      },
-      "h1": {
-        "elapsed_min": 77,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T20:47:05.582302+00:00"
-      }
-    },
-    "44b995c2760fd0343f13dec05e3b903e": {
-      "q1": {
-        "elapsed_min": 27,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T19:57:00.603679+00:00"
-      },
-      "h1": {
-        "elapsed_min": 77,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T20:47:05.582302+00:00"
-      }
-    },
     "aee64daab1ceefa09aaf0260ed750d53": {
       "h1": {
         "elapsed_min": 75,
