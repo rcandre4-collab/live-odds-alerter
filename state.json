@@ -1233,42 +1233,6 @@
         "San Antonio Spurs": 117.5
       }
     },
-    "c26aa1b5cbdc588ee415a259da2c6bf4": {
-      "matchup": "Yale Bulldogs @ Belmont Bruins",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T21:00:00Z",
-      "game_total": 146.0,
-      "team_totals": {
-        "Belmont Bruins": 72.5,
-        "Yale Bulldogs": 70.5
-      }
-    },
-    "dd58df55a7af85441c65eee7310a71f5": {
-      "matchup": "Tulane Green Wave @ Georgia St Panthers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T21:00:00Z",
-      "game_total": 148.0,
-      "team_totals": {
-        "Georgia St Panthers": 74.5,
-        "Tulane Green Wave": 73.5
-      }
-    },
-    "8705fa29b81b3f96d689da909e406bff": {
-      "matchup": "Nevada Wolf Pack @ San Francisco Dons",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T21:30:00Z",
-      "game_total": 141.5,
-      "team_totals": {
-        "Nevada Wolf Pack": 73.5,
-        "San Francisco Dons": 66.5
-      }
-    },
     "fc86a54f6abd13932c62fa66b82a3e28": {
       "matchup": "Washington Huskies @ BYU Cougars",
       "sport": "basketball_ncaab",
@@ -1997,15 +1961,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "247e3cf7312de50688ae42ae038ce15f": {
-      "matchup": "Michigan Wolverines @ Miami Hurricanes",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T21:05:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "33bdfb711e4edfd26eaaba0e3713da7b": {
       "matchup": "Vanderbilt Commodores @ Arizona Wildcats",
@@ -2932,47 +2887,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "dd58df55a7af85441c65eee7310a71f5": {
-      "h1": {
-        "elapsed_min": 44,
-        "game_total": 142.5,
-        "team_totals": {
-          "Georgia St Panthers": 74.5,
-          "Tulane Green Wave": 72.5
-        },
-        "at": "2026-11-23T21:44:38.620496+00:00"
-      }
-    },
-    "c26aa1b5cbdc588ee415a259da2c6bf4": {
-      "h1": {
-        "elapsed_min": 42,
-        "game_total": 137.5,
-        "team_totals": {
-          "Belmont Bruins": 74.5,
-          "Yale Bulldogs": 72.5
-        },
-        "at": "2026-11-23T21:44:38.620496+00:00"
-      }
-    },
-    "247e3cf7312de50688ae42ae038ce15f": {
-      "q1": {
-        "elapsed_min": 42,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T21:44:38.620496+00:00"
-      }
-    },
-    "8705fa29b81b3f96d689da909e406bff": {
-      "h1": {
-        "elapsed_min": 67,
-        "game_total": 142.5,
-        "team_totals": {
-          "Nevada Wolf Pack": 74.5,
-          "San Francisco Dons": 67.5
-        },
-        "at": "2026-11-23T22:44:23.307932+00:00"
-      }
-    },
     "fc86a54f6abd13932c62fa66b82a3e28": {
       "h1": {
         "elapsed_min": 42,
