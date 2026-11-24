@@ -177,7 +177,7 @@
       "label": "NFL",
       "group": "big",
       "commence_time": "2026-11-30T01:20:00Z",
-      "game_total": 40.5,
+      "game_total": 41.5,
       "team_totals": {
         "Cleveland Browns": 23.5,
         "Las Vegas Raiders": 17.5
@@ -489,7 +489,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T17:00:00Z",
-      "game_total": 47.0,
+      "game_total": 46.0,
       "team_totals": {
         "UConn Huskies": 26.5,
         "Wyoming Cowboys": 22.5
@@ -1170,7 +1170,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 241.5,
+      "game_total": 240.5,
       "team_totals": {
         "Chicago Bulls": 116.5,
         "Cleveland Cavaliers": 124.5
@@ -1758,7 +1758,7 @@
       "label": "NHL",
       "group": "hockey",
       "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 6.0,
+      "game_total": 6.5,
       "team_totals": {
         "Minnesota Wild": 3.5,
         "San Jose Sharks": 2.5
@@ -2094,7 +2094,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T02:30:00Z",
-      "game_total": 140.0,
+      "game_total": 139.5,
       "team_totals": {
         "Loyola (Chi) Ramblers": 69.5,
         "Seattle Redhawks": 70.5
@@ -2189,7 +2189,7 @@
       "sport": "basketball_wncaab",
       "label": "WNCAAB Women",
       "group": "big",
-      "commence_time": "2026-11-24T01:00:00Z",
+      "commence_time": "2026-11-24T01:05:00Z",
       "game_total": null,
       "team_totals": {}
     },
@@ -2555,12 +2555,140 @@
       "commence_time": "2026-11-25T04:59:00Z",
       "game_total": null,
       "team_totals": {}
+    },
+    "42f48a4769eab3d1472d76aac0fd0fa7": {
+      "matchup": "Detroit Pistons @ Orlando Magic",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-25T00:10:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "3167a4072c65c9314c71d0fe49be8e28": {
+      "matchup": "Boston Celtics @ Washington Wizards",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-25T01:10:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "6bfadbd22ed8a054cf82ec1b12b78243": {
+      "matchup": "Dallas Mavericks @ Denver Nuggets",
+      "sport": "basketball_nba",
+      "label": "NBA",
+      "group": "big",
+      "commence_time": "2026-11-25T03:10:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "25c249c5d826256a741704663708b66f": {
+      "matchup": "Southern Utah Thunderbirds @ Florida Int'l Golden Panthers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T18:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "805ca96e9d27ffe645d7a7f11348756f": {
+      "matchup": "Oregon St Beavers @ San Francisco Dons",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T19:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "aa88b3c9dbbd08c5d5b25ea5f6b52bf1": {
+      "matchup": "Ole Miss Rebels @ BYU Cougars",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T19:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "963ef5f90b0991bdd17147e22683e18e": {
+      "matchup": "Appalachian St Mountaineers @ Yale Bulldogs",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T20:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "a9d72fa7f4207364b30b2b31daa37521": {
+      "matchup": "Arkansas St Red Wolves @ Long Beach St 49ers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T20:30:24Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "d65b43e1e335b6ace622fd146193369c": {
+      "matchup": "High Point Panthers @ Duquesne Dukes",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:30:39Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "17a9a4ec4b37ec676576d40fd025472b": {
+      "matchup": "Alabama A&M Bulldogs @ North Alabama Lions",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "8007f744856111cf162e4770b19628a9": {
+      "matchup": "Lipscomb Bisons @ Auburn Tigers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "59e3968ce2b702ee8df02da575a47778": {
+      "matchup": "Clemson Tigers @ Washington Huskies",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "1ae5c95564b806157de7bef407bae0c9": {
+      "matchup": "Florida A&M Rattlers @ South Alabama Jaguars",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "43f1834ce15a8fa15990477292bbd923": {
+      "matchup": "UNC Asheville Bulldogs @ Florida St Seminoles",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T02:00:00Z",
+      "game_total": null,
+      "team_totals": {}
     }
   },
   "alerted": [
     "b1abd9ff77f5dc5c376c08041fae20ea_game_total_near",
     "b1abd9ff77f5dc5c376c08041fae20ea_game_total_hit",
-    "b1abd9ff77f5dc5c376c08041fae20ea_game_total_near"
+    "b1abd9ff77f5dc5c376c08041fae20ea_game_total_near",
+    "a711d8899fd6dad91337247433157f87_game_total_hit",
+    "a711d8899fd6dad91337247433157f87_game_total_near"
   ],
   "checkpoints": {
     "435ce8aaf2de67393a436fc9bf8c956e": {
@@ -2745,6 +2873,64 @@
         "team_totals": {},
         "at": "2026-11-23T23:43:26.394580+00:00"
       }
+    },
+    "35ca45d3e548dc7207fd7f1696ab16f5": {
+      "q1": {
+        "elapsed_min": 43,
+        "game_total": 218.5,
+        "team_totals": {
+          "Charlotte Hornets": 104.5,
+          "Memphis Grizzlies": 109.5
+        },
+        "at": "2026-11-24T00:52:47.914196+00:00"
+      }
+    },
+    "ac6fb079d66ef35a2a77e22b5e94ef8d": {
+      "q1": {
+        "elapsed_min": 42,
+        "game_total": 244.0,
+        "team_totals": {
+          "Philadelphia 76ers": 116.5,
+          "Portland Trail Blazers": 115.5
+        },
+        "at": "2026-11-24T00:52:47.914196+00:00"
+      }
+    },
+    "1af3a5acedbb908ecc006767d288d16b": {
+      "h1": {
+        "elapsed_min": 53,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T00:52:47.914196+00:00"
+      }
+    },
+    "c6b930f2b10901f7c145736cde09fd95": {
+      "h1": {
+        "elapsed_min": 53,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T00:52:47.914196+00:00"
+      }
+    },
+    "120e2421c480efcf51c1aa27d4973187": {
+      "h1": {
+        "elapsed_min": 53,
+        "game_total": 156.5,
+        "team_totals": {
+          "Georgia Southern Eagles": 80.5,
+          "Northern Kentucky Norse": 83.5
+        },
+        "at": "2026-11-24T00:52:47.914196+00:00"
+      }
+    },
+    "f35ec8dcc1ab5e6f04bdb796a46b1524": {
+      "h1": {
+        "elapsed_min": 49,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T00:52:47.914196+00:00"
+      }
     }
-  }
+  },
+  "suppressed": []
 }
