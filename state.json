@@ -1233,30 +1233,6 @@
         "San Antonio Spurs": 117.5
       }
     },
-    "fc86a54f6abd13932c62fa66b82a3e28": {
-      "matchup": "Washington Huskies @ BYU Cougars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T22:00:00Z",
-      "game_total": 163.0,
-      "team_totals": {
-        "BYU Cougars": 88.5,
-        "Washington Huskies": 76.5
-      }
-    },
-    "c247dff2509498dedc2b2408ad1d5dd4": {
-      "matchup": "Temple Owls @ Tenn-Martin Skyhawks",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-23T22:45:00Z",
-      "game_total": 140.5,
-      "team_totals": {
-        "Temple Owls": 71.5,
-        "Tenn-Martin Skyhawks": 70.5
-      }
-    },
     "8234af74a35d1a31b73854d4fd191c64": {
       "matchup": "Maryland-Eastern Shore Hawks @ Youngstown St Penguins",
       "sport": "basketball_ncaab",
@@ -1961,15 +1937,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "33bdfb711e4edfd26eaaba0e3713da7b": {
-      "matchup": "Vanderbilt Commodores @ Arizona Wildcats",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-23T22:05:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "cc517255abb7d21d93e616b9c420135f": {
       "matchup": "Wofford Terriers @ Wake Forest Demon Deacons",
@@ -2887,25 +2854,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "fc86a54f6abd13932c62fa66b82a3e28": {
-      "h1": {
-        "elapsed_min": 42,
-        "game_total": 168.0,
-        "team_totals": {
-          "BYU Cougars": 86.5,
-          "Washington Huskies": 76.5
-        },
-        "at": "2026-11-23T22:44:23.307932+00:00"
-      }
-    },
-    "33bdfb711e4edfd26eaaba0e3713da7b": {
-      "q1": {
-        "elapsed_min": 40,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-23T22:44:23.307932+00:00"
-      }
-    },
     "cc517255abb7d21d93e616b9c420135f": {
       "q1": {
         "elapsed_min": 41,
