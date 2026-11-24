@@ -825,7 +825,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T21:00:00Z",
-      "game_total": 48.0,
+      "game_total": 47.0,
       "team_totals": {
         "North Texas Mean Green": 25.5,
         "UAB Blazers": 22.5
@@ -2106,7 +2106,7 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T04:59:00Z",
-      "game_total": 157.0,
+      "game_total": 155.0,
       "team_totals": {
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
@@ -2256,8 +2256,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T15:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 148.0,
+      "team_totals": {
+        "St. Bonaventure Bonnies": 73.5,
+        "Wright St Raiders": 73.5
+      }
     },
     "c431e5cece6a42f0acf8f2898b29e83e": {
       "matchup": "New Mexico St Aggies @ Ohio Bobcats",
@@ -2265,8 +2268,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T16:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 149.5,
+      "team_totals": {
+        "New Mexico St Aggies": 72.5,
+        "Ohio Bobcats": 76.5
+      }
     },
     "c027a1281dd4c9e8ac848bc06f0e29fb": {
       "matchup": "Belmont Bruins @ Akron Zips",
@@ -2274,8 +2280,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T17:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 141.0,
+      "team_totals": {
+        "Akron Zips": 71.5,
+        "Belmont Bruins": 69.5
+      }
     },
     "f199c1cbe3ed8c1fc4c77116bfc48499": {
       "matchup": "SE Louisiana Lions @ N Colorado Bears",
@@ -2292,8 +2301,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T18:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 147.0,
+      "team_totals": {
+        "Oklahoma Sooners": 72.5,
+        "Pittsburgh Panthers": 74.5
+      }
     },
     "becb255ccc8bc25b5f7bd29df33c9f11": {
       "matchup": "UIC Flames @ Rice Owls",
@@ -2301,8 +2313,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T18:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 142.0,
+      "team_totals": {
+        "Rice Owls": 67.5,
+        "UIC Flames": 74.5
+      }
     },
     "2643c9fdcf8ea923eba3adf7e2d63034": {
       "matchup": "North Dakota Fighting Hawks @ Detroit Mercy Titans",
@@ -2319,8 +2334,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T22:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 144.5,
+      "team_totals": {
+        "Kent State Golden Flashes": 67.5,
+        "Wyoming Cowboys": 76.5
+      }
     },
     "3493a2092ac513abea61c5182bef95d8": {
       "matchup": "DePaul Blue Demons @ Purdue Boilermakers",
@@ -2328,8 +2346,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T23:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 136.0,
+      "team_totals": {
+        "DePaul Blue Demons": 65.5,
+        "Purdue Boilermakers": 69.5
+      }
     },
     "8d263dc36ea2b979c8b9130d531924aa": {
       "matchup": "Eastern Michigan Eagles @ Kennesaw St Owls",
@@ -2346,8 +2367,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T23:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 160.5,
+      "team_totals": {
+        "Florida Atlantic Owls": 83.5,
+        "Mercer Bears": 76.5
+      }
     },
     "d9934c874976567f4d6344c9244f65e9": {
       "matchup": "Sacred Heart Pioneers @ Rutgers Scarlet Knights",
@@ -2355,8 +2379,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T23:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 158.0,
+      "team_totals": {
+        "Rutgers Scarlet Knights": 90.5,
+        "Sacred Heart Pioneers": 66.5
+      }
     },
     "89feea7b535634fa859b78078f91ae71": {
       "matchup": "Southern Indiana Screaming Eagles @ VMI Keydets",
@@ -2364,8 +2391,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T23:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 145.5,
+      "team_totals": {
+        "Southern Indiana Screaming Eagles": 70.5,
+        "VMI Keydets": 74.5
+      }
     },
     "fe27496cb1eb4ae152d0598f1d70e8dc": {
       "matchup": "UTEP Miners @ Charleston Cougars",
@@ -2382,8 +2412,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T23:30:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 150.0,
+      "team_totals": {
+        "Elon Phoenix": 70.5,
+        "Furman Paladins": 78.5
+      }
     },
     "f781e6b5530a39b9f984a7eab6a66d48": {
       "matchup": "Campbell Fighting Camels @ Coastal Carolina Chanticleers",
@@ -2400,8 +2433,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 157.5,
+      "team_totals": {
+        "Florida Gators": 96.5,
+        "Milwaukee Panthers": 60.5
+      }
     },
     "e5806851c93f603da7c7942c81a49491": {
       "matchup": "Samford Bulldogs @ Georgia Tech Yellow Jackets",
@@ -2409,8 +2445,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 161.0,
+      "team_totals": {
+        "Georgia Tech Yellow Jackets": 85.5,
+        "Samford Bulldogs": 75.5
+      }
     },
     "1ce662de828158b33eeb5d693d2dd9e5": {
       "matchup": "Hampton Pirates @ Old Dominion Monarchs",
@@ -2418,8 +2457,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 132.0,
+      "team_totals": {
+        "Hampton Pirates": 61.5,
+        "Old Dominion Monarchs": 69.5
+      }
     },
     "36cd60be0deb29366cd82284a9668faa": {
       "matchup": "Nevada Wolf Pack @ Santa Clara Broncos",
@@ -2436,8 +2478,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 156.0,
+      "team_totals": {
+        "Ohio State Buckeyes": 77.5,
+        "Vanderbilt Commodores": 78.5
+      }
     },
     "e230b04451f3fe3dbfd9cdf83dc15792": {
       "matchup": "Tarleton State Texans @ Weber State Wildcats",
@@ -2445,8 +2490,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-25T00:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 160.5,
+      "team_totals": {
+        "Tarleton State Texans": 79.5,
+        "Weber State Wildcats": 80.5
+      }
     },
     "1093df65c3f02a9b287b474ff6c464b6": {
       "matchup": "Fort Wayne Mastodons @ SE Missouri St Redhawks",
@@ -2562,8 +2610,11 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-25T00:11:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 213.5,
+      "team_totals": {
+        "Detroit Pistons": 107.5,
+        "Orlando Magic": 106.5
+      }
     },
     "3167a4072c65c9314c71d0fe49be8e28": {
       "matchup": "Boston Celtics @ Washington Wizards",
@@ -2571,8 +2622,11 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-25T01:10:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 217.5,
+      "team_totals": {
+        "Boston Celtics": 113.5,
+        "Washington Wizards": 102.5
+      }
     },
     "6bfadbd22ed8a054cf82ec1b12b78243": {
       "matchup": "Dallas Mavericks @ Denver Nuggets",
@@ -2580,8 +2634,11 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-25T03:10:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 232.0,
+      "team_totals": {
+        "Dallas Mavericks": 111.5,
+        "Denver Nuggets": 120.5
+      }
     },
     "25c249c5d826256a741704663708b66f": {
       "matchup": "Southern Utah Thunderbirds @ Florida Int'l Golden Panthers",
@@ -2589,8 +2646,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 167.0,
+      "team_totals": {
+        "Florida Int'l Golden Panthers": 87.5,
+        "Southern Utah Thunderbirds": 79.5
+      }
     },
     "805ca96e9d27ffe645d7a7f11348756f": {
       "matchup": "Oregon St Beavers @ San Francisco Dons",
@@ -2598,8 +2658,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T19:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 151.0,
+      "team_totals": {
+        "Oregon St Beavers": 80.5,
+        "San Francisco Dons": 70.5
+      }
     },
     "aa88b3c9dbbd08c5d5b25ea5f6b52bf1": {
       "matchup": "Ole Miss Rebels @ BYU Cougars",
@@ -2616,8 +2679,11 @@
       "label": "NCAAB Men",
       "group": "big",
       "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": null,
-      "team_totals": {}
+      "game_total": 134.0,
+      "team_totals": {
+        "Appalachian St Mountaineers": 67.5,
+        "Yale Bulldogs": 66.5
+      }
     },
     "a9d72fa7f4207364b30b2b31daa37521": {
       "matchup": "Arkansas St Red Wolves @ Long Beach St 49ers",
@@ -2834,6 +2900,60 @@
       "commence_time": "2026-11-25T01:00:00Z",
       "game_total": null,
       "team_totals": {}
+    },
+    "9bfe60f0e81a07d8ac7c88c95a05879e": {
+      "matchup": "Binghamton Bearcats @ Lehigh Mountain Hawks",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "56cd92243f65d84421355bf0dadb2a77": {
+      "matchup": "Bryant Bulldogs @ Marist Red Foxes",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "1568999acf01fb7bcd3c2eb51a944861": {
+      "matchup": "Charleston Southern Buccaneers @ James Madison Dukes",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "7b26240263d57054f865ed13eadc3fc3": {
+      "matchup": "Delaware St Hornets @ Chattanooga Mocs",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "4372f4cc1a42725718b121950f7e4390": {
+      "matchup": "Mt. St. Mary's Mountaineers @ Morgan St Bears",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "efbf615ae4d7d1ab262bb4158cada8db": {
+      "matchup": "Stetson Hatters @ South Florida Bulls",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
     }
   },
   "alerted": [
@@ -2848,7 +2968,12 @@
     "d127e1e72a1b9087aca692f3b5812532_team_total_Calgary Flames_hit",
     "d127e1e72a1b9087aca692f3b5812532_team_total_Calgary Flames_near",
     "e2efcb24b2d9689232946057b7e43d23_game_total_hit",
-    "e2efcb24b2d9689232946057b7e43d23_game_total_near"
+    "e2efcb24b2d9689232946057b7e43d23_game_total_near",
+    "806787e1b3ac73d09e3ae05f6d595865_game_total_near",
+    "806787e1b3ac73d09e3ae05f6d595865_team_total_Montr\u00e9al Canadiens_hit",
+    "806787e1b3ac73d09e3ae05f6d595865_team_total_Montr\u00e9al Canadiens_near",
+    "d127e1e72a1b9087aca692f3b5812532_game_total_hit",
+    "d127e1e72a1b9087aca692f3b5812532_game_total_near"
   ],
   "checkpoints": {
     "435ce8aaf2de67393a436fc9bf8c956e": {
@@ -3184,6 +3309,14 @@
         "game_total": null,
         "team_totals": {},
         "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "69e165166aa1f48345e5bdd45029fb18": {
+      "h1": {
+        "elapsed_min": 53,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T03:22:33.905405+00:00"
       }
     }
   },
