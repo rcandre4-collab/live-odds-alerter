@@ -873,7 +873,7 @@
       "label": "NCAAF",
       "group": "big",
       "commence_time": "2026-11-28T23:15:00Z",
-      "game_total": 67.0,
+      "game_total": 66.0,
       "team_totals": {
         "Kansas Jayhawks": 29.5,
         "Oklahoma State Cowboys": 37.5
@@ -1218,7 +1218,7 @@
       "label": "NBA",
       "group": "big",
       "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 224.5,
+      "game_total": 223.0,
       "team_totals": {
         "Sacramento Kings": 106.5,
         "San Antonio Spurs": 117.5
@@ -2561,7 +2561,7 @@
       "sport": "basketball_nba",
       "label": "NBA",
       "group": "big",
-      "commence_time": "2026-11-25T00:10:00Z",
+      "commence_time": "2026-11-25T00:11:00Z",
       "game_total": null,
       "team_totals": {}
     },
@@ -2681,6 +2681,159 @@
       "commence_time": "2026-11-25T02:00:00Z",
       "game_total": null,
       "team_totals": {}
+    },
+    "b46d2fa42df6e66be9af4204f2f8c609": {
+      "matchup": "New Haven Chargers @ Lindenwood Lions",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T21:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "cebf116689f6c16151415bb0f130dc5b": {
+      "matchup": "Illinois St Redbirds @ Tulsa Golden Hurricane",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T21:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "6eebf254c2b2fe1f45604d6d30c42577": {
+      "matchup": "Queens University Royals @ Wofford Terriers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T23:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "9896f5dfb6cf5fefd00dd1b813254965": {
+      "matchup": "Lamar Cardinals @ Robert Morris Colonials",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-24T23:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "9529e122f1dafb7c0802b5eb4d0b5ae5": {
+      "matchup": "Georgia Southern Eagles @ Bellarmine Knights",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "89632d555740a0300af46ea6f5562e39": {
+      "matchup": "Boston Univ. Terriers @ Harvard Crimson",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "864548d14d1c51b9eb5c8124103739bd": {
+      "matchup": "Gardner-Webb Bulldogs @ Bowling Green Falcons",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "cd53ee535b2696ad269d2a8411ee5e44": {
+      "matchup": "Coppin St Eagles @ Villanova Wildcats",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "ce03e086bc077ee90407285728e44a69": {
+      "matchup": "Jacksonville Dolphins @ Indiana Hoosiers",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "28d88203cb1ec82ed778671f2504c112": {
+      "matchup": "UMBC Retrievers @ Iowa Hawkeyes",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "278837a5be17c7fb57ffd1da5eaf812b": {
+      "matchup": "Rider Broncs @ Loyola (MD) Greyhounds",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "72b630289253e0d84e7882c0f2106a48": {
+      "matchup": "New Hampshire Wildcats @ Seton Hall Pirates",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "e2079f2683b71a764d7c3a4c56504ea1": {
+      "matchup": "Vermont Catamounts @ Siena Saints",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "3a7a826d98d77fdc8fd9f0e0ee77af6c": {
+      "matchup": "Alcorn St Braves @ Louisiana Tech Bulldogs",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "1f58ab67f5b86f2ec0308d6b03affa6b": {
+      "matchup": "Houston Christian Huskies @ UL Monroe Warhawks",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T00:30:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "b96a1616ca40a186cf203b892683f222": {
+      "matchup": "Army Knights @ Air Force Falcons",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
+    },
+    "f63093115e6f6e0280f63f271f97d3c4": {
+      "matchup": "Bucknell Bison @ Cornell Big Red",
+      "sport": "basketball_ncaab",
+      "label": "NCAAB Men",
+      "group": "big",
+      "commence_time": "2026-11-25T01:00:00Z",
+      "game_total": null,
+      "team_totals": {}
     }
   },
   "alerted": [
@@ -2688,7 +2841,14 @@
     "b1abd9ff77f5dc5c376c08041fae20ea_game_total_hit",
     "b1abd9ff77f5dc5c376c08041fae20ea_game_total_near",
     "a711d8899fd6dad91337247433157f87_game_total_hit",
-    "a711d8899fd6dad91337247433157f87_game_total_near"
+    "a711d8899fd6dad91337247433157f87_game_total_near",
+    "ac6fb079d66ef35a2a77e22b5e94ef8d_team_total_Portland Trail Blazers_hit",
+    "ac6fb079d66ef35a2a77e22b5e94ef8d_team_total_Portland Trail Blazers_near",
+    "a72a1703f7a92b80768255d1d977a761_game_total_near",
+    "d127e1e72a1b9087aca692f3b5812532_team_total_Calgary Flames_hit",
+    "d127e1e72a1b9087aca692f3b5812532_team_total_Calgary Flames_near",
+    "e2efcb24b2d9689232946057b7e43d23_game_total_hit",
+    "e2efcb24b2d9689232946057b7e43d23_game_total_near"
   ],
   "checkpoints": {
     "435ce8aaf2de67393a436fc9bf8c956e": {
@@ -2929,6 +3089,101 @@
         "game_total": null,
         "team_totals": {},
         "at": "2026-11-24T00:52:47.914196+00:00"
+      }
+    },
+    "a72a1703f7a92b80768255d1d977a761": {
+      "h1": {
+        "elapsed_min": 89,
+        "game_total": 243.0,
+        "team_totals": {
+          "Brooklyn Nets": 115.5,
+          "Minnesota Timberwolves": 128.5
+        },
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "c9b6c9f77fd3628308dd34f50854a9c0": {
+      "h1": {
+        "elapsed_min": 89,
+        "game_total": 240.0,
+        "team_totals": {
+          "Indiana Pacers": 117.5,
+          "Oklahoma City Thunder": 111.5
+        },
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "a5184238c27b9c3bfca29220f9d5d14a": {
+      "h1": {
+        "elapsed_min": 89,
+        "game_total": 217.0,
+        "team_totals": {
+          "Milwaukee Bucks": 105.5,
+          "Toronto Raptors": 114.5
+        },
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "b8dfee1fca57ec870528a14c792ad73a": {
+      "h1": {
+        "elapsed_min": 59,
+        "game_total": 243.0,
+        "team_totals": {
+          "Chicago Bulls": 125.5,
+          "Cleveland Cavaliers": 119.5
+        },
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "6caeb7cce7c8340fed588f3badd83fe0": {
+      "h1": {
+        "elapsed_min": 59,
+        "game_total": 222.5,
+        "team_totals": {
+          "New Orleans Pelicans": 118.5,
+          "Phoenix Suns": 119.5
+        },
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "db2311c331296d3328d71b842167dea4": {
+      "q1": {
+        "elapsed_min": 29,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "11782e330b7215a8e2f0e3e4e9a27404": {
+      "h1": {
+        "elapsed_min": 70,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "5a237fcf6422f6a245d462ba2a6835dc": {
+      "h1": {
+        "elapsed_min": 70,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "8dac68fbecc816a6de76442cf1e28270": {
+      "h1": {
+        "elapsed_min": 69,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T02:10:25.262310+00:00"
+      }
+    },
+    "d6ef1c00481fb8a852aa61a9430fc6b1": {
+      "h1": {
+        "elapsed_min": 68,
+        "game_total": null,
+        "team_totals": {},
+        "at": "2026-11-24T02:10:25.262310+00:00"
       }
     }
   },
