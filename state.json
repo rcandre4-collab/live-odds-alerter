@@ -1182,33 +1182,6 @@
       "game_total": 157.5,
       "team_totals": {}
     },
-    "4558c8e2f0be90bc67add7ecb2e22905": {
-      "matchup": "\u00c4ss\u00e4t @ Ilves",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-24T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "bcfc1967e7d452453d28c2029f370c3c": {
-      "matchup": "Kiekko-Espoo @ Sport",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-24T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "7e0cd20ec906df6c512378673621c8dc": {
-      "matchup": "Lukko @ SaiPa",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-24T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
     "ed88c790ce4d9123c6d0b02e2bfd0f9d": {
       "matchup": "TPS @ HIFK",
       "sport": "icehockey_liiga",
@@ -1351,15 +1324,6 @@
       "group": "big",
       "commence_time": "2026-11-25T19:45:00Z",
       "game_total": null,
-      "team_totals": {}
-    },
-    "0a59c4174da7ddb060e9f57384846f77": {
-      "matchup": "Grand Rapids Griffins @ Manitoba Moose",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-24T15:30:00Z",
-      "game_total": 5.5,
       "team_totals": {}
     },
     "d05b7c35518a18f30182cbd0fb36e521": {
@@ -1553,30 +1517,6 @@
       "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "9d626cb5f6f86d655376c21b250ef528": {
-      "matchup": "Wright St Raiders @ St. Bonaventure Bonnies",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T15:00:00Z",
-      "game_total": 147.0,
-      "team_totals": {
-        "St. Bonaventure Bonnies": 73.5,
-        "Wright St Raiders": 73.5
-      }
-    },
-    "c431e5cece6a42f0acf8f2898b29e83e": {
-      "matchup": "New Mexico St Aggies @ Ohio Bobcats",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T16:00:00Z",
-      "game_total": 151.0,
-      "team_totals": {
-        "New Mexico St Aggies": 72.5,
-        "Ohio Bobcats": 76.5
-      }
     },
     "c027a1281dd4c9e8ac848bc06f0e29fb": {
       "matchup": "Belmont Bruins @ Akron Zips",
@@ -2394,15 +2334,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_hit",
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
-  "checkpoints": {
-    "c431e5cece6a42f0acf8f2898b29e83e": {
-      "h1": {
-        "elapsed_min": 60,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T16:59:53.760000+00:00"
-      }
-    }
-  },
+  "checkpoints": {},
   "suppressed": []
 }
