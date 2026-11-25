@@ -1,17 +1,5 @@
 {
   "pregame": {
-    "3a60ed1d20004aa4d4772b2c1a2272e7": {
-      "matchup": "Cincinnati Bengals @ Washington Commanders",
-      "sport": "americanfootball_nfl",
-      "label": "NFL",
-      "group": "big",
-      "commence_time": "2026-11-24T01:15:00Z",
-      "game_total": 54.0,
-      "team_totals": {
-        "Cincinnati Bengals": 29.5,
-        "Washington Commanders": 23.5
-      }
-    },
     "5b612899d6dcdf998107f2c6c6e49a58": {
       "matchup": "Green Bay Packers @ Los Angeles Rams",
       "sport": "americanfootball_nfl",
@@ -1113,42 +1101,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "b8dfee1fca57ec870528a14c792ad73a": {
-      "matchup": "Cleveland Cavaliers @ Chicago Bulls",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 240.5,
-      "team_totals": {
-        "Chicago Bulls": 116.5,
-        "Cleveland Cavaliers": 124.5
-      }
-    },
-    "6caeb7cce7c8340fed588f3badd83fe0": {
-      "matchup": "Phoenix Suns @ New Orleans Pelicans",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-24T01:10:00Z",
-      "game_total": 232.0,
-      "team_totals": {
-        "New Orleans Pelicans": 115.5,
-        "Phoenix Suns": 117.5
-      }
-    },
-    "db2311c331296d3328d71b842167dea4": {
-      "matchup": "Los Angeles Clippers @ Houston Rockets",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-24T01:40:00Z",
-      "game_total": 224.5,
-      "team_totals": {
-        "Houston Rockets": 119.5,
-        "Los Angeles Clippers": 106.5
-      }
-    },
     "3e9dc52cb055c0154839c4aec417955b": {
       "matchup": "Utah Jazz @ Los Angeles Lakers",
       "sport": "basketball_nba",
@@ -1171,66 +1123,6 @@
       "team_totals": {
         "Sacramento Kings": 106.5,
         "San Antonio Spurs": 117.5
-      }
-    },
-    "11782e330b7215a8e2f0e3e4e9a27404": {
-      "matchup": "Denver Pioneers @ Kansas Jayhawks",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": 158.0,
-      "team_totals": {
-        "Denver Pioneers": 60.5,
-        "Kansas Jayhawks": 97.5
-      }
-    },
-    "8dac68fbecc816a6de76442cf1e28270": {
-      "matchup": "Winthrop Eagles @ Illinois Fighting Illini",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": 182.5,
-      "team_totals": {
-        "Illinois Fighting Illini": 113.5,
-        "Winthrop Eagles": 67.5
-      }
-    },
-    "5a237fcf6422f6a245d462ba2a6835dc": {
-      "matchup": "Monmouth Hawks @ North Carolina Tar Heels",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": 153.5,
-      "team_totals": {
-        "Monmouth Hawks": 66.5,
-        "North Carolina Tar Heels": 86.5
-      }
-    },
-    "aed6a97f577438479f8716801fd3d3f9": {
-      "matchup": "Utah Valley Wolverines @ Stephen F. Austin Lumberjacks",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T01:00:00Z",
-      "game_total": 146.0,
-      "team_totals": {
-        "Stephen F. Austin Lumberjacks": 69.5,
-        "Utah Valley Wolverines": 73.5
-      }
-    },
-    "bd51dcc9b4ceb556e17992c7f5fe7f75": {
-      "matchup": "VCU Rams @ Providence Friars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T02:00:00Z",
-      "game_total": 154.5,
-      "team_totals": {
-        "Providence Friars": 77.5,
-        "VCU Rams": 76.5
       }
     },
     "69e165166aa1f48345e5bdd45029fb18": {
@@ -1733,15 +1625,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "d6ef1c00481fb8a852aa61a9430fc6b1": {
-      "matchup": "Belmont Bruins @ LSU Tigers",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-24T01:05:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "44a504d58b9668e80ca7afd25e294171": {
       "matchup": "Northern Arizona Lumberjacks @ USC Trojans",
@@ -2641,68 +2524,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "b8dfee1fca57ec870528a14c792ad73a": {
-      "h1": {
-        "elapsed_min": 59,
-        "game_total": 243.0,
-        "team_totals": {
-          "Chicago Bulls": 125.5,
-          "Cleveland Cavaliers": 119.5
-        },
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
-    "6caeb7cce7c8340fed588f3badd83fe0": {
-      "h1": {
-        "elapsed_min": 59,
-        "game_total": 222.5,
-        "team_totals": {
-          "New Orleans Pelicans": 118.5,
-          "Phoenix Suns": 119.5
-        },
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
-    "db2311c331296d3328d71b842167dea4": {
-      "q1": {
-        "elapsed_min": 29,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
-    "11782e330b7215a8e2f0e3e4e9a27404": {
-      "h1": {
-        "elapsed_min": 70,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
-    "5a237fcf6422f6a245d462ba2a6835dc": {
-      "h1": {
-        "elapsed_min": 70,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
-    "8dac68fbecc816a6de76442cf1e28270": {
-      "h1": {
-        "elapsed_min": 69,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
-    "d6ef1c00481fb8a852aa61a9430fc6b1": {
-      "h1": {
-        "elapsed_min": 68,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T02:10:25.262310+00:00"
-      }
-    },
     "69e165166aa1f48345e5bdd45029fb18": {
       "h1": {
         "elapsed_min": 53,
