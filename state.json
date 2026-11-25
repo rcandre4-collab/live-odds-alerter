@@ -1101,18 +1101,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "b45e9d96ab3298d614e74c19902f3998": {
-      "matchup": "Colorado St Rams @ Arizona Wildcats",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T04:45:00Z",
-      "game_total": 158.5,
-      "team_totals": {
-        "Arizona Wildcats": 87.5,
-        "Colorado St Rams": 70.5
-      }
-    },
     "38c575bb916b4b6634ccbc1d442b53a2": {
       "matchup": "Tennessee Volunteers @ Maryland Terrapins",
       "sport": "basketball_ncaab",
@@ -1517,18 +1505,6 @@
       "commence_time": "2026-11-25T18:00:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
-      "matchup": "San Jos\u00e9 St Spartans @ UC San Diego Tritons",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T04:59:00Z",
-      "game_total": 155.0,
-      "team_totals": {
-        "San Jos\u00e9 St Spartans": 77.5,
-        "UC San Diego Tritons": 79.5
-      }
     },
     "155fbdda10b6474a41649023baadfdf3": {
       "matchup": "Vegas Golden Knights @ Edmonton Oilers",
@@ -2419,25 +2395,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "b45e9d96ab3298d614e74c19902f3998": {
-      "h1": {
-        "elapsed_min": 58,
-        "game_total": 165.5,
-        "team_totals": {
-          "Arizona Wildcats": 87.5,
-          "Colorado St Rams": 70.5
-        },
-        "at": "2026-11-24T05:53:13.050845+00:00"
-      }
-    },
-    "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
-      "h1": {
-        "elapsed_min": 41,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T05:53:13.050845+00:00"
-      }
-    },
     "c431e5cece6a42f0acf8f2898b29e83e": {
       "h1": {
         "elapsed_min": 60,
