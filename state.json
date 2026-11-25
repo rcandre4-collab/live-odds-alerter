@@ -1824,30 +1824,6 @@
       "game_total": 160.0,
       "team_totals": {}
     },
-    "b46d2fa42df6e66be9af4204f2f8c609": {
-      "matchup": "New Haven Chargers @ Lindenwood Lions",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T21:00:00Z",
-      "game_total": 132.5,
-      "team_totals": {
-        "Lindenwood Lions": 66.5,
-        "New Haven Chargers": 65.5
-      }
-    },
-    "cebf116689f6c16151415bb0f130dc5b": {
-      "matchup": "Illinois St Redbirds @ Tulsa Golden Hurricane",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T21:30:00Z",
-      "game_total": 143.5,
-      "team_totals": {
-        "Illinois St Redbirds": 71.5,
-        "Tulsa Golden Hurricane": 71.5
-      }
-    },
     "6eebf254c2b2fe1f45604d6d30c42577": {
       "matchup": "Queens University Royals @ Wofford Terriers",
       "sport": "basketball_ncaab",
