@@ -1101,27 +1101,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "0dbbfc6c0ffe4c7d2c9b65eb8ab96cb3": {
-      "matchup": "San Diego St Aztecs @ Iowa State Cyclones",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T22:30:00Z",
-      "game_total": 142.0,
-      "team_totals": {}
-    },
-    "7e24a7f74f41134d9a72a537af4cc663": {
-      "matchup": "Creighton Bluejays @ Michigan Wolverines",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T22:30:00Z",
-      "game_total": 163.0,
-      "team_totals": {
-        "Creighton Bluejays": 77.5,
-        "Michigan Wolverines": 83.5
-      }
-    },
     "712c581bb2dc9c3072e5280bd6ccecc4": {
       "matchup": "Texas Tech Red Raiders @ Louisville Cardinals",
       "sport": "basketball_ncaab",
@@ -1421,18 +1400,6 @@
       "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "eded8145f35a188e673fde457a1eb00f": {
-      "matchup": "Kent State Golden Flashes @ Wyoming Cowboys",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T22:30:00Z",
-      "game_total": 143.5,
-      "team_totals": {
-        "Kent State Golden Flashes": 67.5,
-        "Wyoming Cowboys": 76.5
-      }
     },
     "3493a2092ac513abea61c5182bef95d8": {
       "matchup": "DePaul Blue Demons @ Purdue Boilermakers",
@@ -2048,18 +2015,6 @@
       "commence_time": "2026-11-26T01:40:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "164c30fe9e3df9f785daa57c5053cf5d": {
-      "matchup": "Providence Friars @ Arizona Wildcats",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T22:00:00Z",
-      "game_total": 157.5,
-      "team_totals": {
-        "Arizona Wildcats": 82.5,
-        "Providence Friars": 75.5
-      }
     },
     "3765877faa0c50d3b04fa96abdbb3568": {
       "matchup": "VCU Rams @ Colorado St Rams",
