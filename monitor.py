@@ -75,6 +75,22 @@ costs $0 in Odds API credits (it is a local file, not an API call).
 Hockey has no pregame verdicts published, so hockey alerts always
 fail open and behave exactly as before.
 
+v4.7 SOCCER (added 2026-11-25 at the user's request): soccer leagues
+are SNAPSHOT-ONLY. Their fixtures and pregame game totals / team
+totals are written to state.json "pregame" like every other league,
+so the pregame analysis job can pick soccer games up (strong-consensus
+games only) and the score watch can follow them — but this script
+sends NO live alert emails and NO checkpoints for soccer. All soccer
+alerting runs through the score watch (web scores, $0 credits), which
+applies the user's gates: alert only when the implied total moves
+2 goals against the pregame analysis lean (analyzed games) or against
+the published expert/Covers consensus (unanalyzed games). To keep the
+credit cost down, snapshot-only leagues are polled about once an hour
+(the run whose UTC minute is < 30) instead of every 30 minutes.
+Soccer cost when all listed leagues are in season: game totals
+~18 credits/hour during game hours (~260/day) + pregame team totals
+~1 credit per fixture, once (~40-80/day).
+
 WHY v3: The Odds API's sport-level /odds endpoint only supports
 featured markets (h2h, spreads, totals). Asking it for team_totals
 returns 422 INVALID_MARKET for every league and no data at all.
@@ -157,6 +173,10 @@ SIGNALS = ("models", "ai", "money", "experts")
 # --- thresholds: (near, target) ---
 BIG = {"game_near": 18.0, "game_target": 20.0, "team_near": 13.0, "team_target": 15.0}
 HOCKEY = {"game_near": 2.5, "game_target": 3.0, "team_near": 2.5, "team_target": 3.0}
+# Soccer is snapshot-only (v4.7): these thresholds are never used by this
+# script's alert checks (the score watch owns soccer alerts at 2 goals),
+# they exist so the group lookup below stays total.
+SOCCER = {"game_near": 1.5, "game_target": 2.0, "team_near": 1.5, "team_target": 2.0}
 
 # group "big" = football/basketball, "hockey" = hockey
 LEAGUES = [
@@ -181,6 +201,26 @@ LEAGUES = [
     {"key": "icehockey_sweden_allsvenskan", "label": "HockeyAllsvenskan Sweden", "group": "hockey"},
     # Add if you want it (Finnish 2nd tier, thin coverage):
     # {"key": "icehockey_mestis", "label": "Mestis Finland", "group": "hockey"},
+    # --- Soccer (v4.7, SNAPSHOT-ONLY: fixtures + pregame totals into
+    # state.json; NO alert emails from this script — see header) ---
+    {"key": "soccer_usa_mls", "label": "MLS", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_epl", "label": "EPL England", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_spain_la_liga", "label": "La Liga Spain", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_italy_serie_a", "label": "Serie A Italy", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_germany_bundesliga", "label": "Bundesliga Germany", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_france_ligue_one", "label": "Ligue 1 France", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_uefa_champs_league", "label": "Champions League", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_australia_aleague", "label": "A-League Australia", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_brazil_campeonato", "label": "Brasileirao Brazil", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_argentina_primera_division", "label": "Primera Division Argentina", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_chile_campeonato", "label": "Primera Division Chile", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_colombia_primera_a", "label": "Primera A Colombia", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_china_superleague", "label": "Super League China", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_japan_j_league", "label": "J League Japan", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_korea_kleague1", "label": "K League 1 Korea", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_saudi_arabia_pro_league", "label": "Pro League Saudi Arabia", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_south_africa_premier_soccer_league", "label": "Premiership South Africa", "group": "soccer", "snapshot_only": True},
+    {"key": "soccer_egypt_premier_league", "label": "Premier League Egypt", "group": "soccer", "snapshot_only": True},
 ]
 
 
@@ -613,7 +653,13 @@ def run():
     for league in leagues:
         sport = league["key"]
         label = league["label"]
-        thresholds = BIG if league["group"] == "big" else HOCKEY
+        if league.get("snapshot_only") and now.minute >= 30:
+            # v4.7: snapshot-only leagues (soccer) poll about once an
+            # hour — fixtures/totals for the analysis jobs do not need
+            # 30-minute freshness, and this halves their credit cost.
+            continue
+        thresholds = (BIG if league["group"] == "big"
+                      else SOCCER if league["group"] == "soccer" else HOCKEY)
         url = f"https://api.the-odds-api.com/v4/sports/{sport}/odds/"
         params = {
             "apiKey": API_KEY,
@@ -659,6 +705,13 @@ def run():
                     "game_total": game_total,
                     "team_totals": team_totals,
                 }
+                continue
+
+            if league.get("snapshot_only"):
+                # v4.7: no live alert checks, no live team-totals fetch,
+                # no checkpoints for snapshot-only leagues (soccer).
+                # The pregame snapshot above stays in state.json for the
+                # analysis jobs and the score watch.
                 continue
 
             if event_id in state["pregame"]:
