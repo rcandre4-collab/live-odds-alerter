@@ -9,14 +9,14 @@ EuroLeague, NBL Australia):
   Team total: alert when live moves NEAR 15 pts vs pregame
 
 Hockey (NHL, AHL, Liiga, SHL, HockeyAllsvenskan):
-  Game total: alert when live moves NEAR 2 goals vs pregame
-  Team total: alert when live moves NEAR 2 goals vs pregame
+  Game total: alert when live moves NEAR 3 goals vs pregame
+  Team total: alert when live moves NEAR 3 goals vs pregame
 
 "Nearly" is defined below so it actually triggers:
   Big sports:  game >= 18.0 (within 2 of 20), team >= 13.0 (within 2 of 15)
-  Hockey:      game >= 1.5 (within 0.5 of 2), team >= 1.5 (within 0.5 of 2)
+  Hockey:      game >= 2.5 (within 0.5 of 3), team >= 2.5 (within 0.5 of 3)
 You get a NEAR alert first, then a second HIT alert if it reaches the
-full 20 / 15 / 2. Change the *_NEAR values to make it stricter/looser.
+full 20 / 15 / 3. Change the *_NEAR values to make it stricter/looser.
 
 Q1 / HALFTIME CHECKPOINTS (basketball only, v4):
   In addition to the NEAR/HIT alerts, the script emails you the live
@@ -57,7 +57,8 @@ v4.6 CONSENSUS-GATED ALERTS: a NEAR/HIT alert is now emailed only when
 the live total move goes AGAINST the pregame sharp consensus — total
 moved UP and the consensus is UNDER, or total moved DOWN and the
 consensus is OVER — per element (game total and each team total).
-Thresholds are unchanged (big: game 18/20, team 13/15; hockey 1.5/2).
+Thresholds: big: game 18/20, team 13/15; hockey 2.5/3 (raised from
+1.5/2 on 2026-11-25 at the user's request).
 The consensus lives in the pregame analyses (models, AI projections,
 money/bet splits, expert leans), not in The Odds API, so the pregame
 analysis job publishes it as verdicts.json in the repo root and this
@@ -155,7 +156,7 @@ SIGNALS = ("models", "ai", "money", "experts")
 
 # --- thresholds: (near, target) ---
 BIG = {"game_near": 18.0, "game_target": 20.0, "team_near": 13.0, "team_target": 15.0}
-HOCKEY = {"game_near": 1.5, "game_target": 2.0, "team_near": 1.5, "team_target": 2.0}
+HOCKEY = {"game_near": 2.5, "game_target": 3.0, "team_near": 2.5, "team_target": 3.0}
 
 # group "big" = football/basketball, "hockey" = hockey
 LEAGUES = [
