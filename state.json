@@ -1236,15 +1236,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "3e065ed32915a4afefae3a851f6df12a": {
-      "matchup": "Paris Basketball @ Be\u015fikta\u015f J.K.",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-24T17:00:00Z",
-      "game_total": 183.5,
-      "team_totals": {}
-    },
     "d563569f19780b306d14d3c29b67f3bf": {
       "matchup": "Virtus Segafredo Bologna @ KK Crvena zvezda",
       "sport": "basketball_euroleague",
@@ -1517,30 +1508,6 @@
       "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "c027a1281dd4c9e8ac848bc06f0e29fb": {
-      "matchup": "Belmont Bruins @ Akron Zips",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T17:30:00Z",
-      "game_total": 139.5,
-      "team_totals": {
-        "Akron Zips": 71.5,
-        "Belmont Bruins": 69.5
-      }
-    },
-    "f199c1cbe3ed8c1fc4c77116bfc48499": {
-      "matchup": "SE Louisiana Lions @ N Colorado Bears",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T17:30:00Z",
-      "game_total": 145.5,
-      "team_totals": {
-        "N Colorado Bears": 73.5,
-        "SE Louisiana Lions": 70.5
-      }
     },
     "43a5ccec7f338df1651b828c9c8e8c5f": {
       "matchup": "Pittsburgh Panthers @ Oklahoma Sooners",
