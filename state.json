@@ -1218,33 +1218,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "9801ef955619891976b6cc9b7d1bf780": {
-      "matchup": "Fr\u00f6lunda HC @ \u00d6rebro HK",
-      "sport": "icehockey_sweden_hockey_league",
-      "label": "SHL Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-24T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "bff483955e4b791b12183d4ea15aed10": {
-      "matchup": "Malm\u00f6 Redhawks @ Lule\u00e5 HF",
-      "sport": "icehockey_sweden_hockey_league",
-      "label": "SHL Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-24T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "d563569f19780b306d14d3c29b67f3bf": {
-      "matchup": "Virtus Segafredo Bologna @ KK Crvena zvezda",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-24T18:00:00Z",
-      "game_total": 172.5,
-      "team_totals": {}
-    },
     "6bcef0e5f7b2a021b7e07514cdfa6493": {
       "matchup": "Maccabi Tel Aviv @ FC Bayern M\u00fcnchen",
       "sport": "basketball_euroleague",
@@ -1508,30 +1481,6 @@
       "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "43a5ccec7f338df1651b828c9c8e8c5f": {
-      "matchup": "Pittsburgh Panthers @ Oklahoma Sooners",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T18:30:00Z",
-      "game_total": 148.5,
-      "team_totals": {
-        "Oklahoma Sooners": 72.5,
-        "Pittsburgh Panthers": 74.5
-      }
-    },
-    "becb255ccc8bc25b5f7bd29df33c9f11": {
-      "matchup": "UIC Flames @ Rice Owls",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T18:30:00Z",
-      "game_total": 143.0,
-      "team_totals": {
-        "Rice Owls": 67.5,
-        "UIC Flames": 74.5
-      }
     },
     "2643c9fdcf8ea923eba3adf7e2d63034": {
       "matchup": "North Dakota Fighting Hawks @ Detroit Mercy Titans",
@@ -1891,18 +1840,6 @@
       "team_totals": {
         "Dallas Mavericks": 111.5,
         "Denver Nuggets": 120.5
-      }
-    },
-    "25c249c5d826256a741704663708b66f": {
-      "matchup": "Southern Utah Thunderbirds @ Florida Int'l Golden Panthers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T18:00:00Z",
-      "game_total": 167.5,
-      "team_totals": {
-        "Florida Int'l Golden Panthers": 87.5,
-        "Southern Utah Thunderbirds": 79.5
       }
     },
     "805ca96e9d27ffe645d7a7f11348756f": {
