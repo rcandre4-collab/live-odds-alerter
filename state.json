@@ -1101,66 +1101,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "3e9dc52cb055c0154839c4aec417955b": {
-      "matchup": "Utah Jazz @ Los Angeles Lakers",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 225.5,
-      "team_totals": {
-        "Los Angeles Lakers": 121.5,
-        "Utah Jazz": 106.5
-      }
-    },
-    "17f31499f145cd9d3232819395d29448": {
-      "matchup": "San Antonio Spurs @ Sacramento Kings",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 223.0,
-      "team_totals": {
-        "Sacramento Kings": 106.5,
-        "San Antonio Spurs": 117.5
-      }
-    },
-    "69e165166aa1f48345e5bdd45029fb18": {
-      "matchup": "UNC Greensboro Spartans @ Pepperdine Waves",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T02:30:00Z",
-      "game_total": 153.5,
-      "team_totals": {
-        "Pepperdine Waves": 82.5,
-        "UNC Greensboro Spartans": 72.5
-      }
-    },
-    "b7a4f6e90eb128b0d569dacbfe487e80": {
-      "matchup": "Alabama St Hornets @ California Golden Bears",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T03:00:00Z",
-      "game_total": 143.0,
-      "team_totals": {
-        "Alabama St Hornets": 61.5,
-        "California Golden Bears": 80.5
-      }
-    },
-    "8236efa27962bd6d4b110bb43e861b07": {
-      "matchup": "Eastern Washington Eagles @ UNLV Rebels",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T03:00:00Z",
-      "game_total": 160.0,
-      "team_totals": {
-        "Eastern Washington Eagles": 76.5,
-        "UNLV Rebels": 83.5
-      }
-    },
     "b45e9d96ab3298d614e74c19902f3998": {
       "matchup": "Colorado St Rams @ Arizona Wildcats",
       "sport": "basketball_ncaab",
@@ -1253,30 +1193,6 @@
       "commence_time": "2026-11-25T05:30:00Z",
       "game_total": 157.5,
       "team_totals": {}
-    },
-    "5074be0d13d60cc7fd82b06c4d8ddd31": {
-      "matchup": "Anaheim Ducks @ Seattle Kraken",
-      "sport": "icehockey_nhl",
-      "label": "NHL",
-      "group": "hockey",
-      "commence_time": "2026-11-24T02:50:00Z",
-      "game_total": 6.5,
-      "team_totals": {
-        "Anaheim Ducks": 3.5,
-        "Seattle Kraken": 3.5
-      }
-    },
-    "43376208ec2111794696249fe50f5e84": {
-      "matchup": "Minnesota Wild @ San Jose Sharks",
-      "sport": "icehockey_nhl",
-      "label": "NHL",
-      "group": "hockey",
-      "commence_time": "2026-11-24T03:10:00Z",
-      "game_total": 6.5,
-      "team_totals": {
-        "Minnesota Wild": 3.5,
-        "San Jose Sharks": 2.5
-      }
     },
     "4558c8e2f0be90bc67add7ecb2e22905": {
       "matchup": "\u00c4ss\u00e4t @ Ilves",
@@ -1602,18 +1518,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "cac32b9a0db74c5e4ff90ebbbbcaab93": {
-      "matchup": "Loyola (Chi) Ramblers @ Seattle Redhawks",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T02:30:00Z",
-      "game_total": 139.5,
-      "team_totals": {
-        "Loyola (Chi) Ramblers": 69.5,
-        "Seattle Redhawks": 70.5
-      }
-    },
     "97b6bfd4b808fd6e1c2d0d35925cd0e2": {
       "matchup": "San Jos\u00e9 St Spartans @ UC San Diego Tritons",
       "sport": "basketball_ncaab",
@@ -1625,15 +1529,6 @@
         "San Jos\u00e9 St Spartans": 77.5,
         "UC San Diego Tritons": 79.5
       }
-    },
-    "44a504d58b9668e80ca7afd25e294171": {
-      "matchup": "Northern Arizona Lumberjacks @ USC Trojans",
-      "sport": "basketball_wncaab",
-      "label": "WNCAAB Women",
-      "group": "big",
-      "commence_time": "2026-11-24T03:00:00Z",
-      "game_total": null,
-      "team_totals": {}
     },
     "155fbdda10b6474a41649023baadfdf3": {
       "matchup": "Vegas Golden Knights @ Edmonton Oilers",
@@ -2524,33 +2419,6 @@
     "43376208ec2111794696249fe50f5e84_game_total_near"
   ],
   "checkpoints": {
-    "69e165166aa1f48345e5bdd45029fb18": {
-      "h1": {
-        "elapsed_min": 53,
-        "game_total": null,
-        "team_totals": {},
-        "at": "2026-11-24T03:22:33.905405+00:00"
-      }
-    },
-    "3e9dc52cb055c0154839c4aec417955b": {
-      "h1": {
-        "elapsed_min": 82,
-        "game_total": 210.5,
-        "team_totals": {},
-        "at": "2026-11-24T04:32:45.676080+00:00"
-      }
-    },
-    "17f31499f145cd9d3232819395d29448": {
-      "h1": {
-        "elapsed_min": 82,
-        "game_total": 217.5,
-        "team_totals": {
-          "Sacramento Kings": 103.5,
-          "San Antonio Spurs": 114.5
-        },
-        "at": "2026-11-24T04:32:45.676080+00:00"
-      }
-    },
     "b45e9d96ab3298d614e74c19902f3998": {
       "h1": {
         "elapsed_min": 58,
