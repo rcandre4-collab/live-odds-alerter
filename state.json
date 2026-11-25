@@ -1218,33 +1218,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "6bcef0e5f7b2a021b7e07514cdfa6493": {
-      "matchup": "Maccabi Tel Aviv @ FC Bayern M\u00fcnchen",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-24T19:00:00Z",
-      "game_total": 180.5,
-      "team_totals": {}
-    },
-    "767cda572a9aefe0c057a4fe3199dfa4": {
-      "matchup": "Panathinaikos @ Valencia Basket",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-24T19:30:00Z",
-      "game_total": 176.0,
-      "team_totals": {}
-    },
-    "1707b8c728b9116472624aa8178ebfce": {
-      "matchup": "Pallacanestro Olimpia Milano @ ASVEL Lyon Villeurbanne",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-24T19:45:00Z",
-      "game_total": 175.5,
-      "team_totals": {}
-    },
     "0f9b0defd0a6c9603d7c70e7962bb628": {
       "matchup": "Fenerbahce SK @ FC Barcelona B\u00e0squet",
       "sport": "basketball_euroleague",
@@ -1840,30 +1813,6 @@
       "team_totals": {
         "Dallas Mavericks": 111.5,
         "Denver Nuggets": 120.5
-      }
-    },
-    "805ca96e9d27ffe645d7a7f11348756f": {
-      "matchup": "Oregon St Beavers @ San Francisco Dons",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T19:00:00Z",
-      "game_total": 147.5,
-      "team_totals": {
-        "Oregon St Beavers": 80.5,
-        "San Francisco Dons": 70.5
-      }
-    },
-    "aa88b3c9dbbd08c5d5b25ea5f6b52bf1": {
-      "matchup": "Ole Miss Rebels @ BYU Cougars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T19:30:00Z",
-      "game_total": 158.5,
-      "team_totals": {
-        "BYU Cougars": 78.5,
-        "Ole Miss Rebels": 79.5
       }
     },
     "963ef5f90b0991bdd17147e22683e18e": {
