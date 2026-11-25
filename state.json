@@ -1101,30 +1101,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "38c575bb916b4b6634ccbc1d442b53a2": {
-      "matchup": "Tennessee Volunteers @ Maryland Terrapins",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": 148.0,
-      "team_totals": {
-        "Maryland Terrapins": 72.5,
-        "Tennessee Volunteers": 74.5
-      }
-    },
-    "4168db6bc271ba612901506cd74e1c9b": {
-      "matchup": "Miami Hurricanes @ TCU Horned Frogs",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": 153.5,
-      "team_totals": {
-        "Miami Hurricanes": 79.5,
-        "TCU Horned Frogs": 73.5
-      }
-    },
     "0dbbfc6c0ffe4c7d2c9b65eb8ab96cb3": {
       "matchup": "San Diego St Aztecs @ Iowa State Cyclones",
       "sport": "basketball_ncaab",
@@ -1216,15 +1192,6 @@
       "group": "hockey",
       "commence_time": "2026-11-25T16:30:00Z",
       "game_total": null,
-      "team_totals": {}
-    },
-    "0f9b0defd0a6c9603d7c70e7962bb628": {
-      "matchup": "Fenerbahce SK @ FC Barcelona B\u00e0squet",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": 171.0,
       "team_totals": {}
     },
     "40589eed5e6894d5b8598ee721b9d57b": {
@@ -1454,18 +1421,6 @@
       "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
-    },
-    "2643c9fdcf8ea923eba3adf7e2d63034": {
-      "matchup": "North Dakota Fighting Hawks @ Detroit Mercy Titans",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": 150.5,
-      "team_totals": {
-        "Detroit Mercy Titans": 73.5,
-        "North Dakota Fighting Hawks": 77.5
-      }
     },
     "eded8145f35a188e673fde457a1eb00f": {
       "matchup": "Kent State Golden Flashes @ Wyoming Cowboys",
@@ -1813,30 +1768,6 @@
       "team_totals": {
         "Dallas Mavericks": 111.5,
         "Denver Nuggets": 120.5
-      }
-    },
-    "963ef5f90b0991bdd17147e22683e18e": {
-      "matchup": "Appalachian St Mountaineers @ Yale Bulldogs",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T20:00:00Z",
-      "game_total": 135.5,
-      "team_totals": {
-        "Appalachian St Mountaineers": 67.5,
-        "Yale Bulldogs": 66.5
-      }
-    },
-    "a9d72fa7f4207364b30b2b31daa37521": {
-      "matchup": "Arkansas St Red Wolves @ Long Beach St 49ers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-24T20:30:24Z",
-      "game_total": 159.0,
-      "team_totals": {
-        "Arkansas St Red Wolves": 81.5,
-        "Long Beach St 49ers": 76.5
       }
     },
     "d65b43e1e335b6ace622fd146193369c": {
