@@ -1077,15 +1077,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "62f11de81607e09d5edea5c4e1b26feb": {
-      "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T05:30:00Z",
-      "game_total": 157.5,
-      "team_totals": {}
-    },
     "ed88c790ce4d9123c6d0b02e2bfd0f9d": {
       "matchup": "TPS @ HIFK",
       "sport": "icehockey_liiga",
@@ -1318,15 +1309,6 @@
       "group": "hockey",
       "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
-      "team_totals": {}
-    },
-    "7a374c26e6bdab50be65f2b155fef2c8": {
-      "matchup": "Colorado Buffaloes @ Stanford Cardinal",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T04:59:00Z",
-      "game_total": 141.0,
       "team_totals": {}
     },
     "4f6d199bb67cf3a517a3880fd2f00b26": {
