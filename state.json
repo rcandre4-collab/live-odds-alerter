@@ -1077,15 +1077,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "712c581bb2dc9c3072e5280bd6ccecc4": {
-      "matchup": "Texas Tech Red Raiders @ Louisville Cardinals",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 153.5,
-      "team_totals": {}
-    },
     "23775e1487fe2f2a91b9572fafb704a0": {
       "matchup": "Baylor Bears @ Alabama Crimson Tide",
       "sport": "basketball_ncaab",
@@ -1183,15 +1174,6 @@
       "group": "big",
       "commence_time": "2026-11-25T19:45:00Z",
       "game_total": null,
-      "team_totals": {}
-    },
-    "d05b7c35518a18f30182cbd0fb36e521": {
-      "matchup": "Tucson Roadrunners @ Texas Stars",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 5.5,
       "team_totals": {}
     },
     "e1e46e548d72dd4d5fb2f2d65bfb58da": {
@@ -1329,18 +1311,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "155fbdda10b6474a41649023baadfdf3": {
-      "matchup": "Vegas Golden Knights @ Edmonton Oilers",
-      "sport": "icehockey_nhl",
-      "label": "NHL",
-      "group": "hockey",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 6.5,
-      "team_totals": {
-        "Edmonton Oilers": 2.5,
-        "Vegas Golden Knights": 3.5
-      }
-    },
     "6d0e57873e98584efe7f215a946a3819": {
       "matchup": "Bryn\u00e4s IF @ Link\u00f6ping HC",
       "sport": "icehockey_sweden_hockey_league",
@@ -1377,108 +1347,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "fe27496cb1eb4ae152d0598f1d70e8dc": {
-      "matchup": "UTEP Miners @ Charleston Cougars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:30:00Z",
-      "game_total": 150.0,
-      "team_totals": {
-        "Charleston Cougars": 74.5,
-        "UTEP Miners": 73.5
-      }
-    },
-    "62721346d2909208ad093276ade60892": {
-      "matchup": "Central Michigan Chippewas @ Notre Dame Fighting Irish",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 153.0,
-      "team_totals": {
-        "Central Michigan Chippewas": 65.5,
-        "Notre Dame Fighting Irish": 86.5
-      }
-    },
-    "c9b53b27825cd1927a73f1cace7c0131": {
-      "matchup": "Drexel Dragons @ Pennsylvania Quakers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 142.5,
-      "team_totals": {
-        "Drexel Dragons": 69.5,
-        "Pennsylvania Quakers": 75.5
-      }
-    },
-    "ee1434c68caaef481b4433fdfb2c8164": {
-      "matchup": "Green Bay Phoenix @ UMKC Kangaroos",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 145.0,
-      "team_totals": {
-        "Green Bay Phoenix": 70.5,
-        "UMKC Kangaroos": 71.5
-      }
-    },
-    "f7d009960feda2b039e5f3a0ada2220f": {
-      "matchup": "Oral Roberts Golden Eagles @ UT-Arlington Mavericks",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 150.0,
-      "team_totals": {
-        "Oral Roberts Golden Eagles": 72.5,
-        "UT-Arlington Mavericks": 76.5
-      }
-    },
-    "90f5cee824c1dc80d48319e38587b75b": {
-      "matchup": "Idaho State Bengals @ Boise State Broncos",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T02:00:00Z",
-      "game_total": 163.5,
-      "team_totals": {
-        "Boise State Broncos": 92.5,
-        "Idaho State Bengals": 72.5
-      }
-    },
-    "4dc8cb6a7648e8a24132baf3563d8887": {
-      "matchup": "Evansville Purple Aces @ Missouri Tigers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T02:00:00Z",
-      "game_total": 149.5,
-      "team_totals": {
-        "Evansville Purple Aces": 58.5,
-        "Missouri Tigers": 90.5
-      }
-    },
-    "fd33c89fab911d3dd09da769140c7f5f": {
-      "matchup": "Sam Houston St Bearkats @ Washington St Cougars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T02:00:00Z",
-      "game_total": 155.5,
-      "team_totals": {}
-    },
-    "427e125509d4fb46d23c30b52a010699": {
-      "matchup": "UNC Greensboro Spartans @ UC Santa Barbara Gauchos",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T02:00:00Z",
-      "game_total": 145.5,
-      "team_totals": {}
-    },
     "5ec9f8cc223de8cb0d2128449c0ab77b": {
       "matchup": "Saint Louis Billikens @ Grand Canyon Antelopes",
       "sport": "basketball_ncaab",
@@ -1497,18 +1365,6 @@
       "game_total": 141.0,
       "team_totals": {}
     },
-    "3167a4072c65c9314c71d0fe49be8e28": {
-      "matchup": "Boston Celtics @ Washington Wizards",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-25T01:10:00Z",
-      "game_total": 217.5,
-      "team_totals": {
-        "Boston Celtics": 113.5,
-        "Washington Wizards": 102.5
-      }
-    },
     "6bfadbd22ed8a054cf82ec1b12b78243": {
       "matchup": "Dallas Mavericks @ Denver Nuggets",
       "sport": "basketball_nba",
@@ -1520,69 +1376,6 @@
         "Dallas Mavericks": 111.5,
         "Denver Nuggets": 120.5
       }
-    },
-    "17a9a4ec4b37ec676576d40fd025472b": {
-      "matchup": "Alabama A&M Bulldogs @ North Alabama Lions",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 142.5,
-      "team_totals": {}
-    },
-    "8007f744856111cf162e4770b19628a9": {
-      "matchup": "Lipscomb Bisons @ Auburn Tigers",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 157.5,
-      "team_totals": {}
-    },
-    "59e3968ce2b702ee8df02da575a47778": {
-      "matchup": "Clemson Tigers @ Washington Huskies",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:18Z",
-      "game_total": 151.5,
-      "team_totals": {}
-    },
-    "1ae5c95564b806157de7bef407bae0c9": {
-      "matchup": "Florida A&M Rattlers @ South Alabama Jaguars",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 142.5,
-      "team_totals": {}
-    },
-    "43f1834ce15a8fa15990477292bbd923": {
-      "matchup": "UNC Asheville Bulldogs @ Florida St Seminoles",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T02:00:00Z",
-      "game_total": 160.0,
-      "team_totals": {}
-    },
-    "b96a1616ca40a186cf203b892683f222": {
-      "matchup": "Army Knights @ Air Force Falcons",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 156.0,
-      "team_totals": {}
-    },
-    "f63093115e6f6e0280f63f271f97d3c4": {
-      "matchup": "Bucknell Bison @ Cornell Big Red",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T01:00:00Z",
-      "game_total": 154.5,
-      "team_totals": {}
     },
     "4f6d199bb67cf3a517a3880fd2f00b26": {
       "matchup": "Miami Heat @ Philadelphia 76ers",
