@@ -1167,15 +1167,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "4f6d199bb67cf3a517a3880fd2f00b26": {
-      "matchup": "Miami Heat @ Philadelphia 76ers",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-25T22:10:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
     "f08629281f1510f47d91cc408f86a2a8": {
       "matchup": "Cleveland Cavaliers @ New York Knicks",
       "sport": "basketball_nba",
