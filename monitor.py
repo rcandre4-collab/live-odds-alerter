@@ -63,7 +63,9 @@ The consensus lives in the pregame analyses (models, AI projections,
 money/bet splits, expert leans), not in The Odds API, so the pregame
 analysis job publishes it as verdicts.json in the repo root and this
 script reads it at run start. "Strong consensus" = at least 3 of the
-4 signals agree on a direction, with none pointing the opposite way.
+4 signals agree on a direction, with at most one pointing the opposite
+way (changed 2026-11-26 at the user's request; before that, no signal
+could point the opposite way).
 FAIL-OPEN: if verdicts.json is missing/corrupt, or a game has no
 verdict, or the verdict is mixed/not strong, the alert goes out exactly
 as before. A move that agrees with consensus is NOT emailed, but its
@@ -270,7 +272,7 @@ def strong_consensus(element_verdict):
     """Return 'under' or 'over' when an element verdict is a strong
     consensus, else None (mixed / missing / not strong -> fail open).
     Strong = at least 3 of the 4 signals agree on a direction, with
-    none of the signals pointing the opposite way. Signals that are
+    at most one of the signals pointing the opposite way. Signals that are
     'mixed', 'not found', or missing do not count either way. If no
     signals are recorded, fall back to the published direction/strong
     fields; anything else is not strong."""
@@ -280,9 +282,9 @@ def strong_consensus(element_verdict):
     if isinstance(signals, dict) and signals:
         under = sum(1 for s in SIGNALS if signals.get(s) == "under")
         over = sum(1 for s in SIGNALS if signals.get(s) == "over")
-        if under >= 3 and over == 0:
+        if under >= 3 and over <= 1:
             return "under"
-        if over >= 3 and under == 0:
+        if over >= 3 and under <= 1:
             return "over"
         return None
     # No signals recorded: trust the publisher's direction/strong fields.
