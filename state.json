@@ -1077,33 +1077,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "a1ee21718811e522957cf904fb3ec31f": {
-      "matchup": "Hapoel Tel Aviv @ Olympiacos",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-25T19:15:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "c9a675960fa0ad6070fe3e6b378809a0": {
-      "matchup": "Anadolu Efes @ Saski Baskonia",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-25T19:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "b9ad9b132e4fd83592ee6cb62ea5cd46": {
-      "matchup": "\u017dalgiris @ Real Madrid",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-25T19:45:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
     "28df5655239f161e1b0173992812a8a5": {
       "matchup": "Hartford Wolf Pack @ Utica Comets",
       "sport": "icehockey_ahl",
