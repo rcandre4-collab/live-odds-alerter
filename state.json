@@ -1158,60 +1158,6 @@
       "game_total": 5.5,
       "team_totals": {}
     },
-    "f8f23b36dd9f10cdffbfec0a97552b1f": {
-      "matchup": "AIK @ Kalmar HC",
-      "sport": "icehockey_sweden_allsvenskan",
-      "label": "HockeyAllsvenskan Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-25T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "4f907b09871a34a0152c14f53050c8fa": {
-      "matchup": "Visby/Roma HK @ Almtuna IS",
-      "sport": "icehockey_sweden_allsvenskan",
-      "label": "HockeyAllsvenskan Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-25T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "babf43dacb71e16970a6ca0fc2f606b4": {
-      "matchup": "BIK Karlskoga @ Vimmerby HC",
-      "sport": "icehockey_sweden_allsvenskan",
-      "label": "HockeyAllsvenskan Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-25T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "6fe338df1b9b008626a93ad3484c4965": {
-      "matchup": "Modo Hockey @ S\u00f6dert\u00e4lje SK",
-      "sport": "icehockey_sweden_allsvenskan",
-      "label": "HockeyAllsvenskan Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-25T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "0443e487dda4084e9679b0c8ebbfed37": {
-      "matchup": "\u00d6stersunds IK @ Mora IK",
-      "sport": "icehockey_sweden_allsvenskan",
-      "label": "HockeyAllsvenskan Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-25T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "f6ca91aa5e299445d8342166dbf59f0c": {
-      "matchup": "V\u00e4ster\u00e5s IK @ Nybro Vikings IF",
-      "sport": "icehockey_sweden_allsvenskan",
-      "label": "HockeyAllsvenskan Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-25T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
     "6d0e57873e98584efe7f215a946a3819": {
       "matchup": "Bryn\u00e4s IF @ Link\u00f6ping HC",
       "sport": "icehockey_sweden_hockey_league",
