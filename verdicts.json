@@ -1,36 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T21:29:06Z",
+  "updated_at": "2026-11-26T00:29:06Z",
   "verdicts": {
-    "164c30fe9e3df9f785daa57c5053cf5d": {
-      "matchup": "Providence Friars @ Arizona Wildcats",
-      "league": "NCAAB Men",
-      "commence_time": "2026-11-24T22:00:00Z",
-      "generated_at": "2026-11-24T21:37:00Z",
-      "source": "pregame-hour-analysis 2026-11-24 16:29 EST",
-      "elements": {
-        "team_total:Providence Friars": {
-          "direction": "under",
-          "strong": true,
-          "signals": {
-            "models": "under",
-            "ai": "under",
-            "money": "not found",
-            "experts": "under"
-          }
-        },
-        "team_total:Arizona Wildcats": {
-          "direction": "under",
-          "strong": true,
-          "signals": {
-            "models": "under",
-            "ai": "under",
-            "money": "not found",
-            "experts": "under"
-          }
-        }
-      }
-    },
     "4f6d199bb67cf3a517a3880fd2f00b26": {
       "matchup": "Miami Heat @ Philadelphia 76ers",
       "league": "NBA",
@@ -49,6 +20,25 @@
           }
         }
       }
+    },
+    "5b612899d6dcdf998107f2c6c6e49a58": {
+      "commence_time": "2026-11-26T01:00:00Z",
+      "elements": {
+        "game_total": {
+          "direction": "under",
+          "signals": {
+            "ai": "under",
+            "experts": "under",
+            "models": "under",
+            "money": "under"
+          },
+          "strong": true
+        }
+      },
+      "league": "NFL",
+      "matchup": "Green Bay Packers @ Los Angeles Rams",
+      "source": "pregame-hour-analysis 2026-11-25 19:29 EST",
+      "generated_at": "2026-11-26T00:29:06Z"
     }
   }
 }
