@@ -1077,51 +1077,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "ed88c790ce4d9123c6d0b02e2bfd0f9d": {
-      "matchup": "TPS @ HIFK",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-25T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "2946924b3ecf4b762332fb72674a5278": {
-      "matchup": "KooKoo @ Jokerit",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-25T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "393ccfc3f52cae0d03bc73ac065c6fae": {
-      "matchup": "Jukurit @ Tappara",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-25T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "f6bb2632227406e9820ff9b21de9a468": {
-      "matchup": "Pelicans @ K\u00e4rp\u00e4t",
-      "sport": "icehockey_liiga",
-      "label": "Liiga Finland",
-      "group": "hockey",
-      "commence_time": "2026-11-25T16:30:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "40589eed5e6894d5b8598ee721b9d57b": {
-      "matchup": "KK Partizan NIS @ Dubai Basketball",
-      "sport": "basketball_euroleague",
-      "label": "EuroLeague",
-      "group": "big",
-      "commence_time": "2026-11-25T16:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
     "a1ee21718811e522957cf904fb3ec31f": {
       "matchup": "Hapoel Tel Aviv @ Olympiacos",
       "sport": "basketball_euroleague",
@@ -1147,24 +1102,6 @@
       "group": "big",
       "commence_time": "2026-11-25T19:45:00Z",
       "game_total": null,
-      "team_totals": {}
-    },
-    "28276fb1617a6962a5623f38864957f0": {
-      "matchup": "Toronto Marlies @ Belleville Senators",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-25T15:30:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
-    "5901cb03e047afb7c22309d0f09a5693": {
-      "matchup": "Syracuse Crunch @ Hamilton Hammers",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-25T16:00:00Z",
-      "game_total": 5.5,
       "team_totals": {}
     },
     "28df5655239f161e1b0173992812a8a5": {
