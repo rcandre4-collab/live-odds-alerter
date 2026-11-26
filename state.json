@@ -1077,15 +1077,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "4b220aa94adc3b0fd23d9d892a130646": {
-      "matchup": "Oregon Ducks @ St. John's Red Storm",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T03:30:00Z",
-      "game_total": 154.5,
-      "team_totals": {}
-    },
     "62f11de81607e09d5edea5c4e1b26feb": {
       "matchup": "Gonzaga Bulldogs @ Kansas St Wildcats",
       "sport": "basketball_ncaab",
@@ -1372,15 +1363,6 @@
       "group": "big",
       "commence_time": "2026-11-26T01:40:00Z",
       "game_total": null,
-      "team_totals": {}
-    },
-    "3765877faa0c50d3b04fa96abdbb3568": {
-      "matchup": "VCU Rams @ Colorado St Rams",
-      "sport": "basketball_ncaab",
-      "label": "NCAAB Men",
-      "group": "big",
-      "commence_time": "2026-11-25T03:30:00Z",
-      "game_total": 149.5,
       "team_totals": {}
     }
   },
