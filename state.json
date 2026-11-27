@@ -1,17 +1,5 @@
 {
   "pregame": {
-    "9b825e6518156008da499be041975fdd": {
-      "matchup": "Chicago Bears @ Detroit Lions",
-      "sport": "americanfootball_nfl",
-      "label": "NFL",
-      "group": "big",
-      "commence_time": "2026-11-26T18:00:00Z",
-      "game_total": 55.5,
-      "team_totals": {
-        "Chicago Bears": 28.5,
-        "Detroit Lions": 27.5
-      }
-    },
     "ffaa06af56a7137d4b078c5c46c0b730": {
       "matchup": "Philadelphia Eagles @ Dallas Cowboys",
       "sport": "americanfootball_nfl",
@@ -1062,42 +1050,6 @@
       "label": "NCAAF FCS",
       "group": "big",
       "commence_time": "2026-11-28T21:01:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "6d0e57873e98584efe7f215a946a3819": {
-      "matchup": "Bryn\u00e4s IF @ Link\u00f6ping HC",
-      "sport": "icehockey_sweden_hockey_league",
-      "label": "SHL Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-26T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "25e65938cb69afb9805c88c22cf1724d": {
-      "matchup": "Djurg\u00e5rdens IF @ V\u00e4xj\u00f6 Lakers",
-      "sport": "icehockey_sweden_hockey_league",
-      "label": "SHL Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-26T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "b6c465f0c0de35a65be990e89bab1fa2": {
-      "matchup": "F\u00e4rjestad BK @ Timr\u00e5 IK",
-      "sport": "icehockey_sweden_hockey_league",
-      "label": "SHL Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-26T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "8f601ebef04a155fbf5cabc13b5e218d": {
-      "matchup": "R\u00f6gle BK @ Skellefte\u00e5 AIK",
-      "sport": "icehockey_sweden_hockey_league",
-      "label": "SHL Sweden",
-      "group": "hockey",
-      "commence_time": "2026-11-26T18:00:00Z",
       "game_total": null,
       "team_totals": {}
     }
