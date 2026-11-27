@@ -1077,33 +1077,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "28df5655239f161e1b0173992812a8a5": {
-      "matchup": "Hartford Wolf Pack @ Utica Comets",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-26T00:00:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
-    "d2e4962fbde3fe14b9d2c0990042905e": {
-      "matchup": "W-B/Scranton Penguins @ Hershey Bears",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-26T00:00:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
-    "c319f100272bdc39d872feb742359923": {
-      "matchup": "Providence Bruins @ Lehigh Valley Phantoms",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-26T00:05:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
     "f49f26742d3edc40bb8a2fc2d06809d4": {
       "matchup": "Milwaukee Admirals @ Rockford IceHogs",
       "sport": "icehockey_ahl",
@@ -1164,24 +1137,6 @@
       "label": "SHL Sweden",
       "group": "hockey",
       "commence_time": "2026-11-26T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "f08629281f1510f47d91cc408f86a2a8": {
-      "matchup": "Cleveland Cavaliers @ New York Knicks",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-26T00:40:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "07421d1675d6bc51bb5fa91f84a09eb3": {
-      "matchup": "Minnesota Timberwolves @ Oklahoma City Thunder",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-26T00:40:00Z",
       "game_total": null,
       "team_totals": {}
     },
