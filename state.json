@@ -1065,24 +1065,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "7a7517fa76f3146123102b75095a98f7": {
-      "matchup": "Abbotsford Canucks @ Henderson Silver Knights",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-26T03:00:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
-    "a64abb730bd3c498b8181e020c4d41b8": {
-      "matchup": "Coachella Valley Firebirds @ San Jose Barracuda",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-26T03:00:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
     "6d0e57873e98584efe7f215a946a3819": {
       "matchup": "Bryn\u00e4s IF @ Link\u00f6ping HC",
       "sport": "icehockey_sweden_hockey_league",
