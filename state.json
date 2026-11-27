@@ -1,17 +1,5 @@
 {
   "pregame": {
-    "5b612899d6dcdf998107f2c6c6e49a58": {
-      "matchup": "Green Bay Packers @ Los Angeles Rams",
-      "sport": "americanfootball_nfl",
-      "label": "NFL",
-      "group": "big",
-      "commence_time": "2026-11-26T01:00:00Z",
-      "game_total": 44.5,
-      "team_totals": {
-        "Green Bay Packers": 21.5,
-        "Los Angeles Rams": 24.5
-      }
-    },
     "9b825e6518156008da499be041975fdd": {
       "matchup": "Chicago Bears @ Detroit Lions",
       "sport": "americanfootball_nfl",
@@ -1077,15 +1065,6 @@
       "game_total": null,
       "team_totals": {}
     },
-    "f49f26742d3edc40bb8a2fc2d06809d4": {
-      "matchup": "Milwaukee Admirals @ Rockford IceHogs",
-      "sport": "icehockey_ahl",
-      "label": "AHL",
-      "group": "hockey",
-      "commence_time": "2026-11-26T01:00:00Z",
-      "game_total": 5.5,
-      "team_totals": {}
-    },
     "7a7517fa76f3146123102b75095a98f7": {
       "matchup": "Abbotsford Canucks @ Henderson Silver Knights",
       "sport": "icehockey_ahl",
@@ -1137,15 +1116,6 @@
       "label": "SHL Sweden",
       "group": "hockey",
       "commence_time": "2026-11-26T18:00:00Z",
-      "game_total": null,
-      "team_totals": {}
-    },
-    "60fd73164f7b0d1848f998d922155d87": {
-      "matchup": "Phoenix Suns @ Houston Rockets",
-      "sport": "basketball_nba",
-      "label": "NBA",
-      "group": "big",
-      "commence_time": "2026-11-26T01:40:00Z",
       "game_total": null,
       "team_totals": {}
     }
