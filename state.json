@@ -1,17 +1,5 @@
 {
   "pregame": {
-    "ffaa06af56a7137d4b078c5c46c0b730": {
-      "matchup": "Philadelphia Eagles @ Dallas Cowboys",
-      "sport": "americanfootball_nfl",
-      "label": "NFL",
-      "group": "big",
-      "commence_time": "2026-11-26T21:30:00Z",
-      "game_total": 47.5,
-      "team_totals": {
-        "Dallas Cowboys": 28.5,
-        "Philadelphia Eagles": 19.5
-      }
-    },
     "f36f518585aec40e8cb40e071c0844aa": {
       "matchup": "Kansas City Chiefs @ Buffalo Bills",
       "sport": "americanfootball_nfl",
