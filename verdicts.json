@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-11-27T16:14:00Z",
+ "updated_at": "2026-11-27T18:59:06Z",
  "verdicts": {
   "f36f518585aec40e8cb40e071c0844aa": {
    "matchup": "Kansas City Chiefs @ Buffalo Bills",
@@ -55,6 +55,25 @@
       "ai": "over",
       "money": "over",
       "experts": "mixed"
+     }
+    }
+   }
+  },
+  "a72c11afb95ca2c2eb057c7f2a8e376b": {
+   "matchup": "Appalachian State Mountaineers @ South Alabama Jaguars",
+   "league": "NCAAF",
+   "commence_time": "2026-11-27T20:00:00Z",
+   "generated_at": "2026-11-27T18:59:06Z",
+   "source": "pregame-hour-analysis 2026-11-27 13:59 EST",
+   "elements": {
+    "game_total": {
+     "direction": "under",
+     "strong": true,
+     "signals": {
+      "models": "under",
+      "ai": "under",
+      "money": "over",
+      "experts": "under"
      }
     }
    }
