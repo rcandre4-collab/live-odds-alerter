@@ -1,82 +1,111 @@
 {
- "version": 1,
- "updated_at": "2026-11-27T18:59:06Z",
- "verdicts": {
-  "f36f518585aec40e8cb40e071c0844aa": {
-   "matchup": "Kansas City Chiefs @ Buffalo Bills",
-   "league": "NFL",
-   "commence_time": "2026-11-27T01:20:00Z",
-   "generated_at": "2026-11-27T00:29:06Z",
-   "source": "pregame-hour-analysis 2026-11-26 19:29 EST",
-   "elements": {
-    "game_total": {
-     "direction": "under",
-     "strong": true,
-     "signals": {
-      "models": "under",
-      "ai": "over",
-      "money": "under",
-      "experts": "under"
-     }
+  "version": 1,
+  "updated_at": "2026-11-28T00:11:23Z",
+  "verdicts": {
+    "f36f518585aec40e8cb40e071c0844aa": {
+      "matchup": "Kansas City Chiefs @ Buffalo Bills",
+      "league": "NFL",
+      "commence_time": "2026-11-27T01:20:00Z",
+      "generated_at": "2026-11-27T00:29:06Z",
+      "source": "pregame-hour-analysis 2026-11-26 19:29 EST",
+      "elements": {
+        "game_total": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "over",
+            "money": "under",
+            "experts": "under"
+          }
+        }
+      }
+    },
+    "e0b30f1dada22d4a2565ce663bc0741a": {
+      "matchup": "Buffalo Bulls @ Akron Zips",
+      "league": "NCAAF",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "generated_at": "2026-11-27T16:14:00Z",
+      "source": "pregame-hour-analysis 2026-11-27 10:59 AM EST",
+      "elements": {
+        "game_total": {
+          "direction": "over",
+          "strong": true,
+          "signals": {
+            "models": "over",
+            "ai": "over",
+            "money": "over",
+            "experts": "over"
+          }
+        }
+      }
+    },
+    "58cd1284193cd30679325c8494f546e6": {
+      "matchup": "Toledo Rockets @ Ohio Bobcats",
+      "league": "NCAAF",
+      "commence_time": "2026-11-27T17:00:00Z",
+      "generated_at": "2026-11-27T16:14:00Z",
+      "source": "pregame-hour-analysis 2026-11-27 10:59 AM EST",
+      "elements": {
+        "game_total": {
+          "direction": "over",
+          "strong": true,
+          "signals": {
+            "models": "over",
+            "ai": "over",
+            "money": "over",
+            "experts": "mixed"
+          }
+        }
+      }
+    },
+    "a72c11afb95ca2c2eb057c7f2a8e376b": {
+      "matchup": "Appalachian State Mountaineers @ South Alabama Jaguars",
+      "league": "NCAAF",
+      "commence_time": "2026-11-27T20:00:00Z",
+      "generated_at": "2026-11-27T18:59:06Z",
+      "source": "pregame-hour-analysis 2026-11-27 13:59 EST",
+      "elements": {
+        "game_total": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "under",
+            "money": "over",
+            "experts": "under"
+          }
+        }
+      }
+    },
+    "4c69ecf41bb2d36dfeedeae23acc5b86": {
+      "matchup": "Texas Longhorns @ Texas A&M Aggies",
+      "league": "NCAAF",
+      "commence_time": "2026-11-28T00:30:00Z",
+      "generated_at": "2026-11-28T00:11:23Z",
+      "source": "pregame-hour-analysis 2026-11-27 18:59 EST",
+      "elements": {
+        "game_total": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "under",
+            "money": "not found",
+            "experts": "under"
+          }
+        },
+        "team_total:Texas A&M Aggies": {
+          "direction": "under",
+          "strong": true,
+          "signals": {
+            "models": "under",
+            "ai": "under",
+            "money": "not found",
+            "experts": "under"
+          }
+        }
+      }
     }
-   }
-  },
-  "e0b30f1dada22d4a2565ce663bc0741a": {
-   "matchup": "Buffalo Bulls @ Akron Zips",
-   "league": "NCAAF",
-   "commence_time": "2026-11-27T17:00:00Z",
-   "generated_at": "2026-11-27T16:14:00Z",
-   "source": "pregame-hour-analysis 2026-11-27 10:59 AM EST",
-   "elements": {
-    "game_total": {
-     "direction": "over",
-     "strong": true,
-     "signals": {
-      "models": "over",
-      "ai": "over",
-      "money": "over",
-      "experts": "over"
-     }
-    }
-   }
-  },
-  "58cd1284193cd30679325c8494f546e6": {
-   "matchup": "Toledo Rockets @ Ohio Bobcats",
-   "league": "NCAAF",
-   "commence_time": "2026-11-27T17:00:00Z",
-   "generated_at": "2026-11-27T16:14:00Z",
-   "source": "pregame-hour-analysis 2026-11-27 10:59 AM EST",
-   "elements": {
-    "game_total": {
-     "direction": "over",
-     "strong": true,
-     "signals": {
-      "models": "over",
-      "ai": "over",
-      "money": "over",
-      "experts": "mixed"
-     }
-    }
-   }
-  },
-  "a72c11afb95ca2c2eb057c7f2a8e376b": {
-   "matchup": "Appalachian State Mountaineers @ South Alabama Jaguars",
-   "league": "NCAAF",
-   "commence_time": "2026-11-27T20:00:00Z",
-   "generated_at": "2026-11-27T18:59:06Z",
-   "source": "pregame-hour-analysis 2026-11-27 13:59 EST",
-   "elements": {
-    "game_total": {
-     "direction": "under",
-     "strong": true,
-     "signals": {
-      "models": "under",
-      "ai": "under",
-      "money": "over",
-      "experts": "under"
-     }
-    }
-   }
   }
- }
 }
