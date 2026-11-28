@@ -1,17 +1,5 @@
 {
   "pregame": {
-    "f36f518585aec40e8cb40e071c0844aa": {
-      "matchup": "Kansas City Chiefs @ Buffalo Bills",
-      "sport": "americanfootball_nfl",
-      "label": "NFL",
-      "group": "big",
-      "commence_time": "2026-11-27T01:20:00Z",
-      "game_total": 47.5,
-      "team_totals": {
-        "Buffalo Bills": 26.5,
-        "Kansas City Chiefs": 23.5
-      }
-    },
     "44a3bcf5bd002583ddef2207a92dd977": {
       "matchup": "Denver Broncos @ Pittsburgh Steelers",
       "sport": "americanfootball_nfl",
@@ -154,18 +142,6 @@
       "team_totals": {
         "Carolina Panthers": 20.5,
         "Tampa Bay Buccaneers": 23.5
-      }
-    },
-    "b39108d2cfcd62d29954aee80bbf7b51": {
-      "matchup": "TCU Horned Frogs @ Texas Tech Red Raiders",
-      "sport": "americanfootball_ncaaf",
-      "label": "NCAAF",
-      "group": "big",
-      "commence_time": "2026-11-27T01:00:00Z",
-      "game_total": 46.5,
-      "team_totals": {
-        "TCU Horned Frogs": 17.5,
-        "Texas Tech Red Raiders": 28.5
       }
     },
     "e0b30f1dada22d4a2565ce663bc0741a": {
